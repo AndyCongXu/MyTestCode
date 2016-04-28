@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=1763
+CX=45
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000000000
-SN=217
+SN=74
 TW=272
 EN=New node
 TB=clWindow
@@ -2105,7 +2105,7 @@ SS=181
 LV=1
 ND=Excel
 DI=136
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2180,6 +2180,30 @@ SS=37
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Q\'a3\'ba\'c8\'e7\'ba\'ce\'bf\'ec\'cb\'d9\'b5\'c4\'b2\'e5\'c8\'eb\'b4\'f3\'c1\'bf\'ca\'fd\'be\'dd\'b5\'bd\'d6\'b8\'b6\'a8\'b5\'c4\'ce\'bb\'d6\'c3\'a3\'bf\par
 A\'a3\'ba\'cf\'c8copy\'ba\'c3\'ca\'fd\'be\'dd\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b5\'f7\'d3\'c3\'b2\'e5\'c8\'eb\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc\'ba\'f3\'bc\'b4\'bf\'c9\'a1\'a3\par
+}
+%-
+LV=2
+ND=FAQ
+DI=522
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=3
+ND=合并并居中不能用
+DI=523
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=45
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 2003\'a3\'ba\'b9\'a4\'be\'df\'a1\'b7\'b9\'b2\'cf\'ed\'b9\'a4\'d7\'f7\'b1\'a1\'a1\'a3\'b0\'d1\'b9\'b2\'cf\'ed\'b5\'c4\'b9\'b4\'c8\'a5\'b5\'f4\par
+2010\'a3\'ba\'c9\'f3\'d4\'c4-->\'b9\'b2\'cf\'ed\'b9\'a4\'d7\'f7\'b2\'be\'a3\'ac\'b0\'d1\'b9\'b2\'cf\'ed\'b5\'c4\'b9\'b4\'c8\'a5\'b5\'f4\par
 }
 %-
 LV=1
@@ -5206,7 +5230,7 @@ SS=18
 LV=1
 ND=NX
 DI=111
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9264,7 +9288,7 @@ IX=0
 LV=1
 ND=数据结构
 DI=6
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
