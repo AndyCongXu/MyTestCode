@@ -3,3 +3,7 @@
 *.so
 *.log
 *.bak
+java/testTable/.idea/
+java/testTable/out/
+java/testTable/testTable.iml
+
