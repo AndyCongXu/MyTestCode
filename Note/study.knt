@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=91
+CX=0
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=216
+SN=217
 TW=272
 EN=New node
 TB=clWindow
@@ -1017,7 +1017,7 @@ IX=0
 LV=1
 ND=C/C++
 DI=14
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1039,7 +1039,7 @@ IX=0
 LV=2
 ND=C++
 DI=82
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1160,7 +1160,7 @@ for(i = 0; i < max; i++)\par
 LV=2
 ND=Common
 DI=258
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=82
@@ -2641,7 +2641,7 @@ IX=0
 LV=3
 ND=标签
 DI=486
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=57
@@ -2665,7 +2665,7 @@ IX=0
 LV=4
 ND=2、新建标签
 DI=488
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2676,7 +2676,7 @@ IX=0
 LV=5
 ND=轻量级标签
 DI=489
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=36
@@ -2698,7 +2698,7 @@ SS=18
 }
 %-
 LV=6
-ND=2、查看
+ND=2幄查看
 DI=495
 NF=000000000000000000000000
 BC=clWindow
@@ -2712,7 +2712,7 @@ SS=7
 LV=5
 ND=含附注的标签
 DI=491
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=168
@@ -2727,7 +2727,7 @@ SS=168
 }
 %-
 LV=6
-ND=1、查看
+ND=1幄查看
 DI=492
 NF=000000000000000000000000
 BC=clWindow
@@ -2836,7 +2836,7 @@ git push origin --tags\par
 LV=3
 ND=仓库
 DI=480
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3139,10 +3139,10 @@ Untracked files:\par
 LV=4
 ND=5、忽略不需要跟踪的文件
 DI=459
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
-SS=462
+SS=330
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset128 UMingCN;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'d2\'c3\'c7\'bb\'e1\'b7\'a2\'cf\'d6\'d7\'dc\'d3\'d0\'d2\'bb\'b8\'f6tags\'ce\'c4\'bc\'fe\'ce\'b4\'b1\'bb\'b8\'fa\'d7\'d9\'a3\'ac\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'ca\'c7cstags\'b2\'e5\'bc\'fe\'c9\'fa\'b3\'c9\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3\par
@@ -3189,7 +3189,7 @@ DI=460
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=358
+SS=366
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d2\'aa\'d1\'f8\'b3\'c9\'d2\'bb\'bf\'aa\'ca\'bc\'be\'cd\'c9\'e8\'d6\'c3\'ba\'c3.gitignore \'ce\'c4\'bc\'fe\'b5\'c4\'cf\'b0\'b9\'df\'a3\'ac\'d2\'d4\'c3\'e2\'bd\'ab\'c0\'b4\'ce\'f3\'cc\'e1\'bd\'bb\'d5\'e2\'c0\'e0\'ce\'de\'d3\'c3\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3\par
@@ -3765,7 +3765,7 @@ SS=269
 LV=3
 ND=技巧和窍门
 DI=499
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3815,7 +3815,7 @@ $ git config --global alias.visual "!gitk"\par
 LV=3
 ND=分支
 DI=502
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5231,6 +5231,17 @@ SS=91
 find . -name "*.cpp" -exec grep "xxx" --color -RnH \{\} \\;\par
 \par
 grep -i\'ba\'f6\'c2\'d4\'b4\'f3\'d0\'a1\'d0\'b4\par
+}
+%-
+LV=3
+ND=tcpdump
+DI=547
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
 LV=1
@@ -6867,7 +6878,7 @@ SS=252
 LV=1
 ND=Vim
 DI=48
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=62
@@ -9294,7 +9305,7 @@ IX=0
 LV=1
 ND=数据结构
 DI=6
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9305,7 +9316,7 @@ IX=0
 LV=2
 ND=线性数据结构
 DI=518
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=107
@@ -9321,7 +9332,7 @@ SS=107
 LV=3
 ND=栈和队列
 DI=520
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=42
@@ -9334,7 +9345,7 @@ SS=42
 LV=4
 ND=栈
 DI=521
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=159
@@ -9378,7 +9389,7 @@ SS=12
 LV=3
 ND=线性表
 DI=515
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=34
@@ -9423,7 +9434,7 @@ SS=74
 LV=2
 ND=非线性数据结构
 DI=530
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9434,7 +9445,7 @@ IX=0
 LV=3
 ND=树
 DI=531
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9499,7 +9510,7 @@ SS=623
 LV=4
 ND=二叉树
 DI=533
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=89
@@ -9559,7 +9570,7 @@ SS=28
 LV=5
 ND=完全二叉树
 DI=538
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=115
@@ -11275,7 +11286,7 @@ SS=39
 LV=2
 ND=定位方法
 DI=541
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -11310,7 +11321,7 @@ SS=561
 LV=2
 ND=定位协议
 DI=544
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
