@@ -28,6 +28,7 @@ class PlanetTableFrame extends JFrame
         setTitle("testTable");
         setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
         final JTable table = new JTable(cells, columnNames);
+        table.setVisible(false);
         table.setAutoCreateRowSorter(true);
         add(new JScrollPane(table), BorderLayout.CENTER);
         JButton printButton = new JButton("Print");

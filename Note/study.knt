@@ -13,7 +13,7 @@ DC=23-03-2015 19:13:41
 TI=0
 TS=4
 CX=0
-CY=0
+CY=7
 BG=clWindow
 CH=0
 FC=clWindowText
@@ -21,9 +21,9 @@ FN=宋体
 FS=12
 LN=2052
 ST=
-FL=101100000000100000100000
-SN=217
-TW=272
+FL=101100000000100001100000
+SN=107
+TW=466
 EN=New node
 TB=clWindow
 TH=0
@@ -615,7 +615,7 @@ DI=154
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=2726
+SS=1539
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cf\'d4\'ca\'be\'a1\'a2\'c9\'e8\'d6\'c3\'bb\'f2\'c9\'be\'b3\'fd cmd.exe \'bb\'b7\'be\'b3\'b1\'e4\'c1\'bf\'a1\'a3\par
@@ -2260,7 +2260,7 @@ SS=52
 LV=1
 ND=Git
 DI=91
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2348,7 +2348,7 @@ DI=92
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=684
+SS=650
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}{\f2\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git branch \i branchName\i0\tab\tab\tab ------>\'b4\'b4\'bd\'a8branch\tab\i\par
@@ -2398,7 +2398,7 @@ DI=267
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=137
+SS=101
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 1\'a1\'a2\'d0\'de\'b8\'c4\'b1\'be\'b5\'d8git\'b5\'c4\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe\par
@@ -2600,7 +2600,7 @@ DI=468
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=468
+SS=34
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b6\'d4\'d3\'da\'c8\'ce\'ba\'ce\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'c0\'b4\'cb\'b5\'a3\'ac\'d4\'daGit \'c4\'da\'b6\'bc\'d6\'bb\'d3\'d0\'c8\'fd\'d6\'d6\'d7\'b4\'cc\'ac\'a3\'ba\par
@@ -2641,7 +2641,7 @@ IX=0
 LV=3
 ND=标签
 DI=486
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=57
@@ -2665,7 +2665,7 @@ IX=0
 LV=4
 ND=2、新建标签
 DI=488
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2676,7 +2676,7 @@ IX=0
 LV=5
 ND=轻量级标签
 DI=489
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=36
@@ -2691,14 +2691,13 @@ DI=490
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=18
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git tag [tag_name]\par
 }
 %-
 LV=6
-ND=2幄查看
+ND=2、查看
 DI=495
 NF=000000000000000000000000
 BC=clWindow
@@ -2712,7 +2711,7 @@ SS=7
 LV=5
 ND=含附注的标签
 DI=491
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=168
@@ -2727,12 +2726,11 @@ SS=168
 }
 %-
 LV=6
-ND=1幄查看
+ND=1、新建
 DI=492
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=171
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git tag -a [tag_name] -m 'short_info'\par
@@ -2782,7 +2780,6 @@ DI=496
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=33
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git tag -v [tag_name]\par
@@ -2800,7 +2797,7 @@ DI=497
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=126
+SS=88
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d4\'da\'ba\'dc\'be\'c3\'d6\'ae\'c7\'b0\'cc\'e1\'bd\'bb\'b8\'c4\'b6\'af\'a3\'ac\'b5\'ab\'ca\'c7\'c3\'bb\'d3\'d0\'b4\'f2\'c9\'cftag\'a3\'ac\'ba\'f3\'c3\'e6\'bf\'c9\'d2\'d4\'d3\'c3\'cf\'c2\'c3\'e6\'d5\'e2\'b8\'f6\'c3\'fc\'c1\'ee\'c0\'b4\'b2\'b9\'c9\'cftag\par
@@ -2925,7 +2922,7 @@ BC=clWindow
 IX=0
 SS=67
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d5\'e2\'b8\'f6\'b2\'d9\'d7\'f7\'be\'cd\'ca\'c7\'b0\'d1\'d4\'dd\'b4\'e6\'c7\'f8\'b5\'c4\'ca\'fd\'be\'dd\'cd\'c6\'cb\'cd\'b5\'bd\'b2\'d6\'bf\'e2\'d6\'d0\'a3\'a8git \'c9\'cf\'a3\'a9\'a1\'a3\par
 \par
 git push [remote_name] [branch_name]\par
@@ -3008,7 +3005,7 @@ DI=455
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=525
+SS=481
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -3038,7 +3035,7 @@ DI=456
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=596
+SS=578
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -3071,7 +3068,7 @@ DI=457
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=867
+SS=678
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset128 UMingCN;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -3111,7 +3108,7 @@ DI=458
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=567
+SS=550
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -3139,10 +3136,10 @@ Untracked files:\par
 LV=4
 ND=5、忽略不需要跟踪的文件
 DI=459
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=330
+SS=751
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset128 UMingCN;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'d2\'c3\'c7\'bb\'e1\'b7\'a2\'cf\'d6\'d7\'dc\'d3\'d0\'d2\'bb\'b8\'f6tags\'ce\'c4\'bc\'fe\'ce\'b4\'b1\'bb\'b8\'fa\'d7\'d9\'a3\'ac\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'ca\'c7cstags\'b2\'e5\'bc\'fe\'c9\'fa\'b3\'c9\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3\par
@@ -3371,7 +3368,7 @@ DI=472
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=585
+SS=1737
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset128 UMingCN;}{\f2\fmodern Lucida Console;}}
 {\colortbl ;\red191\green191\blue0;\red0\green191\blue191;\red0\green191\blue0;\red191\green0\blue0;\red191\green0\blue191;}
@@ -3946,7 +3943,7 @@ DI=510
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=469
+SS=224
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fmodern Lucida Console;}}
 {\colortbl ;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;}
@@ -4158,7 +4155,7 @@ SS=28
 LV=1
 ND=Linux
 DI=44
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -4739,7 +4736,7 @@ DI=270
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=301
+SS=285
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c3\'eb\'ba\'cd\'ca\'b1\'bc\'e4\'b5\'c4\'bb\'a5\'cf\'e0\'d7\'aa\'bb\'bb\par
@@ -4818,6 +4815,7 @@ DI=249
 NF=000000000000000000000000
 BC=clWindow
 IX=0
+SS=34
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 faillog -u mpc -r    \'d6\'d8\'d6\'c3mpc\'d3\'c3\'bb\'a7\'b5\'c4\'b4\'ed\'ce\'f3\'b4\'ce\'ca\'fd\par
@@ -5033,7 +5031,7 @@ DI=245
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=8
+SS=22
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c1\'ac\'bd\'d3\'ca\'a7\'b0\'dc\'a3\'ac\'d3\'d0\'bf\'c9\'c4\'dc\'ca\'c7publicKey\'b5\'c4\'ce\'ca\'cc\'e2\'a1\'a3\par
@@ -5239,9 +5237,12 @@ DI=547
 NF=000000000000000000000000
 BC=clWindow
 IX=0
+SS=76
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tcpdump -i any '((tcp or udp) and (port 5060)) or sctp' -w result.cap -s 0\par
+\par
+tcpdump -i any sctp -w result.cap -s 0\par
 }
 %-
 LV=1
