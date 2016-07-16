@@ -5,7 +5,7 @@
 using namespace std;
 
 //If you want to know the detail information about deelx,
-//You can refer the ../Reference Document/deelx_zh.chm.
+//You can refer the ../ReferenceDocument/deelx_zh.chm.
 
 int main(int argc, char **argv)
 {
