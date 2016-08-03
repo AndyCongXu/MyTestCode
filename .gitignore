@@ -6,4 +6,6 @@
 java/testTable/.idea/
 java/testTable/out/
 java/testTable/testTable.iml
+*.exe
+*.obj
 

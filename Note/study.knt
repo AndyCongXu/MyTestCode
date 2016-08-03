@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=21
+CX=103
 CY=0
 BG=clWindow
 CH=0
@@ -22,8 +22,8 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=37
-TW=466
+SN=550
+TW=270
 EN=New node
 TB=clWindow
 TH=0
@@ -1017,7 +1017,7 @@ IX=0
 LV=1
 ND=C/C++
 DI=14
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1103,10 +1103,10 @@ SS=104
 LV=3
 ND=纯虚基类加入新接口后，编译不通过
 DI=302
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
-SS=323
+SS=385
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'ca\'cc\'e2\'cf\'d6\'cf\'f3\'a3\'ba\'c1\'bd\'b8\'f6Module,\'d2\'bb\'b8\'f6Module\'b5\'f7\'d3\'c3\'c1\'ed\'d2\'bb\'b8\'f6Module\'b5\'c4\'b4\'bf\'d0\'e9\'bb\'f9\'c0\'e0\'d6\'d0\'b5\'c4\'d2\'bb\'b8\'f6\'d0\'c2\'bd\'d3\'bf\'da\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b1\'e0\'d2\'eb\'ca\'b1\'b1\'a8\'d5\'d2\'b2\'bb\'b5\'bd\'b4\'ed\'ce\'f3\'a1\'a3\par
@@ -1127,6 +1127,187 @@ GMPC upengine \'b5\'f7\'d3\'c3 CMPC up \'b5\'c4\'d2\'bb\'b8\'f6\'bd\'d3\'bf\'da\
 1\'a1\'a2\'d4\'daGMPC up \'b4\'a6TARGET fast\'a3\'a8debug\'a3\'a9 \'a3\'acmake all -s\'a3\'ac\'c8\'bb\'ba\'f3\'d6\'b4\'d0\'d0 DISTR_LOCAL\par
 \par
 2\'a1\'a2\'c8\'bb\'ba\'f3\'d4\'da\'cc\'f8\'d7\'aa\'b5\'bd GMPC upengine\'a3\'ac TARGET fast\'a3\'a8debug\'a3\'a9\'a3\'ac \'c8\'bb\'ba\'f3\'d6\'b4\'d0\'d0 PROD_MK_LOCAL \i GMPC up\i0  \i xchonxu\par
+}
+%-
+LV=4
+ND=DISTR_LOCAL.sh
+DI=569
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=1138
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #!/usr/bin/env sh\par
+# epkjoab\par
+# $MACS_HOME/bin/macs_trace -s `basename $0` -u $USER\par
+\par
+if [ "X$MACS_PROJECTNAME" = "X" ]\par
+then\par
+    echo "MACS_PROJECTNAME not defined!"\par
+    exit 1\par
+fi\par
+\par
+# env MACS_PROJECTNAME=fsc exception\par
+prod=`echo $MACS_PROJECTNAME | awk '\{ print $1 \}'`\par
+comp=`echo $MACS_PROJECTNAME | awk '\{ print $2 \}'`\par
+\par
+DIST=/home/$USER/opt/$prod/$comp/_$MACS_TARGET\par
+\par
+$CCENV_MAKE_HOME/make -r distr CCENV_DIST_TARGET=$DIST\par
+\par
+# localdistr tar file too?\par
+\par
+compnfo=component.nfo\par
+# No can do if component.nfo is missing\par
+if [ ! -r $compnfo ]; then\par
+    exit 0\par
+fi\par
+# No can do if buildnr is missning\par
+if [ ! -r buildnr ]; then\par
+    exit 0\par
+fi\par
+\par
+if [ "X$1" = "X-tar" ]; then\par
+    # Build tarfile name\par
+    productName=`grep "^Product:" $compnfo | awk '\{ print $2 \}'`\par
+    componentName=`grep "^Name:" $compnfo | awk '\{ print $2 \}'`\par
+    componentVersion=`grep "^Version:" $compnfo | awk '\{ print $2 \}'`\par
+    buildnr=`cat buildnr`\par
+    if [ "X$productName" = "X" ]; then\par
+        exit 1\par
+    fi  \par
+    if [ "X$componentName" = "X" ]; then\par
+        exit 1\par
+    fi  \par
+    if [ "X$componentVersion" = "X" ]; then\par
+        exit 1\par
+    fi  \par
+    if [ "X$buildnr" = "X" ]; then\par
+        exit 1\par
+    fi  \par
+    tar_file="$productName-$componentName-$componentVersion-$buildnr-$MACS_COMPILATION_MODE-solaris.tar"\par
+    if [ -r $tar_file ]; then\par
+        echo "Distributing $tar_file to $DIST"\par
+        # BEGIN Linux Porting eruichn\par
+        /bin/cp $tar_file $DIST\par
+        # END Linux Porting\par
+    fi  \par
+fi\par
+}
+%-
+LV=4
+ND=PROD_MK_LOCAL.sh
+DI=570
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=712
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+#!/usr/bin/env sh\par
+# epkjoab \par
+progname=`basename $0`\par
+# $MACS_HOME/bin/macs_trace -s `basename $0` -u $USER\par
+\par
+usage() \{\par
+\tab echo "Usage: $progname product component user [-tar]"\par
+\tab echo "For example:"\par
+\tab echo "$progname fsc exception epkid"\par
+\tab echo "Creates an product.mk.local and instructs CCMACS to build against the"\par
+\tab echo "FSC exception that epkid has distributed."\par
+\tab echo ""\par
+\tab echo "$progname fsc exception epkid -tar"\par
+\tab echo "Creates an product.mk.local and instructs CCMACS to build against the"\par
+\tab echo "FSC exception that epkid has distributed."\par
+\tab echo "It also copies the FSC exception tar file from /home/epkid/opt/tar_files"\par
+\tab echo "to /home/$USER/tar-dir/[ClearCase view]."\par
+\tab exit 1\par
+\}\par
+\par
+if [ $# -gt 5 ]; then\par
+\tab usage\par
+fi\par
+\par
+if [ $# -lt 3 ]; then\par
+\tab usage\par
+fi\par
+\par
+product_mk_local_file=product.mk.local\par
+\par
+if [ "X$MACS_MIRROR" = "X" ]\par
+then\par
+\tab echo "MACS_MIRROR not defined!"\par
+\tab exit 1\par
+fi\par
+if [ "X$MACS_TARGET" = "X" ]\par
+then\par
+\tab echo "MACS_TARGET not defined!"\par
+\tab exit 1\par
+fi\par
+\par
+PROD=`echo $1 | tr '[:lower:]' '[:upper:]'`\par
+LPROD=`echo $1 | tr '[:upper:]' '[:lower:]'`\par
+COMP=`echo $2 | tr '[:lower:]' '[:upper:]'`\par
+LCOMP=`echo $2 | tr '[:upper:]' '[:lower:]'`\par
+WHO=`echo $3 | tr '[:upper:]' '[:lower:]'`\par
+\par
+# do we have a valid component?\par
+valid_component=`$MACS_HOME/bin/macs_find_compvob $LPROD $LCOMP`\par
+if [ "X$valid_component" = "X" ]; then\par
+\tab echo "Unknown component: $1 $2"\par
+\tab exit 1\par
+fi\par
+\par
+# do we have a valid distributor?\par
+# BEGIN Linux Porting ebinhee\par
+# /usr/bin/id -> id\par
+uid_test=`/usr/bin/id $3 2>/dev/null`\par
+# END Linux Porting \par
+if [ "X$uid_test" = "X" ]; then\par
+\tab echo "Unknown user account: $3"\par
+\tab exit 1\par
+fi\par
+\par
+# FSCSOCKETHOME=/home/epkjoab/opt/fsc/socket/_debug/_$\{MACS_TARGET\}\par
+# BEGIN Linux Porting ebinhee\par
+LINE="$\{PROD\}$\{COMP\}HOME=/home/$\{WHO\}/opt/$\{LPROD\}/$\{LCOMP\}/_\\$\{MACS_TARGET\}"\par
+# END Linux Porting \par
+\par
+if [ ! -f $\{product_mk_local_file\} ]; then\par
+\tab # No product.mk.local exists, so create it!\par
+\tab echo $\{LINE\} > $\{product_mk_local_file\}\par
+\tab echo "$\{product_mk_local_file\} created ok!"\par
+\tab exit 0\par
+fi\par
+\par
+# product.mk.local already exists, check for new or update line\par
+current_entry=`grep "$\{PROD\}$\{COMP\}" $\{product_mk_local_file\}`\par
+if [ "X$current_entry" = "X" ]; then\par
+\tab # new line, append to existing file\par
+\tab echo $\{LINE\} >> $\{product_mk_local_file\}\par
+else\tab\par
+\tab # update line, substitution!\par
+\tab # BEGIN Linux Porting ebinhee\par
+\tab # /usr/bin/sed -> sed; /usr/bin/mv -> mv\par
+\tab sed 's#'"$PROD"''"$COMP"'.*#'"$LINE"'#' $\{product_mk_local_file\} > $\{product_mk_local_file\}.temp\par
+\tab mv $\{product_mk_local_file\}.temp $\{product_mk_local_file\}\par
+\tab # END Linux Porting \par
+fi\par
+echo "$\{product_mk_local_file\} updated ok!"\par
+\par
+# tar file too?\par
+if [ "X$4" = "X-tar" ]; then\par
+\tab working_view=`basename $CLEARCASE_ROOT`\par
+\tab dest=/home/$USER/tar-dir/$working_view\par
+\tab [ ! -d $dest ] && mkdir -p $dest\par
+\tab # BEGIN Linux Porting ebinhee\par
+\tab # /usr/bin/cp -> cp\par
+\tab cp /home/$WHO/opt/$\{LPROD\}/$\{LCOMP\}/_$\{MACS_TARGET\}/*.tar $dest\par
+\tab # END Linux Porting \par
+\tab echo "Copying /home/$WHO/opt/$\{LPROD\}/$\{LCOMP\}/_$\{MACS_TARGET\}/*.tar to $dest"\par
+fi\par
 }
 %-
 LV=3
@@ -1165,7 +1346,7 @@ BC=clWindow
 IX=0
 SS=21
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 new \'c8\'e7\'b9\'fb\'d3\'d0\'ce\'ca\'cc\'e2\'a3\'ac \'c4\'c7\'c3\'b4\'ca\'c7\'bb\'e1\'b1\'a8\'b3\'f6\'d2\'ec\'b3\'a3\'b5\'c4\'a1\'a3\par
 }
 %-
@@ -2227,7 +2408,7 @@ A\'a3\'ba\'cf\'c8copy\'ba\'c3\'ca\'fd\'be\'dd\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b
 LV=2
 ND=FAQ
 DI=522
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2313,7 +2494,7 @@ IX=0
 LV=2
 ND=FAQ
 DI=292
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2672,7 +2853,7 @@ Git \'d4\'da\'b9\'dc\'c0\'ed\'cf\'ee\'c4\'bf\'ca\'b1\'a3\'ac\'ce\'c4\'bc\'fe\'c1
 LV=2
 ND=基本知识
 DI=447
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3022,7 +3203,7 @@ git remote rm [remote_name]\par
 LV=3
 ND=对文件的操作
 DI=454
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=20
@@ -3407,7 +3588,7 @@ git add file_to\par
 LV=4
 ND=10、查看提交的历史
 DI=472
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=3615
@@ -4718,7 +4899,7 @@ SS=36
 LV=2
 ND=常用命令
 DI=58
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5297,7 +5478,7 @@ DI=46
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1265
+SS=826
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 zypper \f1\'ca\'c7 opensuse \'c3\'fc\'c1\'ee\'d0\'d0\'cf\'c2\'b9\'dc\'c0\'ed\'c8\'ed\'bc\'fe\'b5\'c4\'b3\'cc\'d0\'f2\'a3\'ac\'b9\'a6\'c4\'dc\'ca\'ae\'b7\'d6\'c7\'bf\'b4\'f3\'a1\'a3\par
@@ -5415,6 +5596,19 @@ SS=76
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tcpdump -i any '((tcp or udp) and (port 5060)) or sctp' -w result.cap -s 0\par
 \par
 tcpdump -i any sctp -w result.cap -s 0\par
+}
+%-
+LV=2
+ND=查看端口
+DI=568
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=37
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 netstat -anplut\par
+ps -aux | grep \i portnu\i0\par
 }
 %-
 LV=1
@@ -6214,7 +6408,7 @@ os.system("terminal")\f1\fs16\par
 LV=2
 ND=FAQ
 DI=565
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9883,7 +10077,7 @@ IX=0
 LV=2
 ND=数据操作
 DI=65
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -11923,5 +12117,39 @@ IX=0
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=1
+ND=旅游计划
+DI=571
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=2
+ND=2016 国庆
+DI=572
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=103
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c4\'bf\'b5\'c4\'b5\'d8\'a3\'ba \'c7\'e0\'ba\'a3\par
+\par
+\'ca\'b1\'bc\'e4\'a3\'ba2016-10-1 \'d7\'f3\'d3\'d2\par
+\par
+\'cc\'ec\'c6\'f8\'a3\'ba\par
+\par
+\'c2\'b7\'cf\'df\'a3\'ba\par
+    \'b4\'f3\'b8\'c5\'c2\'b7\'cf\'df\'ce\'aa\'a3\'ba \'c9\'cf\'ba\'a3\'d5\'be\'b5\'bd\'ce\'f7\'c4\'fe\'d5\'be(\'bb\'f0\'b3\'b5)\'a3\'ac\'ce\'f7\'c4\'fe\'d5\'be\'b5\'bd\'ba\'a3\'ea\'cc\'bb\'f0\'b3\'b5\'d5\'be\'a3\'a8\'bb\'f0\'b3\'b5\'a3\'a9\'a3\'ac\'ba\'a3\'ea\'cc\'bb\'f0\'b3\'b5\'d5\'be\'b5\'bd\'c7\'e0\'ba\'a3\'ba\'fe\'a3\'a8\'b4\'f2\'b3\'b5\'bb\'f2\'d5\'df\'d7\'d4\'bc\'dd\'a3\'a9\'a3\'a8\'c8\'ab\'b3\'c6\'d4\'bc29\'d0\'a1\'ca\'b1\'a3\'a9\par
+    \par
+\'b1\'d8\'d0\'e8\'c6\'b7\'a3\'ba\par
+\par
+\'d4\'a4\'cb\'e3\'a3\'ba\par
 }
 %%
