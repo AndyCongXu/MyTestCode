@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=103
+CX=96
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=550
+SN=563
 TW=270
 EN=New node
 TB=clWindow
@@ -1039,7 +1039,7 @@ IX=0
 LV=2
 ND=C++
 DI=82
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1103,10 +1103,10 @@ SS=104
 LV=3
 ND=纯虚基类加入新接口后，编译不通过
 DI=302
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=385
+SS=335
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'ca\'cc\'e2\'cf\'d6\'cf\'f3\'a3\'ba\'c1\'bd\'b8\'f6Module,\'d2\'bb\'b8\'f6Module\'b5\'f7\'d3\'c3\'c1\'ed\'d2\'bb\'b8\'f6Module\'b5\'c4\'b4\'bf\'d0\'e9\'bb\'f9\'c0\'e0\'d6\'d0\'b5\'c4\'d2\'bb\'b8\'f6\'d0\'c2\'bd\'d3\'bf\'da\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b1\'e0\'d2\'eb\'ca\'b1\'b1\'a8\'d5\'d2\'b2\'bb\'b5\'bd\'b4\'ed\'ce\'f3\'a1\'a3\par
@@ -1348,6 +1348,57 @@ SS=21
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 new \'c8\'e7\'b9\'fb\'d3\'d0\'ce\'ca\'cc\'e2\'a3\'ac \'c4\'c7\'c3\'b4\'ca\'c7\'bb\'e1\'b1\'a8\'b3\'f6\'d2\'ec\'b3\'a3\'b5\'c4\'a1\'a3\par
+}
+%-
+LV=3
+ND=静态成员函数和非静态成员函数的区别
+DI=579
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=310
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 class TestStaticFun\par
+\{\par
+public:\par
+    static void testStaticFun();\par
+    void testNotStaticFun();\par
+\};\par
+\par
+void TestStaticFun::testStaticFun()\par
+\{\par
+    std::cout << "This is a static function" << std::endl;\par
+\}\line\par
+void TestStaticFun::testNotStaticFun()\par
+\{\par
+    std::cout << "This is not a static function" << std::endl;\par
+\}\par
+\par
+\'b5\'f7\'d3\'c3\'b5\'c4\'b7\'bd\'ca\'bd\'b2\'bb\'cd\'ac\par
+\'bb\'a5\'cf\'e0\'b5\'f7\'d3\'c3\'b5\'c4\'c7\'f8\'b1\'f0\par
+}
+%-
+LV=3
+ND=友元
+DI=580
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND=友元类
+DI=581
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
 LV=2
@@ -2853,7 +2904,7 @@ Git \'d4\'da\'b9\'dc\'c0\'ed\'cf\'ee\'c4\'bf\'ca\'b1\'a3\'ac\'ce\'c4\'bc\'fe\'c1
 LV=2
 ND=基本知识
 DI=447
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2864,7 +2915,7 @@ IX=0
 LV=3
 ND=标签
 DI=486
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=57
@@ -3051,6 +3102,20 @@ git push origin [tag_name]\par
 git push origin --tags\par
 \par
 \'c6\'e4\'cb\'fb\'bf\'cb\'c2\'a1\'b9\'b2\'cf\'ed\'b2\'d6\'bf\'e2\'bb\'f2\'c0\'ad\'c8\'a1\'ca\'fd\'be\'dd\'ba\'f3\'a3\'ac\'d2\'b2\'bb\'e1\'bf\'b4\'b5\'bd\'d5\'e2\'d0\'a9\'b1\'ea\'c7\'a9\'a1\'a3\par
+}
+%-
+LV=4
+ND=6、删除
+DI=583
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=70
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+       1.\'ca\'d7\'cf\'c8\'d2\'aa\'c9\'be\'b3\'fd\'b1\'be\'b5\'d8\'b5\'c4tag \'a3\'acgit  tag  -d  tagname\par
+       2.\'c8\'bb\'ba\'f3\'c9\'be\'b3\'fd\'d4\'b6\'b3\'cctag\'a3\'acgit   push  origin  :/refs/tags/tagname      \par
 }
 %-
 LV=3
@@ -4724,7 +4789,7 @@ DI=239
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=89
+SS=120
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b0\'d1\'b1\'be\'bb\'fa\'b5\'c4\'b5\'c4\'b9\'ab\'d4\'bf\'d0\'b4\'c8\'eb\'b5\'bd\'c4\'bf\'b1\'ea\'bb\'fa\'b5\'c4authorized_keys\'ce\'c4\'bc\'fe\'d6\'d0\'bc\'b4\'bf\'c9\par
@@ -4973,7 +5038,7 @@ DI=270
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=285
+SS=38
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c3\'eb\'ba\'cd\'ca\'b1\'bc\'e4\'b5\'c4\'bb\'a5\'cf\'e0\'d7\'aa\'bb\'bb\par
@@ -5214,7 +5279,7 @@ DI=50
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=616
+SS=686
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
@@ -5478,7 +5543,7 @@ DI=46
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=826
+SS=1021
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 zypper \f1\'ca\'c7 opensuse \'c3\'fc\'c1\'ee\'d0\'d0\'cf\'c2\'b9\'dc\'c0\'ed\'c8\'ed\'bc\'fe\'b5\'c4\'b3\'cc\'d0\'f2\'a3\'ac\'b9\'a6\'c4\'dc\'ca\'ae\'b7\'d6\'c7\'bf\'b4\'f3\'a1\'a3\par
@@ -5596,6 +5661,360 @@ SS=76
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tcpdump -i any '((tcp or udp) and (port 5060)) or sctp' -w result.cap -s 0\par
 \par
 tcpdump -i any sctp -w result.cap -s 0\par
+}
+%-
+LV=3
+ND=zip
+DI=573
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=6834
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Linux\'cf\'c2\'b5\'c4\'d1\'b9\'cb\'f5\'bd\'e2\'d1\'b9\'cb\'f5\'c3\'fc\'c1\'ee\'cf\'ea\'bd\'e2\'bc\'b0\'ca\'b5\'c0\'fd\par
+\par
+\'ca\'b5\'c0\'fd\'a3\'ba\'d1\'b9\'cb\'f5\'b7\'fe\'ce\'f1\'c6\'f7\'c9\'cf\'b5\'b1\'c7\'b0\'c4\'bf\'c2\'bc\'b5\'c4\'c4\'da\'c8\'dd\'ce\'aaxxx.zip\'ce\'c4\'bc\'fe\par
+\par
+zip -r xxx.zip ./*\par
+\par
+\'bd\'e2\'d1\'b9zip\'ce\'c4\'bc\'fe\'b5\'bd\'b5\'b1\'c7\'b0\'c4\'bf\'c2\'bc\par
+\par
+unzip filename.zip\par
+\par
+============================\par
+\par
+\'c1\'ed\'a3\'ba\'d3\'d0\'d0\'a9\'b7\'fe\'ce\'f1\'c6\'f7\'c3\'bb\'d3\'d0\'b0\'b2\'d7\'b0zip\'b0\'fc\'d6\'b4\'d0\'d0\'b2\'bb\'c1\'cbzip\'c3\'fc\'c1\'ee\'a3\'ac\'b5\'ab\'bb\'f9\'b1\'be\'c9\'cf\'b6\'bc\'bf\'c9\'d2\'d4\'d3\'c3tar\'c3\'fc\'c1\'ee\'b5\'c4\'a3\'ac\'ca\'b5\'c0\'fd\'c8\'e7\'cf\'c2\'a3\'ba\par
+\par
+ \par
+tar -zcvf /home/zdzlibs.tar.gz /home/zdz/java/zdzlibs/\par
+\par
+============================\par
+\par
+linux zip\'c3\'fc\'c1\'ee\par
+\par
+zip -r myfile.zip ./*\par
+\'bd\'ab\'b5\'b1\'c7\'b0\'c4\'bf\'c2\'bc\'cf\'c2\'b5\'c4\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'ba\'cd\'ce\'c4\'bc\'fe\'bc\'d0\'c8\'ab\'b2\'bf\'d1\'b9\'cb\'f5\'b3\'c9myfile.zip\'ce\'c4\'bc\'fe,\'a3\'adr\'b1\'ed\'ca\'be\'b5\'dd\'b9\'e9\'d1\'b9\'cb\'f5\'d7\'d3\'c4\'bf\'c2\'bc\'cf\'c2\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe.\par
+\par
+2.unzip\par
+unzip -o -d /home/sunny myfile.zip\par
+\'b0\'d1myfile.zip\'ce\'c4\'bc\'fe\'bd\'e2\'d1\'b9\'b5\'bd /home/sunny/\par
+-o:\'b2\'bb\'cc\'e1\'ca\'be\'b5\'c4\'c7\'e9\'bf\'f6\'cf\'c2\'b8\'b2\'b8\'c7\'ce\'c4\'bc\'fe\'a3\'bb\par
+-d:-d /home/sunny \'d6\'b8\'c3\'f7\'bd\'ab\'ce\'c4\'bc\'fe\'bd\'e2\'d1\'b9\'cb\'f5\'b5\'bd/home/sunny\'c4\'bf\'c2\'bc\'cf\'c2\'a3\'bb\par
+\par
+3.\'c6\'e4\'cb\'fb\par
+zip -d myfile.zip smart.txt\par
+\'c9\'be\'b3\'fd\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'d6\'d0smart.txt\'ce\'c4\'bc\'fe\par
+zip -m myfile.zip ./rpm_info.txt\par
+\'cf\'f2\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'d6\'d0myfile.zip\'d6\'d0\'cc\'ed\'bc\'d3rpm_info.txt\'ce\'c4\'bc\'fe\par
+-------------------------------------------------------------------------------\par
+\par
+\'d2\'aa\'ca\'b9\'d3\'c3 zip \'c0\'b4\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'a3\'ac\'d4\'da shell \'cc\'e1\'ca\'be\'cf\'c2\'bc\'fc\'c8\'eb\'cf\'c2\'c3\'e6\'b5\'c4\'c3\'fc\'c1\'ee\'a3\'ba\par
+\par
+zip -r filename.zip filesdir\par
+ \par
+\par
+\'d4\'da\'d5\'e2\'b8\'f6\'c0\'fd\'d7\'d3\'c0\'ef\'a3\'acfilename.zip \'b4\'fa\'b1\'ed\'c4\'e3\'b4\'b4\'bd\'a8\'b5\'c4\'ce\'c4\'bc\'fe\'a3\'acfilesdir \'b4\'fa\'b1\'ed\'c4\'e3\'cf\'eb\'b7\'c5\'d6\'c3\'d0\'c2 zip \'ce\'c4\'bc\'fe\'b5\'c4\'c4\'bf\'c2\'bc\'a1\'a3-r \'d1\'a1\'cf\'ee\'d6\'b8\'b6\'a8\'c4\'e3\'cf\'eb\'b5\'dd\'b9\'e9\'b5\'d8\'a3\'a8recursively\'a3\'a9\'b0\'fc\'c0\'a8\'cb\'f9\'d3\'d0\'b0\'fc\'c0\'a8\'d4\'da filesdir \'c4\'bf\'c2\'bc\'d6\'d0\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3\par
+\par
+\'d2\'aa\'b3\'e9\'c8\'a1 zip \'ce\'c4\'bc\'fe\'b5\'c4\'c4\'da\'c8\'dd\'a3\'ac\'bc\'fc\'c8\'eb\'d2\'d4\'cf\'c2\'c3\'fc\'c1\'ee\'a3\'ba\par
+\par
+unzip filename.zip\par
+ \par
+\par
+\'c4\'e3\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3 zip \'c3\'fc\'c1\'ee\'cd\'ac\'ca\'b1\'b4\'a6\'c0\'ed\'b6\'e0\'b8\'f6\'ce\'c4\'bc\'fe\'ba\'cd\'c4\'bf\'c2\'bc\'a3\'ac\'b7\'bd\'b7\'a8\'ca\'c7\'bd\'ab\'cb\'fc\'c3\'c7\'d6\'f0\'d2\'bb\'c1\'d0\'b3\'f6\'a3\'ac\'b2\'a2\'d3\'c3\'bf\'d5\'b8\'f1\'bc\'e4\'b8\'f4\'a3\'ba\par
+\par
+zip -r filename.zip file1 file2 file3 /usr/work/school\par
+ \par
+\par
+\'c9\'cf\'c3\'e6\'b5\'c4\'c3\'fc\'c1\'ee\'b0\'d1 file1\'a1\'a2file2\'a1\'a2 file3\'a1\'a2\'d2\'d4\'bc\'b0 /usr/work/school \'c4\'bf\'c2\'bc\'b5\'c4\'c4\'da\'c8\'dd\'a3\'a8\'bc\'d9\'c9\'e8\'d5\'e2\'b8\'f6\'c4\'bf\'c2\'bc\'b4\'e6\'d4\'da\'a3\'a9\'d1\'b9\'cb\'f5\'c6\'f0\'c0\'b4\'a3\'ac\'c8\'bb\'ba\'f3\'b7\'c5\'c8\'eb filename.zip \'ce\'c4\'bc\'fe\'d6\'d0\'a1\'a3\par
+\par
+ \par
+\par
+tar \'c3\'fc\'c1\'ee\'cf\'ea\'bd\'e2\par
+\par
+\'a1\'a1\'a1\'a1-c: \'bd\'a8\'c1\'a2\'d1\'b9\'cb\'f5\'b5\'b5\'b0\'b8\par
+\par
+\'a1\'a1\'a1\'a1-x\'a3\'ba\'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a1-t\'a3\'ba\'b2\'e9\'bf\'b4\'c4\'da\'c8\'dd\par
+\par
+\'a1\'a1\'a1\'a1-r\'a3\'ba\'cf\'f2\'d1\'b9\'cb\'f5\'b9\'e9\'b5\'b5\'ce\'c4\'bc\'fe\'c4\'a9\'ce\'b2\'d7\'b7\'bc\'d3\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1-u\'a3\'ba\'b8\'fc\'d0\'c2\'d4\'ad\'d1\'b9\'cb\'f5\'b0\'fc\'d6\'d0\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'ce\'e5\'b8\'f6\'ca\'c7\'b6\'c0\'c1\'a2\'b5\'c4\'c3\'fc\'c1\'ee\'a3\'ac\'d1\'b9\'cb\'f5\'bd\'e2\'d1\'b9\'b6\'bc\'d2\'aa\'d3\'c3\'b5\'bd\'c6\'e4\'d6\'d0\'d2\'bb\'b8\'f6\'a3\'ac\'bf\'c9\'d2\'d4\'ba\'cd\'b1\'f0\'b5\'c4\'c3\'fc\'c1\'ee\'c1\'ac\'d3\'c3\'b5\'ab\'d6\'bb\'c4\'dc\'d3\'c3\'c6\'e4\'d6\'d0\'d2\'bb\'b8\'f6\'a1\'a3\'cf\'c2\'c3\'e6\'b5\'c4\'b2\'ce\'ca\'fd\'ca\'c7\'b8\'f9\'be\'dd\'d0\'e8\'d2\'aa\'d4\'da\'d1\'b9\'cb\'f5\'bb\'f2\'bd\'e2\'d1\'b9\'b5\'b5\'b0\'b8\'ca\'b1\'bf\'c9\'d1\'a1\'b5\'c4\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1-c: \'bd\'a8\'c1\'a2\'d1\'b9\'cb\'f5\'b5\'b5\'b0\'b8\par
+\par
+\'a1\'a1\'a1\'a1-x\'a3\'ba\'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a1-t\'a3\'ba\'b2\'e9\'bf\'b4\'c4\'da\'c8\'dd\par
+\par
+\'a1\'a1\'a1\'a1-r\'a3\'ba\'cf\'f2\'d1\'b9\'cb\'f5\'b9\'e9\'b5\'b5\'ce\'c4\'bc\'fe\'c4\'a9\'ce\'b2\'d7\'b7\'bc\'d3\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1-u\'a3\'ba\'b8\'fc\'d0\'c2\'d4\'ad\'d1\'b9\'cb\'f5\'b0\'fc\'d6\'d0\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1\'cf\'c2\'c3\'e6\'b5\'c4\'b2\'ce\'ca\'fd-f\'ca\'c7\'b1\'d8\'d0\'eb\'b5\'c4\par
+\par
+\'a1\'a1\'a1\'a1-f: \'ca\'b9\'d3\'c3\'b5\'b5\'b0\'b8\'c3\'fb\'d7\'d6\'a3\'ac\'c7\'d0\'bc\'c7\'a3\'ac\'d5\'e2\'b8\'f6\'b2\'ce\'ca\'fd\'ca\'c7\'d7\'ee\'ba\'f3\'d2\'bb\'b8\'f6\'b2\'ce\'ca\'fd\'a3\'ac\'ba\'f3\'c3\'e6\'d6\'bb\'c4\'dc\'bd\'d3\'b5\'b5\'b0\'b8\'c3\'fb\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -cf all.tar *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6\'c3\'fb\'ce\'aaall.tar\'b5\'c4\'b0\'fc\'a1\'a3-c\'ca\'c7\'b1\'ed\'ca\'be\'b2\'fa\'c9\'fa\'d0\'c2\'b5\'c4\'b0\'fc\'a3\'ac-f\'d6\'b8\'b6\'a8\'b0\'fc\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -rf all.tar *.gif\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.gif\'b5\'c4\'ce\'c4\'bc\'fe\'d4\'f6\'bc\'d3\'b5\'bdall.tar\'b5\'c4\'b0\'fc\'c0\'ef\'c3\'e6\'c8\'a5\'a1\'a3-r\'ca\'c7\'b1\'ed\'ca\'be\'d4\'f6\'bc\'d3\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -uf all.tar logo.gif\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'b8\'fc\'d0\'c2\'d4\'ad\'c0\'b4tar\'b0\'fcall.tar\'d6\'d0logo.gif\'ce\'c4\'bc\'fe\'a3\'ac-u\'ca\'c7\'b1\'ed\'ca\'be\'b8\'fc\'d0\'c2\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -tf all.tar\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'c1\'d0\'b3\'f6all.tar\'b0\'fc\'d6\'d0\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'ac-t\'ca\'c7\'c1\'d0\'b3\'f6\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\par
+\par
+\'a1\'a1\'a1\'a1# tar -xf all.tar\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'e2\'b3\'f6all.tar\'b0\'fc\'d6\'d0\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'ac-t\'ca\'c7\'bd\'e2\'bf\'aa\'b5\'c4\'d2\'e2\'cb\'bc\par
+\par
+\'a1\'a1\'a1\'a1\'d1\'b9\'cb\'f5\par
+\par
+\'a1\'a1\'a1\'a1tar \endash cvf jpg.tar *.jpg //\'bd\'ab\'c4\'bf\'c2\'bc\'c0\'ef\'cb\'f9\'d3\'d0jpg\'ce\'c4\'bc\'fe\'b4\'f2\'b0\'fc\'b3\'c9tar.jpg\par
+\par
+\'a1\'a1\'a1\'a1tar \endash czf jpg.tar.gz *.jpg //\'bd\'ab\'c4\'bf\'c2\'bc\'c0\'ef\'cb\'f9\'d3\'d0jpg\'ce\'c4\'bc\'fe\'b4\'f2\'b0\'fc\'b3\'c9jpg.tar\'ba\'f3\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3gzip\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6gzip\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'c3\'fc\'c3\'fb\'ce\'aajpg.tar.gz\par
+\par
+\'a1\'a1\'a1\'a1tar \endash cjf jpg.tar.bz2 *.jpg //\'bd\'ab\'c4\'bf\'c2\'bc\'c0\'ef\'cb\'f9\'d3\'d0jpg\'ce\'c4\'bc\'fe\'b4\'f2\'b0\'fc\'b3\'c9jpg.tar\'ba\'f3\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3bzip2\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6bzip2\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'c3\'fc\'c3\'fb\'ce\'aajpg.tar.bz2\par
+\par
+\'a1\'a1\'a1\'a1tar \endash cZf jpg.tar.Z *.jpg //\'bd\'ab\'c4\'bf\'c2\'bc\'c0\'ef\'cb\'f9\'d3\'d0jpg\'ce\'c4\'bc\'fe\'b4\'f2\'b0\'fc\'b3\'c9jpg.tar\'ba\'f3\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3compress\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6umcompress\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'c3\'fc\'c3\'fb\'ce\'aajpg.tar.Z\par
+\par
+\'a1\'a1\'a1\'a1rar a jpg.rar *.jpg //rar\'b8\'f1\'ca\'bd\'b5\'c4\'d1\'b9\'cb\'f5\'a3\'ac\'d0\'e8\'d2\'aa\'cf\'c8\'cf\'c2\'d4\'d8rar for linux\par
+\par
+\'a1\'a1\'a1\'a1zip jpg.zip *.jpg //zip\'b8\'f1\'ca\'bd\'b5\'c4\'d1\'b9\'cb\'f5\'a3\'ac\'d0\'e8\'d2\'aa\'cf\'c8\'cf\'c2\'d4\'d8zip for linux\par
+\par
+\'a1\'a1\'a1\'a1\'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a1tar \endash xvf file.tar //\'bd\'e2\'d1\'b9 tar\'b0\'fc\par
+\par
+\'a1\'a1\'a1\'a1tar -xzvf file.tar.gz //\'bd\'e2\'d1\'b9tar.gz\par
+\par
+\'a1\'a1\'a1\'a1tar -xjvf file.tar.bz2 //\'bd\'e2\'d1\'b9 tar.bz2\par
+\par
+\'a1\'a1\'a1\'a1tar \endash xZvf file.tar.Z //\'bd\'e2\'d1\'b9tar.Z\par
+\par
+\'a1\'a1\'a1\'a1unrar e file.rar //\'bd\'e2\'d1\'b9rar\par
+\par
+\'a1\'a1\'a1\'a1unzip file.zip //\'bd\'e2\'d1\'b9zip\par
+\par
+\'a1\'a1\'a1\'a1\'d7\'dc\'bd\'e1\par
+\par
+\'a1\'a1\'a1\'a11\'a1\'a2*.tar \'d3\'c3 tar \endash xvf \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a12\'a1\'a2*.gz \'d3\'c3 gzip -d\'bb\'f2\'d5\'dfgunzip \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a13\'a1\'a2*.tar.gz\'ba\'cd*.tgz \'d3\'c3 tar \endash xzf \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a14\'a1\'a2*.bz2 \'d3\'c3 bzip2 -d\'bb\'f2\'d5\'df\'d3\'c3bunzip2 \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a15\'a1\'a2*.tar.bz2\'d3\'c3tar \endash xjf \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a16\'a1\'a2*.Z \'d3\'c3 uncompress \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a17\'a1\'a2*.tar.Z \'d3\'c3tar \endash xZf \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a18\'a1\'a2*.rar \'d3\'c3 unrar e\'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a19\'a1\'a2*.zip \'d3\'c3 unzip \'bd\'e2\'d1\'b9\par
+\par
+\'a1\'a1\'a1\'a1Linux\'d6\'d0tar\'c3\'fc\'c1\'ee\'cf\'ea\'bd\'e2(\'d7\'aa\'d4\'d8\'b5\'c4\'d7\'ca\'c1\'cf)\par
+\par
+\'a1\'a1\'a1\'a12008\'c4\'ea04\'d4\'c217\'c8\'d5 \'d0\'c7\'c6\'da\'cb\'c4 15:37\par
+\par
+\'a1\'a1\'a1\'a1tar\'c3\'fc\'c1\'ee\par
+\par
+\'a1\'a1\'a1\'a1tar \'bf\'c9\'d2\'d4\'ce\'aa\'ce\'c4\'bc\'fe\'ba\'cd\'c4\'bf\'c2\'bc\'b4\'b4\'bd\'a8\'b5\'b5\'b0\'b8\'a1\'a3\'c0\'fb\'d3\'c3tar\'a3\'ac\'d3\'c3\'bb\'a7\'bf\'c9\'d2\'d4\'ce\'aa\'c4\'b3\'d2\'bb\'cc\'d8\'b6\'a8\'ce\'c4\'bc\'fe\'b4\'b4\'bd\'a8\'b5\'b5\'b0\'b8(\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe)\'a3\'ac\'d2\'b2\'bf\'c9\'d2\'d4\'d4\'da\'b5\'b5\'b0\'b8\'d6\'d0\'b8\'c4\'b1\'e4\'ce\'c4\'bc\'fe\'a3\'ac\'bb\'f2\'d5\'df\'cf\'f2\'b5\'b5\'b0\'b8\'d6\'d0\'bc\'d3\'c8\'eb\'d0\'c2\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3tar\'d7\'ee\'b3\'f5\'b1\'bb \'d3\'c3\'c0\'b4\'d4\'da\'b4\'c5\'b4\'f8\'c9\'cf\'b4\'b4\'bd\'a8\'b5\'b5\'b0\'b8\'a3\'ac\'cf\'d6\'d4\'da\'a3\'ac\'d3\'c3\'bb\'a7\'bf\'c9\'d2\'d4\'d4\'da\'c8\'ce\'ba\'ce\'c9\'e8\'b1\'b8\'c9\'cf\'b4\'b4\'bd\'a8\'b5\'b5\'b0\'b8\'a3\'ac\'c8\'e7\'c8\'ed\'c5\'cc\'a1\'a3\'c0\'fb\'d3\'c3tar\'c3\'fc\'c1\'ee\'a3\'ac\'bf\'c9\'d2\'d4\'b0\'d1\'d2\'bb\'b4\'f3\'b6\'d1\'b5\'c4\'ce\'c4\'bc\'fe\'ba\'cd\'c4\'bf\'c2\'bc\'c8\'ab\'b2\'bf\'b4\'f2\'b0\'fc\'b3\'c9\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'a3\'ac\'d5\'e2\'b6\'d4\'d3\'da\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'bb\'f2\'bd\'ab \'bc\'b8\'b8\'f6\'ce\'c4\'bc\'fe\'d7\'e9\'ba\'cf\'b3\'c9\'ce\'aa\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'d2\'d4\'b1\'e3\'d3\'da\'cd\'f8\'c2\'e7\'b4\'ab\'ca\'e4\'ca\'c7\'b7\'c7\'b3\'a3\'d3\'d0\'d3\'c3\'b5\'c4\'a1\'a3Linux\'c9\'cf\'b5\'c4tar\'ca\'c7GNU\'b0\'e6\'b1\'be\'b5\'c4\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1\'d3\'ef\'b7\'a8\'a3\'batar [\'d6\'f7\'d1\'a1\'cf\'ee+\'b8\'a8\'d1\'a1\'cf\'ee] \'ce\'c4\'bc\'fe\'bb\'f2\'d5\'df\'c4\'bf\'c2\'bc\par
+\par
+\'a1\'a1\'a1\'a1\'ca\'b9\'d3\'c3\'b8\'c3\'c3\'fc\'c1\'ee\'ca\'b1\'a3\'ac\'d6\'f7\'d1\'a1\'cf\'ee\'ca\'c7\'b1\'d8\'d0\'eb\'d2\'aa\'d3\'d0\'b5\'c4\'a3\'ac\'cb\'fc\'b8\'e6\'cb\'dftar\'d2\'aa\'d7\'f6\'ca\'b2\'c3\'b4\'ca\'c2\'c7\'e9\'a3\'ac\'b8\'a8\'d1\'a1\'cf\'ee\'ca\'c7\'b8\'a8\'d6\'fa\'ca\'b9\'d3\'c3\'b5\'c4\'a3\'ac\'bf\'c9\'d2\'d4\'d1\'a1\'d3\'c3\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1\'d6\'f7\'d1\'a1\'cf\'ee\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1c \'b4\'b4\'bd\'a8\'d0\'c2\'b5\'c4\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'a1\'a3\'c8\'e7\'b9\'fb\'d3\'c3\'bb\'a7\'cf\'eb\'b1\'b8\'b7\'dd\'d2\'bb\'b8\'f6\'c4\'bf\'c2\'bc\'bb\'f2\'ca\'c7\'d2\'bb\'d0\'a9\'ce\'c4\'bc\'fe\'a3\'ac\'be\'cd\'d2\'aa\'d1\'a1\'d4\'f1\'d5\'e2\'b8\'f6\'d1\'a1\'cf\'ee\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1r \'b0\'d1\'d2\'aa\'b4\'e6\'b5\'b5\'b5\'c4\'ce\'c4\'bc\'fe\'d7\'b7\'bc\'d3\'b5\'bd\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'b5\'c4\'ce\'b4\'ce\'b2\'a1\'a3\'c0\'fd\'c8\'e7\'d3\'c3\'bb\'a7\'d2\'d1\'be\'ad\'d7\'f7\'ba\'c3\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'a3\'ac\'d3\'d6\'b7\'a2\'cf\'d6\'bb\'b9\'d3\'d0\'d2\'bb\'b8\'f6\'c4\'bf\'c2\'bc\'bb\'f2\'ca\'c7\'d2\'bb\'d0\'a9\'ce\'c4\'bc\'fe\'cd\'fc\'bc\'c7\'b1\'b8\'b7\'dd\'c1\'cb\'a3\'ac\'d5\'e2\'ca\'b1\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3\'b8\'c3\'d1\'a1\'cf\'ee\'a3\'ac\'bd\'ab\'cd\'fc\'bc\'c7\'b5\'c4\'c4\'bf\'c2\'bc\'bb\'f2\'ce\'c4\'bc\'fe\'d7\'b7\'bc\'d3\'b5\'bd\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'d6\'d0\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1t \'c1\'d0\'b3\'f6\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'b5\'c4\'c4\'da\'c8\'dd\'a3\'ac\'b2\'e9\'bf\'b4\'d2\'d1\'be\'ad\'b1\'b8\'b7\'dd\'c1\'cb\'c4\'c4\'d0\'a9\'ce\'c4\'bc\'fe\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1u \'b8\'fc\'d0\'c2\'ce\'c4\'bc\'fe\'a1\'a3\'be\'cd\'ca\'c7\'cb\'b5\'a3\'ac\'d3\'c3\'d0\'c2\'d4\'f6\'b5\'c4\'ce\'c4\'bc\'fe\'c8\'a1\'b4\'fa\'d4\'ad\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'a3\'ac\'c8\'e7\'b9\'fb\'d4\'da\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'d6\'d0\'d5\'d2\'b2\'bb\'b5\'bd\'d2\'aa\'b8\'fc\'d0\'c2\'b5\'c4\'ce\'c4\'bc\'fe\'a3\'ac\'d4\'f2\'b0\'d1\'cb\'fc\'d7\'b7\'bc\'d3\'b5\'bd\'b1\'b8\'b7\'dd\'ce\'c4\'bc\'fe\'b5\'c4\'d7\'ee\'ba\'f3\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1x \'b4\'d3\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'d6\'d0\'ca\'cd\'b7\'c5\'ce\'c4\'bc\'fe\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1\'b8\'a8\'d6\'fa\'d1\'a1\'cf\'ee\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1b \'b8\'c3\'d1\'a1\'cf\'ee\'ca\'c7\'ce\'aa\'b4\'c5\'b4\'f8\'bb\'fa\'c9\'e8\'b6\'a8\'b5\'c4\'a1\'a3\'c6\'e4\'ba\'f3\'b8\'fa\'d2\'bb\'ca\'fd\'d7\'d6\'a3\'ac\'d3\'c3\'c0\'b4\'cb\'b5\'c3\'f7\'c7\'f8\'bf\'e9\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ac\'cf\'b5\'cd\'b3\'d4\'a4\'c9\'e8\'d6\'b5\'ce\'aa20(20*512 bytes)\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1f \'ca\'b9\'d3\'c3\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'bb\'f2\'c9\'e8\'b1\'b8\'a3\'ac\'d5\'e2\'b8\'f6\'d1\'a1\'cf\'ee\'cd\'a8\'b3\'a3\'ca\'c7\'b1\'d8\'d1\'a1\'b5\'c4\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1k \'b1\'a3\'b4\'e6\'d2\'d1\'be\'ad\'b4\'e6\'d4\'da\'b5\'c4\'ce\'c4\'bc\'fe\'a1\'a3\'c0\'fd\'c8\'e7\'ce\'d2\'c3\'c7\'b0\'d1\'c4\'b3\'b8\'f6\'ce\'c4\'bc\'fe\'bb\'b9\'d4\'ad\'a3\'ac\'d4\'da\'bb\'b9\'d4\'ad\'b5\'c4\'b9\'fd\'b3\'cc\'d6\'d0\'a3\'ac\'d3\'f6\'b5\'bd\'cf\'e0\'cd\'ac\'b5\'c4\'ce\'c4\'bc\'fe\'a3\'ac\'b2\'bb\'bb\'e1\'bd\'f8\'d0\'d0\'b8\'b2\'b8\'c7\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1m \'d4\'da\'bb\'b9\'d4\'ad\'ce\'c4\'bc\'fe\'ca\'b1\'a3\'ac\'b0\'d1\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'b5\'c4\'d0\'de\'b8\'c4\'ca\'b1\'bc\'e4\'c9\'e8\'b6\'a8\'ce\'aa\'cf\'d6\'d4\'da\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1M \'b4\'b4\'bd\'a8\'b6\'e0\'be\'ed\'b5\'c4\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'a3\'ac\'d2\'d4\'b1\'e3\'d4\'da\'bc\'b8\'b8\'f6\'b4\'c5\'c5\'cc\'d6\'d0\'b4\'e6\'b7\'c5\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1v \'cf\'ea\'cf\'b8\'b1\'a8\'b8\'e6tar\'b4\'a6\'c0\'ed\'b5\'c4\'ce\'c4\'bc\'fe\'d0\'c5\'cf\'a2\'a1\'a3\'c8\'e7\'ce\'de\'b4\'cb\'d1\'a1\'cf\'ee\'a3\'actar\'b2\'bb\'b1\'a8\'b8\'e6\'ce\'c4\'bc\'fe\'d0\'c5\'cf\'a2\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1w \'c3\'bf\'d2\'bb\'b2\'bd\'b6\'bc\'d2\'aa\'c7\'f3\'c8\'b7\'c8\'cf\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1z \'d3\'c3gzip\'c0\'b4\'d1\'b9\'cb\'f5/\'bd\'e2\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'a3\'ac\'bc\'d3\'c9\'cf\'b8\'c3\'d1\'a1\'cf\'ee\'ba\'f3\'bf\'c9\'d2\'d4\'bd\'ab\'b5\'b5\'b0\'b8\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'d1\'b9\'cb\'f5\'a3\'ac\'b5\'ab\'bb\'b9\'d4\'ad\'ca\'b1\'d2\'b2\'d2\'bb\'b6\'a8\'d2\'aa\'ca\'b9\'d3\'c3\'b8\'c3\'d1\'a1\'cf\'ee\'bd\'f8\'d0\'d0\'bd\'e2\'d1\'b9\'cb\'f5\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1Linux\'cf\'c2\'b5\'c4\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'c6\'ca\'ce\'f6\par
+\par
+\'a1\'a1\'a1\'a1\'b6\'d4\'d3\'da\'b8\'d5\'b8\'d5\'bd\'d3\'b4\'a5Linux\'b5\'c4\'c8\'cb\'c0\'b4\'cb\'b5\'a3\'ac\'d2\'bb\'b6\'a8\'bb\'e1\'b8\'f8Linux\'cf\'c2\'d2\'bb\'b4\'f3\'b6\'d1\'b8\'f7\'ca\'bd\'b8\'f7\'d1\'f9\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'b8\'f8\'b8\'e3\'d4\'ce\'a1\'a3\'b1\'f0\'b8\'f6\'b2\'bb\'cb\'b5\'a3\'ac\'b5\'a5\'b5\'a5\'be\'cd\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'ce\'aa\'c0\'fd\'a3\'ac\'ce\'d2\'c3\'c7\'d6\'aa\'b5\'c0\'d4\'daWindows\'cf\'c2\'d7\'ee\'b3\'a3\'bc\'fb \'b5\'c4\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'be\'cd\'d6\'bb\'d3\'d0\'c1\'bd\'d6\'d6\'a3\'ac\'d2\'bb\'ca\'c7,zip\'a3\'ac\'c1\'ed\'d2\'bb\'b8\'f6\'ca\'c7.rap\'a1\'a3\'bf\'c9\'ca\'c7Linux\'be\'cd\'b2\'bb\'cd\'ac\'c1\'cb\'a3\'ac\'cb\'fc\'d3\'d0.gz\'a1\'a2.tar.gz\'a1\'a2tgz\'a1\'a2bz2\'a1\'a2.Z\'a1\'a2.tar\'b5\'c8\'d6\'da\'b6\'e0\'b5\'c4 \'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'c3\'fb\'a3\'ac\'b4\'cb\'cd\'e2windows\'cf\'c2\'b5\'c4.zip\'ba\'cd.rar\'d2\'b2\'bf\'c9\'d2\'d4\'d4\'daLinux\'cf\'c2\'ca\'b9\'d3\'c3\'a3\'ac\'b2\'bb\'b9\'fd\'d4\'daLinux\'ca\'b9\'d3\'c3.zip\'ba\'cd.rar\'b5\'c4\'c8\'cb\'be\'cd\'cc\'ab\'c9\'d9\'c1\'cb\'a1\'a3\'b1\'be\'ce\'c4\'be\'cd\'c0\'b4\'b6\'d4\'d5\'e2\'d0\'a9 \'b3\'a3\'bc\'fb\'b5\'c4\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'d2\'bb\'b7\'ac\'d0\'a1\'bd\'e1\'a3\'ac\'cf\'a3\'cd\'fb\'c4\'e3\'cf\'c2\'b4\'ce\'d3\'f6\'b5\'bd\'d5\'e2\'d0\'a9\'ce\'c4\'bc\'fe\'ca\'b1\'b2\'bb\'d6\'c1\'d3\'da\'b1\'bb\'b8\'e3\'d4\'ce\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1\'d4\'da\'be\'df\'cc\'e5\'d7\'dc\'bd\'e1\'b8\'f7\'c0\'e0\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'d6\'ae\'c7\'b0\'c4\'d8\'a3\'ac\'ca\'d7\'cf\'c8\'d2\'aa\'c5\'aa\'c7\'e5\'c1\'bd\'b8\'f6\'b8\'c5\'c4\'ee\'a3\'ba\'b4\'f2\'b0\'fc\'ba\'cd\'d1\'b9\'cb\'f5\'a1\'a3\'b4\'f2\'b0\'fc\'ca\'c7\'d6\'b8\'bd\'ab\'d2\'bb\'b4\'f3\'b6\'d1\'ce\'c4\'bc\'fe\'bb\'f2\'c4\'bf\'c2\'bc\'ca\'b2\'c3\'b4\'b5\'c4\'b1\'e4\'b3\'c9\'d2\'bb\'b8\'f6\'d7\'dc\'b5\'c4\'ce\'c4\'bc\'fe\'a3\'ac\'d1\'b9\'cb\'f5\'d4\'f2\'ca\'c7\'bd\'ab\'d2\'bb\'b8\'f6\'b4\'f3\'b5\'c4\'ce\'c4\'bc\'fe\'cd\'a8\'b9\'fd\'d2\'bb\'d0\'a9\'d1\'b9 \'cb\'f5\'cb\'e3\'b7\'a8\'b1\'e4\'b3\'c9\'d2\'bb\'b8\'f6\'d0\'a1\'ce\'c4\'bc\'fe\'a1\'a3\'ce\'aa\'ca\'b2\'c3\'b4\'d2\'aa\'c7\'f8\'b7\'d6\'d5\'e2\'c1\'bd\'b8\'f6\'b8\'c5\'c4\'ee\'c4\'d8?\'c6\'e4\'ca\'b5\'d5\'e2\'d4\'b4\'d3\'daLinux\'d6\'d0\'b5\'c4\'ba\'dc\'b6\'e0\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'d6\'bb\'c4\'dc\'d5\'eb\'b6\'d4\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'d1\'b9\'cb\'f5\'a3\'ac\'d5\'e2\'d1\'f9\'b5\'b1\'c4\'e3\'cf\'eb\'d2\'aa\'d1\'b9\'cb\'f5\'d2\'bb\'b4\'f3\'b6\'d1\'ce\'c4\'bc\'fe\'ca\'b1\'a3\'ac\'c4\'e3\'be\'cd \'b5\'c3\'cf\'c8\'bd\'e8\'d6\'fa\'c1\'ed\'cb\'fc\'b5\'c4\'b9\'a4\'be\'df\'bd\'ab\'d5\'e2\'d2\'bb\'b4\'f3\'b6\'d1\'ce\'c4\'bc\'fe\'cf\'c8\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6\'b0\'fc\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'d9\'be\'cd\'d4\'ad\'c0\'b4\'b5\'c4\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'bd\'f8\'d0\'d0\'d1\'b9\'cb\'f5\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1Linux\'cf\'c2\'d7\'ee\'b3\'a3\'d3\'c3\'b5\'c4\'b4\'f2\'b0\'fc\'b3\'cc\'d0\'f2\'be\'cd\'ca\'c7tar\'c1\'cb\'a3\'ac\'ca\'b9\'d3\'c3tar\'b3\'cc\'d0\'f2\'b4\'f2\'b3\'f6\'c0\'b4\'b5\'c4\'b0\'fc\'ce\'d2\'c3\'c7\'b3\'a3\'b3\'c6\'ce\'aatar\'b0\'fc\'a3\'actar\'b0\'fc\'ce\'c4\'bc\'fe\'b5\'c4\'c3\'fc\'c1\'ee\'cd\'a8\'b3\'a3\'b6\'bc\'ca\'c7\'d2\'d4.tar\'bd\'e1\'ce\'b2\'b5\'c4\'a1\'a3\'c9\'fa\'b3\'c9tar\'b0\'fc\'ba\'f3\'a3\'ac\'be\'cd\'bf\'c9\'d2\'d4\'d3\'c3\'c6\'e4\'cb\'fc\'b5\'c4\'b3\'cc\'d0\'f2\'c0\'b4\'bd\'f8\'d0\'d0\'d1\'b9\'cb\'f5\'c1\'cb\'a3\'ac\'cb\'f9\'d2\'d4\'ca\'d7\'cf\'c8\'be\'cd\'c0\'b4\'bd\'b2\'bd\'b2tar\'c3\'fc\'c1\'ee\'b5\'c4\'bb\'f9\'b1\'be\'d3\'c3\'b7\'a8\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1tar\'c3\'fc\'c1\'ee\'b5\'c4\'d1\'a1\'cf\'ee\'d3\'d0\'ba\'dc\'b6\'e0(\'d3\'c3man tar\'bf\'c9\'d2\'d4\'b2\'e9\'bf\'b4\'b5\'bd)\'a3\'ac\'b5\'ab\'b3\'a3\'d3\'c3\'b5\'c4\'be\'cd\'c4\'c7\'c3\'b4\'bc\'b8\'b8\'f6\'d1\'a1\'cf\'ee\'a3\'ac\'cf\'c2\'c3\'e6\'c0\'b4\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# tar -cf all.tar *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6\'c3\'fb\'ce\'aaall.tar\'b5\'c4\'b0\'fc\'a1\'a3-c\'ca\'c7\'b1\'ed\'ca\'be\'b2\'fa\'c9\'fa\'d0\'c2\'b5\'c4\'b0\'fc\'a3\'ac-f\'d6\'b8\'b6\'a8\'b0\'fc\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -rf all.tar *.gif\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.gif\'b5\'c4\'ce\'c4\'bc\'fe\'d4\'f6\'bc\'d3\'b5\'bdall.tar\'b5\'c4\'b0\'fc\'c0\'ef\'c3\'e6\'c8\'a5\'a1\'a3-r\'ca\'c7\'b1\'ed\'ca\'be\'d4\'f6\'bc\'d3\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -uf all.tar logo.gif\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'b8\'fc\'d0\'c2\'d4\'ad\'c0\'b4tar\'b0\'fcall.tar\'d6\'d0logo.gif\'ce\'c4\'bc\'fe\'a3\'ac-u\'ca\'c7\'b1\'ed\'ca\'be\'b8\'fc\'d0\'c2\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# tar -tf all.tar\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'c1\'d0\'b3\'f6all.tar\'b0\'fc\'d6\'d0\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'ac-t\'ca\'c7\'c1\'d0\'b3\'f6\'ce\'c4\'bc\'fe\'b5\'c4\'d2\'e2\'cb\'bc\par
+\par
+\'a1\'a1\'a1\'a1# tar -xf all.tar\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'e2\'b3\'f6all.tar\'b0\'fc\'d6\'d0\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'ac-t\'ca\'c7\'bd\'e2\'bf\'aa\'b5\'c4\'d2\'e2\'cb\'bc\par
+\par
+\'a1\'a1\'a1\'a1\'d2\'d4\'c9\'cf\'be\'cd\'ca\'c7tar\'b5\'c4\'d7\'ee\'bb\'f9\'b1\'be\'b5\'c4\'d3\'c3\'b7\'a8\'a1\'a3\'ce\'aa\'c1\'cb\'b7\'bd\'b1\'e3\'d3\'c3\'bb\'a7\'d4\'da\'b4\'f2\'b0\'fc\'bd\'e2\'b0\'fc\'b5\'c4\'cd\'ac\'ca\'b1\'bf\'c9\'d2\'d4\'d1\'b9\'cb\'f5\'bb\'f2\'bd\'e2\'d1\'b9\'ce\'c4\'bc\'fe\'a3\'actar\'cc\'e1\'b9\'a9\'c1\'cb\'d2\'bb\'d6\'d6\'cc\'d8\'ca\'e2\'b5\'c4\'b9\'a6\'c4\'dc\'a1\'a3\'d5\'e2\'be\'cd\'ca\'c7tar\'bf\'c9\'d2\'d4\'d4\'da\'b4\'f2\'b0\'fc\'bb\'f2\'bd\'e2\'b0\'fc\'b5\'c4\'cd\'ac\'ca\'b1\'b5\'f7\'d3\'c3\'c6\'e4\'cb\'fc\'b5\'c4\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'ac\'b1\'c8\'c8\'e7\'b5\'f7\'d3\'c3gzip\'a1\'a2bzip2\'b5\'c8\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a11) tar\'b5\'f7\'d3\'c3gzip\par
+\par
+\'a1\'a1\'a1\'a1gzip\'ca\'c7GNU\'d7\'e9\'d6\'af\'bf\'aa\'b7\'a2\'b5\'c4\'d2\'bb\'b8\'f6\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'ac.gz\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\'be\'cd\'ca\'c7gzip\'d1\'b9\'cb\'f5\'b5\'c4\'bd\'e1\'b9\'fb\'a1\'a3\'d3\'ebgzip\'cf\'e0\'b6\'d4\'b5\'c4\'bd\'e2\'d1\'b9\'b3\'cc\'d0\'f2\'ca\'c7gunzip\'a1\'a3tar\'d6\'d0\'ca\'b9\'d3\'c3-z\'d5\'e2\'b8\'f6\'b2\'ce\'ca\'fd\'c0\'b4\'b5\'f7\'d3\'c3gzip\'a1\'a3\'cf\'c2\'c3\'e6\'c0\'b4\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# tar -czf all.tar.gz *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6tar\'b0\'fc\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3gzip\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6gzip\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'b0\'fc\'c3\'fb\'ce\'aaall.tar.gz\par
+\par
+\'a1\'a1\'a1\'a1# tar -xzf all.tar.gz\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'c9\'cf\'c3\'e6\'b2\'fa\'c9\'fa\'b5\'c4\'b0\'fc\'bd\'e2\'bf\'aa\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a12) tar\'b5\'f7\'d3\'c3bzip2\par
+\par
+\'a1\'a1\'a1\'a1bzip2\'ca\'c7\'d2\'bb\'b8\'f6\'d1\'b9\'cb\'f5\'c4\'dc\'c1\'a6\'b8\'fc\'c7\'bf\'b5\'c4\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'ac.bz2\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\'be\'cd\'ca\'c7bzip2\'d1\'b9\'cb\'f5\'b5\'c4\'bd\'e1\'b9\'fb\'a1\'a3\'d3\'ebbzip2\'cf\'e0\'b6\'d4\'b5\'c4\'bd\'e2\'d1\'b9\'b3\'cc\'d0\'f2\'ca\'c7bunzip2\'a1\'a3tar\'d6\'d0\'ca\'b9\'d3\'c3-j\'d5\'e2\'b8\'f6\'b2\'ce\'ca\'fd\'c0\'b4\'b5\'f7\'d3\'c3gzip\'a1\'a3\'cf\'c2\'c3\'e6\'c0\'b4\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# tar -cjf all.tar.bz2 *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6tar\'b0\'fc\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3bzip2\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6bzip2\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'b0\'fc\'c3\'fb\'ce\'aaall.tar.bz2\par
+\par
+\'a1\'a1\'a1\'a1# tar -xjf all.tar.bz2\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'c9\'cf\'c3\'e6\'b2\'fa\'c9\'fa\'b5\'c4\'b0\'fc\'bd\'e2\'bf\'aa\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a13)tar\'b5\'f7\'d3\'c3compress\par
+\par
+\'a1\'a1\'a1\'a1compress\'d2\'b2\'ca\'c7\'d2\'bb\'b8\'f6\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'ac\'b5\'ab\'ca\'c7\'ba\'c3\'cf\'f3\'ca\'b9\'d3\'c3compress\'b5\'c4\'c8\'cb\'b2\'bb\'c8\'e7gzip\'ba\'cdbzip2\'b5\'c4\'c8\'cb\'b6\'e0\'a1\'a3.Z\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\'be\'cd\'ca\'c7bzip2\'d1\'b9\'cb\'f5\'b5\'c4\'bd\'e1\'b9\'fb\'a1\'a3\'d3\'eb compress\'cf\'e0\'b6\'d4\'b5\'c4\'bd\'e2\'d1\'b9\'b3\'cc\'d0\'f2\'ca\'c7uncompress\'a1\'a3tar\'d6\'d0\'ca\'b9\'d3\'c3-Z\'d5\'e2\'b8\'f6\'b2\'ce\'ca\'fd\'c0\'b4\'b5\'f7\'d3\'c3gzip\'a1\'a3\'cf\'c2\'c3\'e6\'c0\'b4\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# tar -cZf all.tar.Z *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f2\'b3\'c9\'d2\'bb\'b8\'f6tar\'b0\'fc\'a3\'ac\'b2\'a2\'c7\'d2\'bd\'ab\'c6\'e4\'d3\'c3compress\'d1\'b9\'cb\'f5\'a3\'ac\'c9\'fa\'b3\'c9\'d2\'bb\'b8\'f6uncompress\'d1\'b9\'cb\'f5\'b9\'fd\'b5\'c4\'b0\'fc\'a3\'ac\'b0\'fc\'c3\'fb\'ce\'aaall.tar.Z\par
+\par
+\'a1\'a1\'a1\'a1# tar -xZf all.tar.Z\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'c9\'cf\'c3\'e6\'b2\'fa\'c9\'fa\'b5\'c4\'b0\'fc\'bd\'e2\'bf\'aa\par
+\par
+\'a1\'a1\'a1\'a1\'d3\'d0\'c1\'cb\'c9\'cf\'c3\'e6\'b5\'c4\'d6\'aa\'ca\'b6\'a3\'ac\'c4\'e3\'d3\'a6\'b8\'c3\'bf\'c9\'d2\'d4\'bd\'e2\'bf\'aa\'b6\'e0\'d6\'d6\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'c1\'cb\'a3\'ac\'cf\'c2\'c3\'e6\'b6\'d4\'d3\'datar\'cf\'b5\'c1\'d0\'b5\'c4\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'d7\'f7\'d2\'bb\'b8\'f6\'d0\'a1\'bd\'e1\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a11)\'b6\'d4\'d3\'da.tar\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1tar -xf all.tar\par
+\par
+\'a1\'a1\'a1\'a12)\'b6\'d4\'d3\'da.gz\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1gzip -d all.gz\par
+\par
+\'a1\'a1\'a1\'a1gunzip all.gz\par
+\par
+\'a1\'a1\'a1\'a13)\'b6\'d4\'d3\'da.tgz\'bb\'f2.tar.gz\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1tar -xzf all.tar.gz\par
+\par
+\'a1\'a1\'a1\'a1tar -xzf all.tgz\par
+\par
+\'a1\'a1\'a1\'a14)\'b6\'d4\'d3\'da.bz2\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1bzip2 -d all.bz2\par
+\par
+\'a1\'a1\'a1\'a1bunzip2 all.bz2\par
+\par
+\'a1\'a1\'a1\'a15)\'b6\'d4\'d3\'datar.bz2\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1tar -xjf all.tar.bz2\par
+\par
+\'a1\'a1\'a1\'a16)\'b6\'d4\'d3\'da.Z\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1uncompress all.Z\par
+\par
+\'a1\'a1\'a1\'a17)\'b6\'d4\'d3\'da.tar.Z\'bd\'e1\'ce\'b2\'b5\'c4\'ce\'c4\'bc\'fe\par
+\par
+\'a1\'a1\'a1\'a1tar -xZf all.tar.z\par
+\par
+\'a1\'a1\'a1\'a1\'c1\'ed\'cd\'e2\'b6\'d4\'d3\'daWindow\'cf\'c2\'b5\'c4\'b3\'a3\'bc\'fb\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe.zip\'ba\'cd.rar\'a3\'acLinux\'d2\'b2\'d3\'d0\'cf\'e0\'d3\'a6\'b5\'c4\'b7\'bd\'b7\'a8\'c0\'b4\'bd\'e2\'d1\'b9\'cb\'fc\'c3\'c7\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a11)\'b6\'d4\'d3\'da.zip\par
+\par
+\'a1\'a1\'a1\'a1linux\'cf\'c2\'cc\'e1\'b9\'a9\'c1\'cbzip\'ba\'cdunzip\'b3\'cc\'d0\'f2\'a3\'aczip\'ca\'c7\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'acunzip\'ca\'c7\'bd\'e2\'d1\'b9\'b3\'cc\'d0\'f2\'a1\'a3\'cb\'fc\'c3\'c7\'b5\'c4\'b2\'ce\'ca\'fd\'d1\'a1\'cf\'ee\'ba\'dc\'b6\'e0\'a3\'ac\'d5\'e2\'c0\'ef\'d6\'bb\'d7\'f6\'bc\'f2\'b5\'a5\'bd\'e9\'c9\'dc\'a3\'ac\'d2\'c0\'be\'c9\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'c6\'e4\'d3\'c3\'b7\'a8\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# zip all.zip *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'d1\'b9\'cb\'f5\'b3\'c9\'d2\'bb\'b8\'f6zip\'b0\'fc\par
+\par
+\'a1\'a1\'a1\'a1# unzip all.zip\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'aball.zip\'d6\'d0\'b5\'c4\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'bd\'e2\'d1\'b9\'b3\'f6\'c0\'b4\par
+\par
+\'a1\'a1\'a1\'a12)\'b6\'d4\'d3\'da.rar\par
+\par
+\'a1\'a1\'a1\'a1\'d2\'aa\'d4\'dalinux\'cf\'c2\'b4\'a6\'c0\'ed.rar\'ce\'c4\'bc\'fe\'a3\'ac\'d0\'e8\'d2\'aa\'b0\'b2\'d7\'b0RAR for Linux\'a3\'ac\'bf\'c9\'d2\'d4\'b4\'d3\'cd\'f8\'c9\'cf\'cf\'c2\'d4\'d8\'a3\'ac\'b5\'ab\'d2\'aa\'bc\'c7\'d7\'a1\'a3\'acRAR for Linux\par
+\par
+\'a1\'a1\'a1\'a1\'b2\'bb\'ca\'c7\'c3\'e2\'b7\'d1\'b5\'c4;\'c8\'bb\'ba\'f3\'b0\'b2\'d7\'b0\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# tar -xzpvf rarlinux-3.2.0.tar.gz\par
+\par
+\'a1\'a1\'a1\'a1# cd rar\par
+\par
+\'a1\'a1\'a1\'a1# make\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'d1\'f9\'be\'cd\'b0\'b2\'d7\'b0\'ba\'c3\'c1\'cb\'a3\'ac\'b0\'b2\'d7\'b0\'ba\'f3\'be\'cd\'d3\'d0\'c1\'cbrar\'ba\'cdunrar\'d5\'e2\'c1\'bd\'b8\'f6\'b3\'cc\'d0\'f2\'a3\'acrar\'ca\'c7\'d1\'b9\'cb\'f5\'b3\'cc\'d0\'f2\'a3\'acunrar\'ca\'c7\'bd\'e2\'d1\'b9\'b3\'cc\'d0\'f2\'a1\'a3\'cb\'fc\'c3\'c7\'b5\'c4\'b2\'ce\'ca\'fd\'d1\'a1\'cf\'ee\'ba\'dc\'b6\'e0\'a3\'ac\'d5\'e2\'c0\'ef\'d6\'bb\'d7\'f6\'bc\'f2\'b5\'a5\'bd\'e9\'c9\'dc\'a3\'ac\'d2\'c0\'be\'c9\'be\'d9\'c0\'fd\'cb\'b5\'c3\'f7\'d2\'bb\'cf\'c2\'c6\'e4\'d3\'c3\'b7\'a8\'a3\'ba\par
+\par
+\'a1\'a1\'a1\'a1# rar a all *.jpg\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'ab\'cb\'f9\'d3\'d0.jpg\'b5\'c4\'ce\'c4\'bc\'fe\'d1\'b9\'cb\'f5\'b3\'c9\'d2\'bb\'b8\'f6rar\'b0\'fc\'a3\'ac\'c3\'fb\'ce\'aaall.rar\'a3\'ac\'b8\'c3\'b3\'cc\'d0\'f2\'bb\'e1\'bd\'ab.rar \'c0\'a9\'d5\'b9\'c3\'fb\'bd\'ab\'d7\'d4\'b6\'af\'b8\'bd\'bc\'d3\'b5\'bd\'b0\'fc\'c3\'fb\'ba\'f3\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1# unrar e all.rar\par
+\par
+\'a1\'a1\'a1\'a1\'d5\'e2\'cc\'f5\'c3\'fc\'c1\'ee\'ca\'c7\'bd\'aball.rar\'d6\'d0\'b5\'c4\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'bd\'e2\'d1\'b9\'b3\'f6\'c0\'b4\par
+\par
+\'a1\'a1\'a1\'a1\'b5\'bd\'b4\'cb\'ce\'aa\'d6\'c1\'a3\'ac\'ce\'d2\'c3\'c7\'d2\'d1\'be\'ad\'bd\'e9\'c9\'dc\'b9\'fdlinux\'cf\'c2\'b5\'c4tar\'a1\'a2gzip\'a1\'a2gunzip\'a1\'a2bzip2\'a1\'a2bunzip2\'a1\'a2compress\'a1\'a2uncompress\'a1\'a2 zip\'a1\'a2unzip\'a1\'a2rar\'a1\'a2unrar\'b5\'c8\'b3\'cc\'ca\'bd\'a3\'ac\'c4\'e3\'d3\'a6\'b8\'c3\'d2\'d1\'be\'ad\'c4\'dc\'b9\'bb\'ca\'b9\'d3\'c3\'cb\'fc\'c3\'c7\'b6\'d4.tar\'a1\'a2.gz\'a1\'a2.tar.gz\'a1\'a2.tgz\'a1\'a2.bz2\'a1\'a2.tar.bz2\'a1\'a2. Z\'a1\'a2.tar.Z\'a1\'a2.zip\'a1\'a2.rar\'d5\'e210\'d6\'d6\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'bd\'e2\'d1\'b9\'c1\'cb\'a3\'ac\'d2\'d4\'ba\'f3\'d3\'a6\'b8\'c3\'b2\'bb\'d0\'e8\'d2\'aa\'ce\'aa\'cf\'c2\'d4\'d8\'c1\'cb\'d2\'bb\'b8\'f6\'c8\'ed\'bc\'fe\'b6\'f8\'b2\'bb\'d6\'aa\'b5\'c0\'c8\'e7\'ba\'ce\'d4\'daLinux\'cf\'c2\'bd\'e2\'bf\'aa\'b6\'f8\'b7\'b3\'c4\'d5\'c1\'cb\'a1\'a3\'b6\'f8\'c7\'d2\'d2\'d4\'c9\'cf\'b7\'bd \'b7\'a8\'b6\'d4\'d3\'daUnix\'d2\'b2\'bb\'f9\'b1\'be\'d3\'d0\'d0\'a7\'a1\'a3\par
+\par
+\'a1\'a1\'a1\'a1\'b1\'be\'ce\'c4\'bd\'e9\'c9\'dc\'c1\'cblinux\'cf\'c2\'b5\'c4\'d1\'b9\'cb\'f5\'b3\'cc\'ca\'bdtar\'a1\'a2gzip\'a1\'a2gunzip\'a1\'a2bzip2\'a1\'a2bunzip2\'a1\'a2 compress\'a1\'a2uncompress\'a1\'a2zip\'a1\'a2unzip\'a1\'a2rar\'a1\'a2unrar\'b5\'c8\'b3\'cc\'ca\'bd\'a3\'ac\'d2\'d4\'bc\'b0\'c8\'e7\'ba\'ce\'ca\'b9\'d3\'c3\'cb\'fc\'c3\'c7\'b6\'d4.tar\'a1\'a2.gz\'a1\'a2.tar.gz\'a1\'a2. tgz\'a1\'a2.bz2\'a1\'a2.tar.bz2\'a1\'a2.Z\'a1\'a2.tar.Z\'a1\'a2.zip\'a1\'a2.rar\'d5\'e210\'d6\'d6\'d1\'b9\'cb\'f5\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'b2\'d9\'d7\'f7\par
+\par
+\par
+{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/zdz8207/p/3765604.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/zdz8207/p/3765604.html}}}\f0\fs24\par
 }
 %-
 LV=2
@@ -6645,7 +7064,7 @@ BC=clWindow
 IX=0
 SS=482
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #!/bin/sh\par
 \par
 \par
@@ -6665,6 +7084,18 @@ scp -p ~/xcc/gmpcgui.jar root@10.180.80.33:/opt-mpc/GMPC/plugins/Gui/1.0.6200/ww
 \b else\b0\par
     echo "Scp Failed!"\par
 \b fi\b0\par
+}
+%-
+LV=2
+ND=调试
+DI=582
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=11
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #/bin/sh -x\par
 }
 %-
 LV=1
@@ -7301,11 +7732,14 @@ DI=48
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=62
+SS=36
 %:
 {\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html}}}\f0\fs24\par
+\par
+\par
+{\field{\*\fldinst{HYPERLINK "http://blog.sina.com.cn/s/blog_9bd573450101ibbm.html"}}{\fldrslt{\ul\cf1 http://blog.sina.com.cn/s/blog_9bd573450101ibbm.html}}}\f0\fs24\par
 }
 %-
 LV=2
@@ -7430,7 +7864,7 @@ DI=380
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1017
+SS=2305
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'d2\'c3\'c7\'d4\'da\'ca\'b9\'d3\'c3vim\'b5\'c4\'ca\'b1\'ba\'f2\'a3\'ac\'cb\'fc\'b5\'c4\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe\'d2\'bb\'b0\'e3\'b4\'e6\'b4\'a2\'d4\'da cd ~ \'c4\'bf\'c2\'bc\'cf\'c2\'b5\'c4 .vimrc \'ce\'c4\'bc\'fe\'d6\'d0\'a1\'a3\'c8\'e7\'b9\'fb\'c3\'bb\'d3\'d0\'a3\'ac\'c4\'c7\'c3\'b4\'c4\'e3\'bf\'c9\'d2\'d4\'d7\'d4\'bc\'ba\'bd\'a8\'c1\'a2\'d2\'bb\'b8\'f6\'a3\'ac\'c8\'bb\'ba\'f3\'d0\'b4\'c8\'eb\'d7\'d4\'bc\'ba\'b5\'c4\'cf\'b2\'ba\'c3\'a1\'a3\par
@@ -7514,7 +7948,7 @@ DI=382
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=716
+SS=730
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset134 Tahoma;}{\f2\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -7542,7 +7976,9 @@ set tags+=./tags\b0  "\'b1\'ed\'ca\'be\'d4\'da\'b5\'b1\'c7\'b0\'b9\'a4\'d7\'f7\'
 \'c8\'bb\'ba\'f3\'be\'cd\'bf\'c9\'d2\'d4\'bf\'aa\'ca\'bc\'ca\'b9\'d3\'c3ctags\'b5\'c4\'b9\'a6\'c4\'dc\'c1\'cb\'a1\'a3\'be\'df\'cc\'e5\'b5\'c4\'b9\'a6\'c4\'dc\'c7\'eb\'b2\'ce\'bf\'bc Vim ------>\'b2\'e5\'bc\'fe------>ctags \'bd\'da\'b5\'e3\'a1\'a3\par
 \par
 \par
-\par
+$ ./configure\par
+$ make\par
+$ make install\par
 \'d7\'a2\'a3\'ba\par
 \f1\'cf\'c2\'d4\'d8\'cd\'f8\'d6\'b7\'a3\'ba \f2{\field{\*\fldinst{HYPERLINK "http://ctags.sourceforge.net"}}{\fldrslt{\ul\cf1 http://ctags.sourceforge.net}}}\f2\fs24\par
 \f1\'b2\'ce\'bf\'bc\'cd\'f8\'d6\'b7\'a3\'ba{\field{\*\fldinst{HYPERLINK "http://blog.chinaunix.net/uid-25299072-id-113828.html"}}{\fldrslt{\ul\cf1 http://blog.chinaunix.net/uid-25299072-id-113828.html}}}\f2\fs24\par
@@ -7581,7 +8017,7 @@ DI=200
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=3
+SS=36
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}{\f1\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -7618,7 +8054,7 @@ BC=clWindow
 IX=0
 SS=70
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Ctrl + ]        ------>\'cc\'f8\'d7\'aa\'b5\'bd\'ba\'af\'ca\'fd\'b6\'a8\'d2\'e5\'bb\'f2\'c9\'f9\'c3\'f7\'b4\'a6\par
 \par
 Ctrl + o\\t      ------>\'b7\'b5\'bb\'d8\'b5\'bd\'cc\'f8\'d7\'aa\'c7\'b0\'b5\'c4\'ce\'bb\'d6\'c3\par
@@ -7643,12 +8079,39 @@ DI=202
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=117
+SS=539
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}{\f1\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\'cf\'c2\'d4\'d8\'a3\'ba\f1{\field{\*\fldinst{HYPERLINK "http://sourceforge.net/projects/vim-taglist/files/"}}{\fldrslt{\ul\cf1 http://sourceforge.net/projects/vim-taglist/files/}}}\f1\fs16\par
 \f0\'b0\'b2\'d7\'b0\'b2\'ce\'bf\'bc\'a3\'ba{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/skyflying2012/article/details/8112144"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/skyflying2012/article/details/8112144}}}\f1\fs16\par
+\par
+\par
+1. \f0\'b0\'b2\'d7\'b0\par
+\par
+\'a2\'d9\'cf\'c2\'d4\'d8taglist_45.zip\par
+\par
+\'a2\'da\'bd\'e2\'d1\'b9\par
+\'bd\'abtaglist.zip\'ce\'c4\'bc\'fe\'bd\'e2\'d1\'b9\'d6\'c1~/.vim\'ce\'c4\'bc\'fe\'bc\'d0\'cf\'c2(\'d1\'b9\'cb\'f5\'b0\'fc\'d6\'d0\'b0\'fc\'ba\'ac\'d3\'d0\'b2\'e5\'bc\'fe\'ce\'c4\'bc\'feplugin/taglist.vim\'ba\'cd\'b0\'ef\'d6\'fa\'ce\'c4\'bc\'fedoc/taglist.txt)\'a1\'a3\par
+\par
+\'a2\'db\'c9\'fa\'b3\'c9\'b0\'ef\'d6\'fa\par
+\'c3\'fc\'c1\'ee\'d0\'d0\'d6\'d0\'c7\'d0\'bb\'bb\'b5\'b1\'c7\'b0\'c2\'b7\'be\'b6\'d6\'c1~/.vim/doc\'ce\'c4\'bc\'fe\'bc\'d0\'a3\'ac\'bd\'f8\'c8\'ebvim\'ba\'f3\'d6\'b4\'d0\'d0\'c3\'fc\'c1\'ee\par
+\par
+:helptags .\par
+\par
+\'d2\'b2\'bf\'c9\'d2\'d4\'d4\'da\'c8\'ce\'d2\'e2\'ce\'c4\'bc\'fe\'bc\'d0\'cf\'c2\'a3\'ac\'bd\'f8\'c8\'ebvim\'ba\'f3\'d6\'b4\'d0\'d0\'c3\'fc\'c1\'ee\par
+\par
+:helptags ~/.vim/doc\par
+\par
+\'a2\'dc\'bb\'b7\'be\'b3\'bc\'ec\'b2\'e9\par
+\par
+taglist\'b2\'e5\'bc\'fe\'d2\'c0\'c0\'b5\'d3\'dactags\'bc\'b0\'c6\'e4\'cb\'f9\'c9\'fa\'b3\'c9\'b5\'c4\'b1\'ea\'c7\'a9\'ce\'c4\'bc\'fe\'a3\'ac\'c8\'e7\'b9\'fb\'d3\'c3\'bb\'a7\'c2\'b7\'be\'b6\'c9\'e8\'d6\'c3\'d6\'d0\'ce\'b4\'b0\'fc\'ba\'acctags\'c3\'fc\'c1\'ee\'cb\'f9\'d4\'da\'c2\'b7\'be\'b6\'a3\'ac\'bf\'c9\'d2\'d4\'d4\'davim\'c9\'e8\'d6\'c3\'ce\'c4\'bc\'fe\'d6\'d0\'c5\'e4\'d6\'c3Tlist_Ctags_Cmd\'b1\'e4\'c1\'bf\'a3\'ac\'d6\'b8\'cf\'f2ctags\'c3\'fc\'c1\'ee\'a3\'a8\'b6\'f8\'b7\'c7ctags\'c3\'fc\'c1\'ee\'cb\'f9\'d4\'da\'c2\'b7\'be\'b6)\'a1\'a3\par
+\par
+\'bc\'ec\'b2\'e9Vim\'ca\'c7\'b7\'f1\'b4\'f2\'bf\'aa\'c1\'cbfiletype on\'d1\'a1\'cf\'ee\'a1\'a3\par
+\par
+\'c8\'e7Vim\'cb\'f9\'d4\'da\'d6\'d5\'b6\'cb/\'bf\'d8\'d6\'c6\'cc\'a8\'b2\'bb\'d6\'a7\'b3\'d6\'b8\'c4\'b1\'e4\'b4\'b0\'bf\'da\'bf\'ed\'b6\'c8\'a3\'ac\'d4\'daVim\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe\'d6\'d0\'c5\'e4\'d6\'c3\'b1\'e4\'c1\'bfTlist_Inc_Winwidth\'ce\'aa0.\par
+\par
+\'a2\'dd\'d6\'d8\'c6\'f4Vim\f1\par
 }
 %-
 LV=4
@@ -7657,9 +8120,208 @@ DI=203
 NF=000000000000000000000000
 BC=clWindow
 IX=0
+SS=1465
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\par
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16 2. \f1\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+\par
+\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'d2\'d4\'c4\'bf\'c2\'bc\'ca\'f7\'b5\'c4\'d0\'ce\'ca\'bd\'d7\'e9\'d6\'af\'b8\'f7\'bc\'b6\'b1\'ea\'c7\'a9\'a3\'ba\'ce\'c4\'b5\'b5\'d7\'f7\'ce\'aa\'b5\'da\'d2\'bb\'bc\'b6\'a3\'ac\'c0\'e0\'b1\'f0\'d7\'e9\'b1\'ea\'c7\'a9(\'c8\'e7\'ba\'ea\'b1\'ea\'c7\'a9\'d7\'e9/\'ba\'af\'ca\'fd\'b1\'ea\'c7\'a9\'d7\'e9/\'b1\'e4\'c1\'bf\'b1\'ea\'c7\'a9\'d7\'e9\'b5\'c8)\'d7\'f7\'ce\'aa\'b5\'da\'b6\'fe\'bc\'b6\'a3\'ac\'b6\'f8\'be\'df\'cc\'e5\'b5\'c4\'b6\'d4\'cf\'f3\'b1\'ea\'c7\'a9\'d4\'f2\'ce\'aa\'b5\'da\'c8\'fd\'bc\'b6\'a3\'a8\'d2\'b6\'d7\'d3\'bd\'e1\'b5\'e3)\'a1\'a3\par
+\par
+\par
+3. \'bb\'f9\'b1\'be\'ca\'b9\'d3\'c3\par
+\par
+\'d4\'daVim\'d6\'d0\'bc\'d3\'d4\'d8\'b4\'fa\'c2\'eb\'ce\'c4\'bc\'fe\'ba\'f3\'a3\'ac\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3\'d2\'d4\'cf\'c2\'c3\'fc\'c1\'ee\'bf\'d8\'d6\'c6taglist\par
+\par
+    :TlistOpen \'b4\'f2\'bf\'aa\'b2\'a2\'bd\'ab\'ca\'e4\'c8\'eb\'bd\'b9\'b5\'e3\'d6\'c1\'d3\'da\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    :TlistClose \'b9\'d8\'b1\'d5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    :TlistToggle \'c7\'d0\'bb\'bb\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d7\'b4\'cc\'ac(\'b4\'f2\'bf\'aa\'a1\'fb\'a1\'fa\'b9\'d8\'b1\'d5)\'a3\'ac\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ca\'c7\'b7\'f1\'bb\'f1\'b5\'c3\'bd\'b9\'b5\'e3\'c8\'a1\'be\'f6\'d3\'da\'c6\'e4\'cb\'fb\'c5\'e4\'d6\'c3\par
+    ctl-w \'a3\'ab w \'bb\'f2ctl-w \'a3\'ab \'b7\'bd\'cf\'f2\'bc\'fc \'b4\'b0\'bf\'da\'c7\'d0\'bb\'bb\'a3\'a8taglist\'b1\'be\'d6\'ca\'c9\'cf\'ca\'c7\'d2\'bb\'b8\'f6vim\'b7\'d6\'b8\'f4\'b4\'b0\'bf\'da\'a3\'ac\'d2\'f2\'b4\'cb\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3ctl-w\'cf\'b5\'c1\'d0\'bf\'ec\'bd\'dd\'bc\'fc\'b6\'d4\'b4\'b0\'bf\'da\'bd\'f8\'d0\'d0\'c7\'d0\'bb\'bb\'b2\'d9\'d7\'f7)\par
+    \'ca\'b9\'d3\'c3\'ca\'f3\'b1\'ea\'b5\'a5\'bb\'f7\'c7\'d0\'bb\'bb\'b5\'b1\'c7\'b0\'b4\'b0\'bf\'da\'a3\'ac\'bb\'f2\'d4\'da\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'c4\'b3\'b1\'ea\'c7\'a9\'c9\'cf\'cb\'ab\'bb\'f7\'ca\'b9\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'c4\'da\'b4\'b0\'cc\'f8\'d7\'aa\'d6\'c1\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\par
+    \'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'c4\'da\'a3\'ac\'b5\'b1\'b9\'e2\'b1\'ea\'cd\'a3\'c1\'f4\'d4\'da\'c4\'b3\'b8\'f6\'b1\'ea\'c7\'a9\'d6\'ae\'c9\'cf\'ca\'b1\'a3\'ac\'bb\'d8\'b3\'b5\'bc\'fc\'bf\'c9\'c7\'d0\'bb\'bb\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'c4\'da\'c8\'dd\'d6\'c1\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5; 'o',\'d4\'da\'b7\'d6\'b8\'f4\'b4\'b0\'bf\'da\'d6\'d0\'cf\'d4\'ca\'be;'t',\'d4\'davim\'d0\'c2\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'d6\'d0\'cf\'d4\'ca\'be\par
+\par
+4. \'d1\'a1\'cf\'ee\'bf\'d8\'d6\'c6\'b1\'e4\'c1\'bf\par
+\par
+\'d4\'daVim\'c5\'e4\'d6\'c3\'ce\'c4\'bc\'fe\'d6\'d0\'a3\'ac\'bf\'c9\'cd\'a8\'b9\'fd"let"\'d3\'ef\'be\'e4\'c9\'e8\'b6\'a8\'d2\'d4\'cf\'c2\'b1\'e4\'c1\'bf\'bf\'d8\'d6\'c6taglist\'a3\'ba\par
+\par
+    Tlist_GainFocus_On_ToggleOpen : \'ce\'aa1\'d4\'f2\'ca\'b9\'d3\'c3TlistToggle\'b4\'f2\'bf\'aa\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ba\'f3\'bb\'e1\'bb\'f1\'bd\'b9\'b5\'e3\'d6\'c1\'d3\'da\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'a3\'bb\'ce\'aa0\'d4\'f2taglist\'b4\'f2\'bf\'aa\'ba\'f3\'bd\'b9\'b5\'e3\'c8\'d4\'b1\'a3\'b3\'d6\'d4\'da\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\par
+    Tlist_Auto_Open : \'ce\'aa1\'d4\'f2Vim\'c6\'f4\'b6\'af\'ba\'f3\'d7\'d4\'b6\'af\'b4\'f2\'bf\'aa\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    Tlist_Close_On_Select : \'d1\'a1\'d4\'f1\'b1\'ea\'c7\'a9\'bb\'f2\'ce\'c4\'bc\'fe\'ba\'f3\'ca\'c7\'b7\'f1\'d7\'d4\'b6\'af\'b9\'d8\'b1\'d5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    Tlist_Exit_OnlyWindow : Vim\'b5\'b1\'c7\'b0\'bd\'f6\'b4\'f2\'bf\'aa\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ca\'b1\'a3\'ac\'ca\'c7\'b7\'f1\'d7\'d4\'b6\'af\'cd\'cb\'b3\'f6Vim\par
+    Tlist_Use_SingleClick : \'ca\'c7\'b7\'f1\'bd\'ab\'c4\'ac\'c8\'cf\'cb\'ab\'bb\'f7\'b1\'ea\'b4\'f0\'b4\'f2\'bf\'aa\'b6\'a8\'d2\'e5\'b5\'c4\'b7\'bd\'ca\'bd\'b8\'fc\'b8\'c4\'ce\'aa\'b5\'a5\'bb\'f7\'ba\'f3\'b4\'f2\'bf\'aa\'b1\'ea\'c7\'a9\par
+    Tlist_Auto_Highlight_Tag : \'ca\'c7\'b7\'f1\'b8\'df\'c1\'c1\'cf\'d4\'ca\'be\'b5\'b1\'c7\'b0\'b1\'ea\'c7\'a9\'a1\'a3\'c3\'fc\'c1\'ee":TlistHighlightTag"\'d2\'b2\'bf\'c9\'b4\'ef\'b5\'bd\'cd\'ac\'d1\'f9\'d0\'a7\'b9\'fb\par
+    Tlist_Highlight_Tag_On_BufEnter : \'c4\'ac\'c8\'cf\'c7\'e9\'bf\'f6\'cf\'c2\'a3\'acVim\'b4\'f2\'bf\'aa/\'c7\'d0\'bb\'bb\'d6\'c1\'d2\'bb\'b8\'f6\'d0\'c2\'b5\'c4\'bb\'ba\'b3\'e5\'c7\'f8/\'ce\'c4\'bc\'fe\'ba\'f3\'a3\'ac\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'bb\'e1\'d7\'d4\'b6\'af\'bd\'ab\'b5\'b1\'c7\'b0\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'b6\'d4\'d3\'a6\'b5\'c4\'b1\'ea\'c7\'a9\'b8\'df\'c1\'c1\'cf\'d4\'ca\'be\'a1\'a3TlistHighlight_Tag_On_BufEnter\'d6\'c3\'ce\'aa0\'bf\'c9\'bd\'fb\'d6\'b9\'d2\'d4\'c9\'cf\'d0\'d0\'ce\'aa\par
+    Tlist_Process_File_Always : \'ce\'aa1\'d4\'f2\'bc\'b4\'ca\'b9\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ce\'b4\'b4\'f2\'bf\'aa\'a3\'actaglist\'c8\'d4\'c8\'bb\'bb\'e1\'d4\'da\'ba\'f3\'cc\'a8\'b4\'a6\'c0\'edvim\'cb\'f9\'b4\'f2\'bf\'aa\'ce\'c4\'bc\'fe\'b5\'c4\'b1\'ea\'c7\'a9\par
+    Tlist_Auto_Update : \'b4\'f2\'bf\'aa/\'bd\'fb\'d6\'b9taglist\'d4\'da\'b4\'f2\'bf\'aa\'d0\'c2\'ce\'c4\'bc\'fe\'bb\'f2\'d0\'de\'b8\'c4\'ce\'c4\'bc\'fe\'ba\'f3\'d7\'d4\'b6\'af\'b8\'fc\'d0\'c2\'b1\'ea\'c7\'a9\'a1\'a3\'bd\'fb\'d6\'b9\'d7\'d4\'b6\'af\'b8\'fc\'d0\'c2\'ba\'f3\'a3\'actaglist\'bd\'f6\'d4\'da\'ca\'b9\'d3\'c3:TlistUpdate,:TlistAddFiles\'a3\'ac\'bb\'f2:TlistAddFilesRecursive\'c3\'fc\'c1\'ee\'ba\'f3\'b8\'fc\'d0\'c2\'b1\'ea\'c7\'a9\par
+    Tlist_File_Fold_Auto_Close : \'d7\'d4\'b6\'af\'b9\'d8\'b1\'d5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'b7\'c7\'bc\'a4\'bb\'ee\'ce\'c4\'bc\'fe/\'bb\'ba\'b3\'e5\'c7\'f8\'cb\'f9\'d4\'da\'ce\'c4\'b5\'b5\'b1\'ea\'c7\'a9\'ca\'f7\'a3\'ac\'bd\'f6\'cf\'d4\'ca\'be\'b5\'b1\'c7\'b0\'bb\'ba\'b3\'e5\'c7\'f8\'b1\'ea\'c7\'a9\'ca\'f7\par
+    Tlist_Sort_Type : \'b1\'ea\'c7\'a9\'c5\'c5\'d0\'f2\'d2\'c0\'be\'dd\'a3\'ac\'bf\'c9\'d2\'d4\'ce\'aa"name"\'a3\'a8\'b0\'b4\'b1\'ea\'c7\'a9\'c3\'fb\'c5\'c5\'d0\'f2\'a3\'a9\'bb\'f2"order"\'a3\'a8\'b0\'b4\'b1\'ea\'c7\'a9\'d4\'da\'ce\'c4\'bc\'fe\'d6\'d0\'b3\'f6\'cf\'d6\'b5\'c4\'cb\'b3\'d0\'f2\'a3\'ac\'c4\'ac\'c8\'cf\'d6\'b5\'a3\'a9\par
+    Tlist_Use_Horiz_Window : \'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ca\'b9\'d3\'c3\'cb\'ae\'c6\'bd\'b7\'d6\'b8\'ee\'d1\'f9\'ca\'bd\par
+    Tlist_Use_Right_Window : \'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'cf\'d4\'ca\'be\'d4\'da\'d3\'d2\'b2\'e0\'a3\'a8\'ca\'b9\'d3\'c3\'b4\'b9\'d6\'b1\'b7\'d6\'b8\'ee\'d1\'f9\'ca\'bd\'ca\'b1\'a3\'a9\par
+    Tlist_WinWidth : \'c9\'e8\'b6\'a8\'cb\'ae\'c6\'bd\'b7\'d6\'b8\'ee\'ca\'b1\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'b5\'c4\'bf\'ed\'b6\'c8\par
+    Tlist_WinHeight : \'c9\'e8\'b6\'a8\'b4\'b9\'d6\'b1\'b7\'d6\'b8\'ee\'ca\'b1\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'b5\'c4\'b8\'df\'b6\'c8\par
+    Tlist_Inc_Winwidth : \'cf\'d4\'ca\'be\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'ca\'b1\'d4\'ca\'d0\'ed/\'bd\'fb\'d6\'b9\'c0\'a9\'d5\'b9Vim\'b4\'b0\'bf\'da\'bf\'ed\'b6\'c8\par
+    Tlist_Compact_Format : \'bc\'f5\'c9\'d9\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'b5\'c4\'bf\'d5\'b0\'d7\'d0\'d0\par
+    Tlist_Enable_Fold_Column : \'ca\'c7\'b7\'f1\'b2\'bb\'cf\'d4\'ca\'beVim\'c4\'bf\'c2\'bc\'c1\'d0\par
+    Tlist_Display_Prototype : \'ca\'c7\'b7\'f1\'d4\'da\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d3\'c3\'b1\'ea\'c7\'a9\'d4\'ad\'d0\'cd\'cc\'e6\'b4\'fa\'b1\'ea\'c7\'a9\'c3\'fb\par
+    Tlist_Display_Tag_Scope : \'d4\'da\'b1\'ea\'c7\'a9\'c3\'fb\'ba\'f3\'ca\'c7\'b7\'f1\'cf\'d4\'ca\'be\'b1\'ea\'c7\'a9\'d3\'d0\'d0\'a7\'b7\'b6\'ce\'a7\par
+    Tlist_Show_Menu : \'d4\'da\'cd\'bc\'d0\'cd\'bd\'e7\'c3\'e6Vim\'d6\'d0\'a3\'ac\'ca\'c7\'b7\'f1\'d2\'d4\'cf\'c2\'c0\'ad\'b2\'cb\'b5\'a5\'b7\'bd\'ca\'bd\'cf\'d4\'ca\'be\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'d6\'d0\'b5\'c4\'b1\'ea\'c7\'a9\par
+    Tlist_Max_Submenu_Item : \'d7\'d3\'b2\'cb\'b5\'a5\'cf\'ee\'c9\'cf\'cf\'de\'d6\'b5\'a1\'a3\'c8\'e7\'d7\'d3\'b2\'cb\'b5\'a5\'cf\'ee\'b3\'ac\'b3\'f6\'b4\'cb\'c9\'cf\'cf\'de\'bd\'ab\'bb\'e1\'b1\'bb\'b7\'d6\'b8\'f4\'b5\'bd\'b6\'e0\'b8\'f6\'d7\'d3\'b2\'cb\'b5\'a5\'d6\'d0\'a1\'a3\'c8\'b1\'ca\'a1\'d6\'b5\'ce\'aa25\par
+    Tlist_Max_Tag_Length : \'b1\'ea\'c7\'a9\'b2\'cb\'b5\'a5\'d6\'d0\'b1\'ea\'c7\'a9\'b3\'a4\'b6\'c8\'c9\'cf\'cf\'de\par
+    \par
+    5. \'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'bf\'ec\'bd\'dd\'bc\'fc\par
+\par
+taglist\'bf\'ec\'bd\'dd\'bc\'fc\'a3\'ba\par
+\par
+    <CR> : \'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'cc\'f8\'d7\'aa\'b5\'bd\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'b9\'e2\'b1\'ea\'cb\'f9\'d4\'da\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\'b4\'a6\par
+    o : \'d4\'da\'d0\'c2\'bd\'a8\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'d6\'d0\'cc\'f8\'d7\'aa\'b5\'bd\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'b9\'e2\'b1\'ea\'cb\'f9\'d4\'da\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\'b4\'a6\par
+    P : \'cc\'f8\'d7\'aa\'d6\'c1\'c9\'cf\'d2\'bb\'b8\'f6\'b4\'b0\'bf\'da\'b5\'c4\'b1\'ea\'c7\'a9\'b4\'a6\par
+    p : \'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'d6\'d0\'c4\'da\'c8\'dd\'cc\'f8\'d7\'aa\'d6\'c1\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\'b4\'a6\'a3\'ac\'b9\'e2\'b1\'ea\'b1\'a3\'b3\'d6\'d4\'da\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\par
+    t : \'d4\'daVim\'d0\'c2\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'d6\'d0\'cc\'f8\'d7\'aa\'d6\'c1\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\'b4\'a6\'a1\'a3\'c8\'e7\'ce\'c4\'bc\'fe\'d2\'d1\'be\'ad\'d4\'daVim\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'d6\'d0\'b4\'f2\'bf\'aa\'a3\'ac\'d4\'f2\'cc\'f8\'d7\'aa\'d6\'c1\'b4\'cb\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\par
+    Ctrl-t : \'d4\'daVim\'d0\'c2\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'b4\'a6\'cc\'f8\'d7\'aa\'d6\'c1\'b1\'ea\'c7\'a9\'b6\'a8\'d2\'e5\'b4\'a6\par
+     : \'cf\'d4\'ca\'be\'b9\'e2\'b1\'ea\'b5\'b1\'c7\'b0\'cb\'f9\'d4\'da\'b1\'ea\'c7\'a9\'d4\'ad\'d0\'cd\'a1\'a3\'b6\'d4\'ce\'c4\'bc\'fe\'b1\'ea\'c7\'a9\'a3\'ac\'cf\'d4\'ca\'be\'ce\'c4\'bc\'fe\'b5\'c4\'c8\'ab\'c2\'b7\'be\'b6\'c3\'fb\'a3\'ac\'ce\'c4\'bc\'fe\'c0\'e0\'d0\'cd\'ba\'cd\'b1\'ea\'c7\'a9\'ca\'fd\'c1\'bf\'a1\'a3\'b6\'d4\'b1\'ea\'c7\'a9\'c0\'e0\'d0\'cd(\'d6\'b8\'c8\'e7variable/function\'b5\'c8\'c0\'e0\'b1\'f0)\'a3\'ac\'cf\'d4\'ca\'be\'b1\'ea\'c7\'a9\'c0\'e0\'d0\'cd\'ba\'cd\'d3\'b5\'d3\'d0\'b1\'ea\'c7\'a9\'b5\'c4\'ca\'fd\'c1\'bf;\'b6\'d4\'ba\'af\'ca\'fd/\'b1\'e4\'c1\'bf\'b5\'c8\'c6\'d5\'cd\'a8\'b1\'ea\'c7\'a9\'a3\'ac\'cf\'d4\'ca\'be\'c6\'e4\'b6\'a8\'d2\'e5\'b5\'c4\'d4\'ad\'d0\'cd\par
+    u : \'b8\'fc\'d0\'c2\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'b5\'c4\'b1\'ea\'c7\'a9\'d0\'c5\'cf\'a2\par
+    s : \'c7\'d0\'bb\'bb\'b1\'ea\'c7\'a9\'c5\'c5\'d0\'f2\'c0\'e0\'d0\'cd(\'b0\'b4\'c3\'fb\'b3\'c6\'d0\'f2\'bb\'f2\'b3\'f6\'cf\'d6\'cb\'b3\'d0\'f2)\par
+    d : \'d2\'c6\'b3\'fd\'b5\'b1\'c7\'b0\'b1\'ea\'c7\'a9\'cb\'f9\'d4\'da\'ce\'c4\'bc\'fe\'b5\'c4\'cb\'f9\'d3\'d0\'b1\'ea\'c7\'a9\par
+    x : \'c0\'a9\'d5\'b9/\'ca\'d5\'cb\'f5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    + : \'d5\'b9\'bf\'aa\'d5\'db\'b5\'fe\'bd\'da\'b5\'e3*\par
+    - : \'d5\'db\'b5\'fe\'bd\'e1\'b5\'e3*\par
+    * : \'d5\'b9\'bf\'aa\'cb\'f9\'d3\'d0\'bd\'e1\'b5\'e3\par
+    = : \'d5\'db\'b5\'fe\'cb\'f9\'d3\'d0\'bd\'da\'b5\'e3\par
+    [[ : \'cc\'f8\'d7\'aa\'d6\'c1\'c9\'cf\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'b1\'ea\'c7\'a9\'b5\'c4\'cd\'b7\'b2\'bf\par
+    <Backspace> : \'cc\'f8\'d7\'aa\'d6\'c1\'c9\'cf\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'b1\'ea\'c7\'a9\'cd\'b7\'b2\'bf\par
+    ]] : \'cc\'f8\'d7\'aa\'d6\'c1\'cf\'c2\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'b1\'ea\'c7\'a9\'cd\'b7\'b2\'bf\par
+    <Tab> : \'cc\'f8\'d7\'aa\'d6\'c1\'cf\'c2\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'b1\'ea\'c7\'a9\'cd\'b7\'b2\'bf\par
+    q : \'b9\'d8\'b1\'d5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    F1 : \'cf\'d4\'ca\'be\'b0\'ef\'d6\'fa**\par
+    \par
+    6. taglist\'c3\'fc\'c1\'ee\par
+\par
+taglist\'d4\'daVim\'d6\'d0\'cc\'e1\'b9\'a9\'c1\'cb\'d2\'d4\'cf\'c2\'c0\'a9\'d5\'b9\'c3\'fc\'c1\'ee:\par
+\par
+    :TlistAddFiles \{files(s)\} [file(s)...] \'cc\'ed\'bc\'d3\'d2\'bb\'bb\'f2\'b6\'e0\'b8\'f6\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe(\'b5\'c4\'b1\'ea\'c7\'a9\'cf\'ee)\'b5\'bd\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'d6\'d0\'a1\'a3\'ce\'c4\'bc\'fe\'c3\'fb\'b1\'ed\'b4\'ef\'ca\'bd\'d6\'d0\'bf\'c9\'ca\'b9\'d3\'c3\'cd\'a8\'c5\'e4\'b7\'fb(*);\'c8\'e7\'ce\'c4\'bc\'fe\'c3\'fb\'d6\'d0\'b4\'f8\'d3\'d0\'bf\'d5\'b8\'f1\'a3\'ac\'d0\'e8\'d2\'aa\'ca\'b9\'d3\'c3\'b7\'b4\'d0\'b1\'b8\'dc\'b6\'d4\'bf\'d5\'b8\'f1\'bd\'f8\'d0\'d0\'d7\'aa\'d2\'e5("\\ ")\par
+    :TlistAddFilesRecursive \{directory\} [\{pattern\}] \'b1\'e9\'c0\'fa\'d6\'b8\'b6\'a8\'c2\'b7\'be\'b6\{directory\}\'a3\'ac\'bd\'ab\'d3\'eb\'c4\'a3\'ca\'bd\{pattern\}\'cf\'e0\'c6\'a5\'c5\'e4\'b5\'c4\'ce\'c4\'bc\'fe\'bc\'d3\'c8\'eb\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\'a1\'a3\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8pattern\'a3\'ac\'d4\'f2\'ca\'b9\'d3\'c3\'c8\'b1\'ca\'a1\'d6\'b5'*'\'a1\'a3\'c8\'e7\'c2\'b7\'be\'b6\'d6\'d0\'b0\'fc\'ba\'ac\'bf\'d5\'b8\'f1\'a3\'ac\'d0\'e8\'ca\'b9\'d3\'c3\'b7\'b4\'d0\'b1\'b8\'dc'\\'\'d7\'aa\'d2\'e5("\\ ")\par
+    :TlistClose \'b9\'d8\'b1\'d5\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    :TlistDebug [filename] \'bc\'c7\'c2\'bctaglist\'b2\'e5\'bc\'fe\'b5\'c4\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\'a1\'a3\'c8\'e7\'d6\'b8\'b6\'a8\'c1\'cbfilename\'a3\'ac\'d4\'f2\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\'bd\'ab\'b1\'bb\'d0\'b4\'c8\'eb\'b4\'cb\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'a3\'a8\'c8\'e7\'ce\'c4\'bc\'fe\'d2\'d1\'b4\'e6\'d4\'da\'a3\'ac\'c4\'da\'c8\'dd\'bd\'ab\'b1\'bb\'b8\'b2\'b8\'c7)\'a3\'bb\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8filename\'a3\'ac\'d4\'f2\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\'d0\'b4\'c8\'eb\'bd\'c5\'b1\'be\'b5\'c4\'be\'d6\'b2\'bf\'b1\'e4\'c1\'bf\'d6\'d0\par
+    :TlistLock \'cb\'f8\'b6\'a8\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'a3\'ac\'b2\'a2\'c7\'d2\'b2\'bb\'b4\'a6\'c0\'ed\'d0\'c2\'b4\'f2\'bf\'aa\'b5\'c4\'ce\'c4\'bc\'fe\par
+    :TlistMessage \'bd\'f6\'b5\'b1\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\'d0\'b4\'c8\'eb\'bd\'c5\'b1\'be\'be\'d6\'b2\'bf\'b1\'e4\'c1\'bf\'ca\'b1\'d3\'d0\'d0\'a7\'a3\'ac\'cf\'d4\'ca\'be\'bc\'c7\'c2\'bc\'b5\'c4\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\par
+    :TlistOpen \'b4\'f2\'bf\'aa\'b2\'a2\'cc\'f8\'d7\'aa\'d6\'c1\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'b4\'b0\'bf\'da\par
+    :TlistSessionSave \{filename\} \'bd\'ab\'b5\'b1\'c7\'b0\'b4\'f2\'bf\'aa\'ce\'c4\'bc\'fe\'bc\'b0\'c6\'e4\'b1\'ea\'c7\'a9\'d0\'c5\'cf\'a2\'d0\'b4\'c8\'eb\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\par
+    :TlistSessionLoad \{filename\} \'b4\'d3\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'d4\'d8\'c8\'eb\'cb\'f9\'b1\'a3\'b4\'e6\'b5\'c4\'bb\'e1\'bb\'b0\'d0\'c5\'cf\'a2\par
+    :TlistShowPrototype [filename] [linenumber] \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'d6\'d0\'d6\'b8\'b6\'a8\'b4\'fa\'c2\'eb\'d0\'d0\'bb\'f2\'d6\'ae\'c7\'b0\'b5\'c4\'b1\'ea\'c7\'a9\'b5\'c4\'d4\'ad\'d0\'cd\'a1\'a3\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'c3\'fb/\'d0\'d0\'ba\'c5\'a3\'ac\'d4\'f2\'ca\'b9\'d3\'c3\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'c3\'fb/\'b5\'b1\'c7\'b0\'d0\'d0\'ba\'c5\par
+    :TlistShowTag [filename] [linenumber] \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'d6\'d0\'d6\'b8\'b6\'a8\'b4\'fa\'c2\'eb\'d0\'d0\'bb\'f2\'d6\'ae\'c7\'b0\'b1\'ea\'c7\'a9\'c3\'fb\'b3\'c6\'a1\'a3\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'c3\'fb/\'d0\'d0\'ba\'c5\'a3\'ac\'d4\'f2\'ca\'b9\'d3\'c3\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'c3\'fb/\'b5\'b1\'c7\'b0\'d0\'d0\'ba\'c5\par
+    :TlistHighlightTag \'bc\'d3\'c1\'c1\'cf\'d4\'ca\'be\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'d6\'d0\'b5\'c4\'b5\'b1\'c7\'b0\'b1\'ea\'c7\'a9\par
+    :TlistToggle \'d4\'da\'b4\'f2\'bf\'aa\'ba\'cd\'b9\'d8\'b1\'d5\'d7\'b4\'cc\'ac\'bc\'e4\'c7\'d0\'bb\'bb\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'b5\'c4\'d7\'b4\'cc\'ac\'a1\'a3\'b1\'ea\'c7\'a9\'b4\'b0\'bf\'da\'c7\'d0\'bb\'bb\'d6\'c1\'b4\'f2\'bf\'aa\'d7\'b4\'cc\'ac\'ba\'f3\'c8\'d4\'c8\'bb\'b9\'e2\'b1\'ea\'b1\'a3\'b3\'d6\'d4\'da\'b4\'fa\'c2\'eb\'b4\'b0\'bf\'da\'d6\'d0\par
+    :TlistUndebug \'cd\'a3\'d6\'b9\'bc\'c7\'c2\'bctaglist\'b2\'e5\'bc\'fe\'b5\'f7\'ca\'d4\'d0\'c5\'cf\'a2\par
+    :TlistUnlock \'bd\'e2\'cb\'f8\'b1\'ea\'c7\'a9\'c1\'d0\'b1\'ed\'a3\'ac\'b2\'a2\'b4\'a6\'c0\'ed\'d0\'c2\'b4\'f2\'bf\'aa\'b5\'c4\'ce\'c4\'bc\'fe\par
+    :TlistUpdate \'b8\'fc\'d0\'c2\'b5\'b1\'c7\'b0\'bb\'ba\'b3\'e5\'c7\'f8\'b5\'c4\'b1\'ea\'c7\'a9\'d0\'c5\'cf\'a2\par
+\par
+7. \'c8\'ab\'be\'d6\'ba\'af\'ca\'fd\par
+\par
+taglist\'b2\'e5\'bc\'fe\'ce\'aaVim\'cc\'e1\'b9\'a9\'c1\'cb\'d2\'bb\'d0\'a9\'c8\'ab\'be\'d6\'ba\'af\'ca\'fd\'a3\'ac\'bf\'c9\'b9\'a9\'c6\'e4\'cb\'fb\'b2\'e5\'bc\'fe\'ca\'b9\'d3\'c3:\par
+\par
+    Tlist_Update_File_Tags(\{filename\}, \{filetype\}) \'d2\'d4\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'c0\'e0\'d0\'cd\'b8\'fc\'d0\'c2\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'b5\'c4\'b1\'ea\'c7\'a9\'d0\'c5\'cf\'a2\'a1\'a3\'c8\'e7taglist\'b2\'e5\'bc\'fe\'b4\'cb\'c7\'b0\'ce\'b4\'b4\'a6\'c0\'ed\'b9\'fd\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'a3\'ac\'d4\'f2\'bb\'e1\'b5\'f7\'d3\'c3ctags\'b6\'d4\'ce\'c4\'bc\'fe\'bd\'f8\'d0\'d0\'b7\'d6\'ce\'f6\par
+    Tlist_Get_Tag_Prototype_By_Line([\{filename\}, \{linenumber\}]) \'bb\'f1\'c8\'a1\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'d6\'d0\'d6\'b8\'b6\'a8\'d0\'d0\'ba\'c5\'bb\'f2\'d6\'ae\'c7\'b0\'b1\'ea\'c7\'a9\'b5\'c4\'d4\'ad\'d0\'cd\'d0\'c5\'cf\'a2\'a1\'a3\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'c3\'fb/\'d0\'d0\'ba\'c5\'a3\'ac\'d4\'f2\'ca\'b9\'d3\'c3\'b5\'b1\'c7\'b0\'bb\'ba\'b3\'e5\'c7\'f8\'b6\'d4\'d3\'a6\'ce\'c4\'bc\'fe/\'b5\'b1\'c7\'b0\'d0\'d0\'ba\'c5\par
+    Tlist_Get_Tagname_By_Line ([\{filename\}, \{linenumber\}]) \'bb\'f1\'c8\'a1\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'d6\'d0\'d6\'b8\'b6\'a8\'d0\'d0\'ba\'c5\'bb\'f2\'d6\'ae\'c7\'b0\'b1\'ea\'c7\'a9\'b5\'c4\'c3\'fb\'b3\'c6\'d0\'c5\'cf\'a2\'a1\'a3\'c8\'e7\'ce\'b4\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'c3\'fb/\'d0\'d0\'ba\'c5\'a3\'ac\'d4\'f2\'ca\'b9\'d3\'c3\'b5\'b1\'c7\'b0\'bb\'ba\'b3\'e5\'c7\'f8\'b6\'d4\'d3\'a6\'ce\'c4\'bc\'fe/\'b5\'b1\'c7\'b0\'d0\'d0\'ba\'c5\par
+    Tlist_Set_App(\{appname\}) \'c9\'e8\'d6\'c3\'d5\'fd\'d4\'da\'bf\'d8\'d6\'c6taglist\'b5\'c4\'b2\'e5\'bc\'fe\'c3\'fb\'b3\'c6\par
+    \par
+    8. \'c6\'e4\'cb\'fb\par
+\par
+\'b8\'fc\'b6\'e0\'b0\'ef\'d6\'fa\'a3\'ac\'bf\'c9\'b2\'ce\'bf\'bcTaglist Manual\'a3\'ac\'bb\'f2\'d4\'daVim\'d6\'d0\'d6\'b4\'d0\'d0\'d2\'d4\'cf\'c2\'c3\'fc\'c1\'ee\'bb\'f1\'c8\'a1\par
+\par
+:help taglist.txt\f0\par
+}
+%-
+LV=3
+ND=FAQ
+DI=574
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=162
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b0\'b2\'d7\'b0\'cd\'ea Tlist \'ba\'f3\'b1\'a8\'b4\'ed\'a3\'ba\par
+tags: unrecognized option '--format=2'^@^ITry `ctags --help' for a complete list of options.^@ \par
+\par
+\'bd\'e2\'be\'f6\'b7\'bd\'b0\'b8\'a3\'ba\par
+\b let Tlist_Ctags_Cmd = \i '/usr/local/bin/ctags\i0 '\b0\par
+}
+%-
+LV=3
+ND=OmniCppComplete
+DI=575
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND=安装
+DI=576
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=5
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d7\'d4\'b6\'af\'b2\'b9\'c8\'ab\'a3\'ba{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/xkfz007/articles/2501888.html\par
+"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/xkfz007/articles/2501888.html\par
+}}}}
+%-
+LV=4
+ND=使用
+DI=577
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=745
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cf\'eb\'d2\'aa\'ca\'b9\'d5\'e2\'b8\'f6\'b9\'a6\'c4\'dc\'c4\'dc\'b9\'bb\'b1\'bb\'ca\'b9\'d3\'c3\'a3\'ac\'d0\'e8\'d2\'aa\'d6\'d8\'d0\'c2\'c9\'fa\'b3\'c9\'b2\'bb\'d2\'bb\'d1\'f9\'b5\'c4tag\'ce\'c4\'bc\'fe:\par
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q\par
+\par
+--c++-kinds=+p  : \'ce\'aaC++\'ce\'c4\'bc\'fe\'d4\'f6\'bc\'d3\'ba\'af\'ca\'fd\'d4\'ad\'d0\'cd\'b5\'c4\'b1\'ea\'c7\'a9\par
+--fields=+iaS   : \'d4\'da\'b1\'ea\'c7\'a9\'ce\'c4\'bc\'fe\'d6\'d0\'bc\'d3\'c8\'eb\'bc\'cc\'b3\'d0\'d0\'c5\'cf\'a2(i)\'a1\'a2\'c0\'e0\'b3\'c9\'d4\'b1\'b5\'c4\'b7\'c3\'ce\'ca\'bf\'d8\'d6\'c6\'d0\'c5\'cf\'a2(a)\'a1\'a2\'d2\'d4\'bc\'b0\'ba\'af\'ca\'fd\'b5\'c4\'d6\'b8\'ce\'c6(S)\par
+--extra=+q      : \'ce\'aa\'b1\'ea\'c7\'a9\'d4\'f6\'bc\'d3\'c0\'e0\'d0\'de\'ca\'ce\'b7\'fb\'a1\'a3\'d7\'a2\'d2\'e2\'a3\'ac\'c8\'e7\'b9\'fb\'c3\'bb\'d3\'d0\'b4\'cb\'d1\'a1\'cf\'ee\'a3\'ac\'bd\'ab\'b2\'bb\'c4\'dc\'b6\'d4\'c0\'e0\'b3\'c9\'d4\'b1\'b2\'b9\'c8\'ab\par
+\par
+\par
+\'d7\'a2\'d2\'e2\'a3\'ba\'d4\'da\'d7\'d4\'b6\'af\'b2\'b9\'c8\'ab\'b5\'c4\'b5\'e3\'a3\'acVim\'b1\'d8\'d0\'eb\'d6\'aa\'b5\'c0\'bf\'c9\'c4\'dc\'b2\'b9\'c8\'ab\'b5\'c4\'b6\'a8\'d2\'e5\'a1\'a3\'b1\'c8\'c8\'e7\'cb\'b5\'a3\'ac\'d4\'danamespace std\'c3\'fc\'c3\'fb\'bf\'d5\'bc\'e4\'cf\'c2\'b5\'c4\'b1\'e4\'c1\'bf\'ba\'cd\'ba\'af\'ca\'fd\'a3\'ac\'b1\'d8\'d0\'eb\'d2\'aa\'d3\'c3using namespace std;\'b1\'a9\'c2\'b6\'b3\'f6\'c0\'b4\'a3\'ac\'b7\'f1\'d4\'f2\'ca\'c7\'b2\'bb\'c4\'dc\'b2\'b9\'c8\'ab\'b5\'c4\'a1\'a3\'d4\'da.cpp\'ce\'c4\'bc\'fe\'d6\'d0\'bb\'b9\'bf\'c9\'d2\'d4\'a3\'ac\'d4\'da.h\'ce\'c4\'bc\'fe\'d6\'d0\'d5\'e2\'d1\'f9\'be\'cd\'b2\'bb\'ca\'c7\'ba\'c3\'b5\'c4\'d7\'f6\'b7\'a8\'c1\'cb\'a1\'a3\'d4\'dd\'ca\'b1\'b2\'bb\'d6\'aa\'b5\'c0\'d5\'e2\'b8\'f6\'ce\'ca\'cc\'e2\'ca\'c7\'d3\'c9\'d3\'da\'ce\'d2\'d7\'d4\'bc\'ba\'c5\'e4\'d6\'c3\'b4\'ed\'ce\'f3\'bb\'b9\'ca\'c7\'b3\'cc\'d0\'f2\'c3\'bb\'d3\'d0\'ca\'b5\'cf\'d6\'a1\'a3\par
+\'b5\'b1\'d7\'d4\'b6\'af\'b2\'b9\'c8\'ab\'cf\'c2\'c0\'ad\'b4\'b0\'bf\'da\'b5\'af\'b3\'f6\'ba\'f3\'a3\'ac\'d2\'bb\'d0\'a9\'bf\'c9\'d3\'c3\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc:\par
+Ctrl+P  \'cf\'f2\'c7\'b0\'c7\'d0\'bb\'bb\'b3\'c9\'d4\'b1\par
+Ctrl+N  \'cf\'f2\'ba\'f3\'c7\'d0\'bb\'bb\'b3\'c9\'d4\'b1\par
+Ctrl+E  \'b1\'ed\'ca\'be\'cd\'cb\'b3\'f6\'cf\'c2\'c0\'ad\'b4\'b0\'bf\'da, \'b2\'a2\'cd\'cb\'bb\'d8\'b5\'bd\'d4\'ad\'c0\'b4\'c2\'bc\'c8\'eb\'b5\'c4\'ce\'c4\'d7\'d6\par
+Ctrl+Y  \'b1\'ed\'ca\'be\'cd\'cb\'b3\'f6\'cf\'c2\'c0\'ad\'b4\'b0\'bf\'da, \'b2\'a2\'bd\'d3\'ca\'dc\'b5\'b1\'c7\'b0\'d1\'a1\'cf\'ee\par
+\'c6\'e4\'cb\'fb\'b2\'b9\'c8\'ab\'b7\'bd\'ca\'bd:\par
+Ctrl+X Ctrl+L \'d5\'fb\'d0\'d0\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+N  \'b8\'f9\'be\'dd\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'c0\'ef\'b9\'d8\'bc\'fc\'d7\'d6\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+K  \'b8\'f9\'be\'dd\'d7\'d6\'b5\'e4\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+T  \'b8\'f9\'be\'dd\'cd\'ac\'d2\'e5\'b4\'ca\'d7\'d6\'b5\'e4\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+I  \'b8\'f9\'be\'dd\'cd\'b7\'ce\'c4\'bc\'fe\'c4\'da\'b9\'d8\'bc\'fc\'d7\'d6\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+]  \'b8\'f9\'be\'dd\'b1\'ea\'c7\'a9\'b2\'b9\'c8\'ab\par
+Ctrl+X Ctrl+F  \'b2\'b9\'c8\'ab\'ce\'c4\'bc\'fe\'c3\'fb\par
+Ctrl+X Ctrl+D  \'b2\'b9\'c8\'ab\'ba\'ea\'b6\'a8\'d2\'e5\par
+Ctrl+X Ctrl+V  \'b2\'b9\'c8\'abvim\'c3\'fc\'c1\'ee\par
+Ctrl+X Ctrl+U  \'d3\'c3\'bb\'a7\'d7\'d4\'b6\'a8\'d2\'e5\'b2\'b9\'c8\'ab\'b7\'bd\'ca\'bd\par
+Ctrl+X Ctrl+S  \'c6\'b4\'d0\'b4\'bd\'a8\'d2\'e9\par
+\'b0\'ef\'d6\'fa\'ce\'c4\'b5\'b5\par
+:help omnicppcomplete\par
+}
+%-
+LV=3
+ND=echofunc
+DI=578
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=48
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cc\'e1\'ca\'be\'ba\'af\'ca\'fd\'d4\'ad\'d0\'cd\par
+\'cf\'c2\'d4\'d8\'cd\'ea\'b3\'c9\'ba\'f3\'a3\'ac\'b0\'d1echofunc.vim\'ce\'c4\'bc\'fe\'b7\'c5\'b5\'bd ~/.vim/plugin\'ce\'c4\'bc\'fe\'bc\'d0\'d6\'d0\par
+ctags -R --fields=+lS\par
 }
 %-
 LV=2
@@ -7668,7 +8330,7 @@ DI=49
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=845
+SS=604
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 gg\tab\tab\tab ------>\'cc\'f8\'d7\'aa\'d6\'c1\'ca\'d7\'b2\'bf\par
@@ -7705,6 +8367,20 @@ a\tab\tab\tab ------>\'b5\'b1\'c7\'b0\'b9\'e2\'b1\'e4\'ba\'f3\'d2\'c6\'d2\'d4\'c
 i\tab\tab\tab ------>\'b5\'b1\'c7\'b0\'b9\'e2\'b1\'ea\'b3\'f6\'b2\'e5\'c8\'eb\par
 I\tab\tab\tab ------>\'d0\'d0\'ca\'d7\'b2\'bf\'b2\'e5\'c8\'eb\par
 A\tab\tab\tab ------>\'d0\'d0\'c4\'a9\'ce\'b2\'b2\'e5\'c8\'eb\par
+\par
+%  \'cc\'f8\'d7\'aa\'b5\'bd\'c5\'e4\'b6\'d4\'b5\'c4\'c0\'a8\'ba\'c5\'c8\'a5\par
+[[  \'cc\'f8\'d7\'aa\'b5\'bd\'b5\'b1\'c7\'b0\'bb\'f2\'d5\'df\'c9\'cf\'d2\'bb\'b4\'fa\'c2\'eb\'bf\'e9(\'ba\'af\'ca\'fd\'b6\'a8\'d2\'e5\'a1\'a2\'c0\'e0\'b6\'a8\'d2\'e5\'b5\'c8)\'b5\'c4\'bf\'aa\'cd\'b7\'c8\'a5(\'b5\'ab\'d2\'aa\'c7\'f3\'b4\'fa\'c2\'eb\'bf\'e9\'d6\'d0'\{'\'b1\'d8\'d0\'eb\'b5\'a5\'b6\'c0\'d5\'bc\'d2\'bb\'d0\'d0)\par
+][  \'cc\'f8\'d7\'aa\'b5\'bd\'b5\'b1\'c7\'b0\'b4\'fa\'c2\'eb\'bf\'e9(\'ba\'af\'ca\'fd\'b6\'a8\'d2\'e5\'a1\'a2\'c0\'e0\'b6\'a8\'d2\'e5\'b5\'c8)\'b5\'c4\'bd\'e1\'ce\'b2\'c8\'a5(\'b5\'ab\'d2\'aa\'c7\'f3\'b4\'fa\'c2\'eb\'bf\'e9\'d6\'d0'\{'\'b1\'d8\'d0\'eb\'b5\'a5\'b6\'c0\'d5\'bc\'d2\'bb\'d0\'d0)\par
+]]  \'cc\'f8\'d7\'aa\'b5\'bd\'cf\'c2\'d2\'bb\'b4\'fa\'c2\'eb\'bf\'e9(\'ba\'af\'ca\'fd\'b6\'a8\'d2\'e5\'a1\'a2\'c0\'e0\'b6\'a8\'d2\'e5\'b5\'c8)\'b5\'c4\'bf\'aa\'cd\'b7\'c8\'a5(\'b5\'ab\'d2\'aa\'c7\'f3\'b4\'fa\'c2\'eb\'bf\'e9\'d6\'d0'\{'\'b1\'d8\'d0\'eb\'b5\'a5\'b6\'c0\'d5\'bc\'d2\'bb\'d0\'d0)\par
+[/  \'cc\'f8\'b5\'bd\'d7\'a2\'ca\'cd\'bf\'aa\'cd\'b7\'a3\'a8\'d6\'bb\'b6\'d4/* */\'d7\'a2\'ca\'cd\'d3\'d0\'d0\'a7\'a3\'a9\par
+]/ \'cc\'f8\'b5\'bd\'d7\'a2\'ca\'cd\'bd\'e1\'ce\'b2\'a3\'a8\'d6\'bb\'b6\'d4/* */\'d7\'a2\'ca\'cd\'d3\'d0\'d0\'a7\'a3\'a9\par
+gD  \'cc\'f8\'d7\'aa\'b5\'bd\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'c4\'da\'b1\'ea\'ca\'b6\'b7\'fb\'ca\'d7\'b4\'ce\'b3\'f6\'cf\'d6\'b5\'c4\'ce\'bb\'d6\'c3\'a3\'ac\'bf\'c9\'d3\'c3\'d3\'da\'cc\'f8\'d7\'aa\'b5\'bd\'c8\'ab\'b2\'bf\'b1\'e4\'c1\'bf\'b5\'c4\'b6\'a8\'d2\'e5\'b4\'a6\'a3\'bb\'b2\'e9\'d5\'d2\'be\'d6\'b2\'bf\'b1\'e4\'c1\'bf\'ca\'b1\'a3\'ac\'d2\'aa\'ca\'c7\'b6\'e0\'b8\'f6\'ba\'af\'ca\'fd\'d6\'d0\'b6\'a8\'d2\'e5\'c1\'cb\'b8\'c3\'be\'d6\'b2\'bf\'b1\'e4\'c1\'bf\'a3\'ac\'ca\'b9\'d3\'c3gD\'bd\'f8\'d0\'d0\'b2\'e9\'d5\'d2\'a3\'ac\'d5\'d2\'b5\'bd\'b5\'c4\'b1\'e4\'c1\'bf\'b6\'a8\'d2\'e5\'bf\'c9\'c4\'dc\'b2\'bb\'ca\'c7\'c4\'e3\'d0\'e8\'d2\'aa\'b5\'c4\par
+gd \'cc\'f8\'d7\'aa\'b5\'bd\'b5\'b1\'c7\'b0\'ba\'af\'ca\'fd\'c4\'da\'b1\'ea\'ca\'b6\'b7\'fb\'ca\'d7\'b4\'ce\'b3\'f6\'cf\'d6\'b5\'c4\'ce\'bb\'d6\'c3\'a3\'ac\'bf\'c9\'d3\'c3\'d3\'da\'cc\'f8\'d7\'aa\'b5\'bd\'be\'d6\'b2\'bf\'b1\'e4\'c1\'bf\'b5\'c4\'b6\'a8\'d2\'e5\'b4\'a6\par
+''  \'cc\'f8\'d7\'aa\'b5\'bd\'b9\'e2\'b1\'ea\'c9\'cf\'b4\'ce\'cd\'a3\'bf\'bf\'b5\'c4\'b5\'d8\'b7\'bd, \'ca\'c7\'c1\'bd\'b8\'f6', \'b6\'f8\'b2\'bb\'ca\'c7\'d2\'bb\'b8\'f6"\par
+mx  \'c9\'e8\'d6\'c3\'ca\'e9\'c7\'a9,x\'d6\'bb\'c4\'dc\'ca\'c7a-z\'b5\'c426\'b8\'f6\'d7\'d6\'c4\'b8\par
+`x  \'cc\'f8\'d7\'aa\'b5\'bd\'ca\'e9\'c7\'a9\'b4\'a6("`"\'ca\'c71\'d7\'f3\'b1\'df\'b5\'c4\'bc\'fc)\par
+>  \'d4\'f6\'bc\'d3\'cb\'f5\'bd\'f8,"x>"\'b1\'ed\'ca\'be\'d4\'f6\'bc\'d3\'d2\'d4\'cf\'c2x\'d0\'d0\'b5\'c4\'cb\'f5\'bd\'f8\par
+<  \'bc\'f5\'c9\'d9\'cb\'f5\'bd\'f8,"x<"\'b1\'ed\'ca\'be\'bc\'f5\'c9\'d9\'d2\'d4\'cf\'c2x\'d0\'d0\'b5\'c4\'cb\'f5\'bd\'f8\par
 \par
 \'b6\'e0\'d0\'d0\'d7\'a2\'ca\'cd\'a3\'ba\par
 1\'a1\'a2Ctrl + v\tab\tab ------>\'bd\'f8\'c8\'ebvisual block\'c4\'a3\'ca\'bd\par
@@ -7768,7 +8444,7 @@ DI=357
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=131
+SS=116
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Vim \'ce\'b4\'c6\'f4\'b6\'af\'a3\'ba\par
@@ -10077,7 +10753,7 @@ IX=0
 LV=2
 ND=数据操作
 DI=65
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -11529,7 +12205,6 @@ DI=181
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=35
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b5\'b1HLR\'b7\'b5\'bb\'d8\'ce\'bb\'d6\'c3\'d0\'c5\'cf\'a2\'ca\'b1\'a3\'a8\'b6\'d4\'d3\'daGSM\'cd\'f8\'c2\'e7\'b7\'b5\'bb\'d8\'b5\'c4\'ca\'c7CGI\'a3\'ac\'b6\'d4\'d3\'daWCDMA\'ca\'c7SAI\'a3\'a9\f1\fs16\par
@@ -12122,11 +12797,11 @@ IX=0
 LV=1
 ND=旅游计划
 DI=571
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
@@ -12136,7 +12811,7 @@ DI=572
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=103
+SS=115
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c4\'bf\'b5\'c4\'b5\'d8\'a3\'ba \'c7\'e0\'ba\'a3\par
@@ -12149,7 +12824,36 @@ SS=103
     \'b4\'f3\'b8\'c5\'c2\'b7\'cf\'df\'ce\'aa\'a3\'ba \'c9\'cf\'ba\'a3\'d5\'be\'b5\'bd\'ce\'f7\'c4\'fe\'d5\'be(\'bb\'f0\'b3\'b5)\'a3\'ac\'ce\'f7\'c4\'fe\'d5\'be\'b5\'bd\'ba\'a3\'ea\'cc\'bb\'f0\'b3\'b5\'d5\'be\'a3\'a8\'bb\'f0\'b3\'b5\'a3\'a9\'a3\'ac\'ba\'a3\'ea\'cc\'bb\'f0\'b3\'b5\'d5\'be\'b5\'bd\'c7\'e0\'ba\'a3\'ba\'fe\'a3\'a8\'b4\'f2\'b3\'b5\'bb\'f2\'d5\'df\'d7\'d4\'bc\'dd\'a3\'a9\'a3\'a8\'c8\'ab\'b3\'c6\'d4\'bc29\'d0\'a1\'ca\'b1\'a3\'a9\par
     \par
 \'b1\'d8\'d0\'e8\'c6\'b7\'a3\'ba\par
+    \'b4\'bd\'b8\'e0\par
 \par
 \'d4\'a4\'cb\'e3\'a3\'ba\par
+}
+%-
+LV=1
+ND=个人想法
+DI=584
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=2
+ND=Test Code GUI
+DI=585
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=96
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fswiss\fprq2\fcharset0 Arial;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs22\'ce\'d2\'d0\'b4\'c1\'cb\'d2\'bb\'d0\'a9\lang2057\f1 test code\lang2052\f0\'a3\'ac\lang2057\f1  \lang2052\f0\'c8\'bb\'ba\'f3\'b6\'d4\'d5\'e2\'d0\'a9\lang2057\f1 test code \lang2052\f0\'ce\'d2\'d3\'d0\'d2\'bb\'b8\'f6\'cf\'eb\'b7\'a8\'a1\'a3\lang2057\f2\par
+\f1 1\lang2052\f0\'a1\'a2\'c9\'e8\'bc\'c6\'d2\'bb\'b8\'f6\lang2057\f1  GUI\lang2052\f0\'a3\'ac\lang2057\f1 GUI \lang2052\f0\'c9\'cf\'c4\'dc\'bf\'b4\'b5\'bd\'c8\'e7\'cf\'c2\'d0\'c5\'cf\'a2\'a3\'ba\lang2057\f2\par
+\tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'c3\'fb\'b3\'c6\lang2057\f2\par
+\tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'b5\'c4\'cf\'ea\'cf\'b8\lang2057\f1 code\f2\par
+\tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'b5\'c4\'cf\'ea\'cf\'b8\'d7\'f7\'d3\'c3\'ba\'cd\'bd\'e2\'ca\'cd\lang2057\f2\par
+\pard\lang2052\f3\fs24\par
 }
 %%
