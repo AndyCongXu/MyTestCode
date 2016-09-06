@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=76
+CX=146
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=234
+SN=76
 TW=270
 EN=New node
 TB=clWindow
@@ -1017,7 +1017,7 @@ IX=0
 LV=1
 ND=C/C++
 DI=14
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1039,7 +1039,7 @@ IX=0
 LV=2
 ND=C++
 DI=82
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1356,7 +1356,7 @@ DI=579
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=310
+SS=318
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 class TestStaticFun\par
@@ -1404,7 +1404,7 @@ IX=0
 LV=2
 ND=Common
 DI=258
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=82
@@ -2135,7 +2135,7 @@ SS=444
 LV=2
 ND=标准输出重定向到文件
 DI=435
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=550
@@ -2219,7 +2219,7 @@ int main(int argc, char **argv)\par
 LV=2
 ND=C++11
 DI=561
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2249,7 +2249,7 @@ auto it = vecString.begin();\par
 LV=2
 ND=基本知识
 DI=586
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2263,9 +2263,9 @@ DI=587
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=106
+SS=133
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d5\'bb\'c7\'f8\'a3\'ba int x = 0; int *p = NULL;   // \'c1\'d9\'ca\'b1\'b1\'e4\'c1\'bf\'a3\'ac \'cf\'b5\'cd\'b3\'d7\'d4\'b6\'af\'bf\'d8\'d6\'c6\par
 \'b6\'d1\'c7\'f8\'a3\'ba int *p = new int[20];    // \'d3\'c9\'b3\'cc\'d0\'f2\'d4\'b3\'bf\'d8\'d6\'c6\par
 \'c8\'ab\'be\'d6\'c7\'f8\'a3\'ba \'b4\'e6\'b4\'a2\'c8\'ab\'be\'d6\'b1\'e4\'c1\'bf\'bc\'b0\'be\'b2\'cc\'ac\'b1\'e4\'c1\'bf //\par
@@ -2327,6 +2327,67 @@ snprintf()\'a3\'ac\'ce\'aa\'ba\'af\'ca\'fd\'d4\'ad\'d0\'cdint snprintf(char *str
 \par
 \par
 sprintf \'d2\'b2\'d3\'d0\'bf\'c9\'c4\'dc\'b3\'f6\'cf\'d6\'d5\'e2\'d6\'d6\'c7\'e9\'bf\'f6\'a3\'ac\'c7\'eb\'d7\'a2\'d2\'e2\'a1\'a3\par
+}
+%-
+LV=2
+ND=静态变量和静态函数
+DI=595
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=3
+ND=静态变量
+DI=596
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND=静态局部变量
+DI=597
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND=静态全局变量
+DI=598
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=146
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b6\'a8\'d2\'e5\'a3\'ba\'d4\'da\'c8\'ab\'be\'d6\'b1\'e4\'c1\'bf\'c7\'b0\'a3\'ac\'bc\'d3\'c9\'cf\'b9\'d8\'bc\'fc\'d7\'d6 static \'b8\'c3\'b1\'e4\'c1\'bf\'be\'cd\'b1\'bb\'b6\'a8\'d2\'e5\'b3\'c9\'ce\'aa\'c1\'cb\'d2\'bb\'b8\'f6\'be\'b2\'cc\'ac\'c8\'ab\'be\'d6\'b1\'e4\'c1\'bf\'a1\'a3\par
+\'cc\'d8\'b5\'e3\'a3\'ba\par
+A\'a1\'a2\'b8\'c3\'b1\'e4\'c1\'bf\'d4\'da\'c8\'ab\'be\'d6\'ca\'fd\'be\'dd\'c7\'f8\'b7\'d6\'c5\'e4\'c4\'da\'b4\'e6\'a1\'a3\par
+B\'a1\'a2\'b3\'f5\'ca\'bc\'bb\'af\'a3\'ba\'c8\'e7\'b9\'fb\'b2\'bb\'cf\'d4\'ca\'bd\'b3\'f5\'ca\'bc\'bb\'af\'a3\'ac\'c4\'c7\'c3\'b4\'bd\'ab\'b1\'bb\'d2\'fe\'ca\'bd\'b3\'f5\'ca\'bc\'bb\'af\'ce\'aa0\'a3\'a8\'d7\'d4\'b6\'af\'b1\'e4\'c1\'bf\'ca\'c7\'cb\'e6\'bb\'fa\'b5\'c4\'a3\'ac\'b3\'fd\'b7\'c7\'cf\'d4\'ca\'bd\'b5\'d8\'b3\'f5\'ca\'bc\'bb\'af\'a3\'a9\'a1\'a3\par
+C\'a1\'a2\'b7\'c3\'b1\'e4\'c1\'bf\'d6\'bb\'d4\'da\'b1\'be\'d4\'b4\'ce\'c4\'bc\'fe\'bf\'c9\'bc\'fb\'a3\'ac\'d1\'cf\'b8\'f1\'b5\'c4\'bd\'b2\'d3\'a6\'b8\'c3\'ce\'aa\'b6\'a8\'d2\'e5\'d6\'ae\'b4\'a6\'bf\'aa\'ca\'bc\'b5\'bd\'b1\'be\'ce\'c4\'bc\'fe\'bd\'e1\'ca\'f8\'a1\'a3\par
+\par
+}
+%-
+LV=4
+ND=面向对象中的静态变量
+DI=599
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
 LV=1
@@ -4540,7 +4601,7 @@ SS=28
 LV=1
 ND=Linux
 DI=44
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -6133,7 +6194,7 @@ BC=clWindow
 IX=0
 SS=76
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/08/2203153.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/08/2203153.html}}}\f0\fs24\par
 \par
