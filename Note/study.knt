@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=96
+CX=76
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=563
+SN=234
 TW=270
 EN=New node
 TB=clWindow
@@ -2246,6 +2246,89 @@ std::vector<std::string> vecString;\par
 auto it = vecString.begin();\par
 }
 %-
+LV=2
+ND=基本知识
+DI=586
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=3
+ND=内存分区
+DI=587
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=106
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d5\'bb\'c7\'f8\'a3\'ba int x = 0; int *p = NULL;   // \'c1\'d9\'ca\'b1\'b1\'e4\'c1\'bf\'a3\'ac \'cf\'b5\'cd\'b3\'d7\'d4\'b6\'af\'bf\'d8\'d6\'c6\par
+\'b6\'d1\'c7\'f8\'a3\'ba int *p = new int[20];    // \'d3\'c9\'b3\'cc\'d0\'f2\'d4\'b3\'bf\'d8\'d6\'c6\par
+\'c8\'ab\'be\'d6\'c7\'f8\'a3\'ba \'b4\'e6\'b4\'a2\'c8\'ab\'be\'d6\'b1\'e4\'c1\'bf\'bc\'b0\'be\'b2\'cc\'ac\'b1\'e4\'c1\'bf //\par
+\'b3\'a3\'c1\'bf\'c7\'f8\'a3\'ba string str = "Hello";\par
+\'b4\'fa\'c2\'eb\'c7\'f8\'a3\'ba \'b4\'e6\'b4\'a2\'c2\'df\'bc\'ad\'b4\'fa\'c2\'eb\'b5\'c4\'b6\'fe\'bd\'f8\'d6\'c6\par
+}
+%-
+LV=3
+ND=类
+DI=588
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=332
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d2\'bb\'b8\'f6\'c0\'e0\'d4\'da\'ca\'b5\'c0\'fd\'bb\'af\'d6\'ae\'c7\'b0\'ca\'c7\'b2\'bb\'bb\'e1\'d5\'bc\'d3\'c3\'b6\'d1\'d5\'bb\'d6\'d0\'b5\'c4\'c4\'da\'b4\'e6\'b5\'c4\par
+\par
+\'b3\'f5\'ca\'bc\'bb\'af\'c1\'d0\'b1\'ed\'cf\'c8\'d3\'da\'b9\'b9\'d4\'ec\'ba\'af\'ca\'fd\'d6\'b4\'d0\'d0\par
+\par
+\'c0\'e0\'b3\'c9\'d4\'b1\'b1\'e4\'c1\'bf\'b5\'c4\'b3\'f5\'ca\'bc\'bb\'af\'cb\'b3\'d0\'f2\'ca\'c7\'d3\'c9\'c9\'f9\'c3\'f7\'ca\'b1\'b5\'c4\'cb\'b3\'d0\'f2\'be\'f6\'b6\'a8\'b5\'c4,const\'b1\'e4\'c1\'bf\'d6\'bb\'c4\'dc\'d3\'c3\'b3\'f5\'ca\'bc\'bb\'af\'c1\'d0\'b1\'ed\'c0\'b4\'b3\'f5\'ca\'bc\'bb\'af\'a1\'a3\par
+class Test\par
+\{\par
+    Test():y(0), z(0), x(0), pi(3.14) \{\}\par
+    //Test()\{ pi = 3.14;\} //Error\'a3\'ac\'b2\'bb\'c4\'dc\'d5\'e2\'d1\'f9\'b3\'f5\'ca\'bc\'bb\'af\par
+    Test(int _x, int _y, int _z):z(_z), x(_x), y(_y)\{\}\par
+    Test(int _x, int _y, int _z, double _pi):z(_z), x(_x), y(_y), pi(_pi)\{\}    \par
+    \par
+    \par
+\par
+\par
+private:\par
+    int x;\par
+    int y;\par
+    int z;\par
+    const double pi;\par
+\};\par
+\'d5\'e2\'d6\'d6\'c7\'e9\'bf\'f6\'cf\'c2\'bb\'b9\'ca\'c7\'cf\'c8\'b0\'d1x\'b8\'b3\'d6\'b5\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b8\'b3\'d6\'b5y\'a3\'ac\'d7\'ee\'ba\'f3\'b8\'b3\'d6\'b5z\par
+\par
+\par
+}
+%-
+LV=3
+ND=snprintf
+DI=589
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=265
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #include <cstdio>\par
+\par
+snprintf()\'a3\'ac\'ce\'aa\'ba\'af\'ca\'fd\'d4\'ad\'d0\'cdint snprintf(char *str, size_t size, const char *format, ...)\line\par
+(1) \'c8\'e7\'b9\'fb\'b8\'f1\'ca\'bd\'bb\'af\'ba\'f3\'b5\'c4\'d7\'d6\'b7\'fb\'b4\'ae\'b3\'a4\'b6\'c8 < size\'a3\'ac\'d4\'f2\'bd\'ab\'b4\'cb\'d7\'d6\'b7\'fb\'b4\'ae\'c8\'ab\'b2\'bf\'b8\'b4\'d6\'c6\'b5\'bdstr\'d6\'d0\'a3\'ac\'b2\'a2\'b8\'f8\'c6\'e4\'ba\'f3\'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'d7\'d6\'b7\'fb\'b4\'ae\'bd\'e1\'ca\'f8\'b7\'fb('\\0')\'a3\'bb\par
+(2) \'c8\'e7\'b9\'fb\'b8\'f1\'ca\'bd\'bb\'af\'ba\'f3\'b5\'c4\'d7\'d6\'b7\'fb\'b4\'ae\'b3\'a4\'b6\'c8 >= size\'a3\'ac\'d4\'f2\'d6\'bb\'bd\'ab\'c6\'e4\'d6\'d0\'b5\'c4\b (size-1)\b0\'b8\'f6\'d7\'d6\'b7\'fb\'b8\'b4\'d6\'c6\'b5\'bdstr\'d6\'d0\'a3\'ac\'b2\'a2\'b8\'f8\'c6\'e4\'ba\'f3\'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'d7\'d6\'b7\'fb\'b4\'ae\'bd\'e1\'ca\'f8\'b7\'fb('\\0')\'a3\'ac\'b7\'b5\'bb\'d8\'d6\'b5\'ce\'aa\'d3\'fb\'d0\'b4\'c8\'eb\'b5\'c4\'d7\'d6\'b7\'fb\'b4\'ae\'b3\'a4\'b6\'c8\'a1\'a3\par
+\par
+\'d7\'a2\'d2\'e2\'a3\'ba size \'b2\'bb\'c4\'dc\'d0\'a1\'d3\'da 2\par
+\par
+\par
+sprintf \'d2\'b2\'d3\'d0\'bf\'c9\'c4\'dc\'b3\'f6\'cf\'d6\'d5\'e2\'d6\'d6\'c7\'e9\'bf\'f6\'a3\'ac\'c7\'eb\'d7\'a2\'d2\'e2\'a1\'a3\par
+}
+%-
 LV=1
 ND=Eclipse
 DI=102
@@ -2904,7 +2987,7 @@ Git \'d4\'da\'b9\'dc\'c0\'ed\'cf\'ee\'c4\'bf\'ca\'b1\'a3\'ac\'ce\'c4\'bc\'fe\'c1
 LV=2
 ND=基本知识
 DI=447
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2915,7 +2998,7 @@ IX=0
 LV=3
 ND=标签
 DI=486
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=57
@@ -4457,7 +4540,7 @@ SS=28
 LV=1
 ND=Linux
 DI=44
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -4757,7 +4840,7 @@ DI=359
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=86
+SS=11
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c1\'d0\'b3\'f6rpm\'b0\'fc\'b5\'c4\'c4\'da\'c8\'dd\'a3\'ba\par
@@ -5038,7 +5121,7 @@ DI=270
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=38
+SS=128
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c3\'eb\'ba\'cd\'ca\'b1\'bc\'e4\'b5\'c4\'bb\'a5\'cf\'e0\'d7\'aa\'bb\'bb\par
@@ -5163,6 +5246,23 @@ SS=229
 }
 %-
 LV=3
+ND=grep
+DI=469
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=91
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 grep -R "test" ./*\par
+\par
+\par
+find . -name "*.cpp" -exec grep "xxx" --color -RnH \{\} \\;\par
+\par
+grep -i\'ba\'f6\'c2\'d4\'b4\'f3\'d0\'a1\'d0\'b4\par
+}
+%-
+LV=3
 ND=ln
 DI=246
 NF=000000000000000000000000
@@ -5199,6 +5299,31 @@ SS=52
     \par
 \'cf\'d4\'ca\'be\'b4\'f3\'d0\'a1\par
     ls -lh\par
+}
+%-
+LV=3
+ND=mkisofs
+DI=592
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=455
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\b\f0\fs24 linux-7-245:/xcc/BL_GMPC16_PCP01_sh # ls\b0\par
+BL_GMPC16_PCP01_no_sh  BL_GMPC16_PCP01_sh\par
+\par
+\b linux-7-245:/xcc/BL_GMPC16_PCP01_sh # mkisofs -J -P "Ericsson AB" -r -V "BL_GMPC16_PCP01" -o BL_GMPC16_PCP01.linux.iso BL_GMPC16_PCP01_no_sh\b0\par
+\b linux-7-245:/xcc/BL_GMPC16_PCP01_sh # ls\b0\par
+\b BL_GMPC16_PCP01.linux.iso\b0   BL_GMPC16_PCP01_no_sh  BL_GMPC16_PCP01_sh\par
+\par
+\par
+\par
+mkisofs\'bf\'c9\'bd\'ab\'d6\'b8\'b6\'a8\'b5\'c4\'c4\'bf\'c2\'bc\'d3\'eb\'ce\'c4\'bc\'fe\'d7\'f6\'b3\'c9ISO 9660\'b8\'f1\'ca\'bd\'b5\'c4\'d3\'b3\'cf\'f1\'ce\'c4\'bc\'fe\'a3\'ac\'d2\'d4\'b9\'a9\'bf\'cc\'c2\'bc\'b9\'e2\'c5\'cc\'a1\'a3\par
+\par
+\par
+{\field{\*\fldinst{HYPERLINK "http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa"}}{\fldrslt{\ul\cf1 http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa}}}\f0\fs24\par
 }
 %-
 LV=3
@@ -5525,131 +5650,6 @@ SS=25
 }
 %-
 LV=3
-ND=touch
-DI=269
-NF=000000000000000000000000
-BC=clWindow
-IX=0
-SS=66
-%:
-{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d0\'de\'b8\'c4\'ce\'c4\'bc\'fe\'b5\'c4\'ca\'b1\'bc\'e4\'ca\'f4\'d0\'d4\par
-    touch -d "17:26" linux-7-249_fdspm.log2015-09-07.log\par
-}
-%-
-LV=3
-ND=zypper
-DI=46
-NF=000000000000000000000000
-BC=clWindow
-IX=0
-SS=1021
-%:
-{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 zypper \f1\'ca\'c7 opensuse \'c3\'fc\'c1\'ee\'d0\'d0\'cf\'c2\'b9\'dc\'c0\'ed\'c8\'ed\'bc\'fe\'b5\'c4\'b3\'cc\'d0\'f2\'a3\'ac\'b9\'a6\'c4\'dc\'ca\'ae\'b7\'d6\'c7\'bf\'b4\'f3\'a1\'a3\par
-\par
-\b\'d3\'c3\'b7\'a8\'a3\'ba\par
-\b0 zypper [--\'c8\'ab\'be\'d6\'d1\'a1\'cf\'ee] <\'c3\'fc\'c1\'ee> [--\'c3\'fc\'c1\'ee\'d1\'a1\'cf\'ee] [\'b2\'ce\'ca\'fd]\par
-\par
-\b e.g.\b0\par
-zypper ar "iso:///iso=test.iso&url=file::///install/" GMPC\par
-\par
-\b\'b2\'ce\'ca\'fd\'a3\'ba\b0\par
-\'c8\'ab\'be\'d6\'d1\'a1\'cf\'ee\'a3\'ba\par
---help, -h \'b0\'ef\'d6\'fa\'a1\'a3.\par
---version, -V \'ca\'e4\'b3\'f6\'b0\'e6\'b1\'be\'ba\'c5\'a1\'a3\par
---quiet, -q \'bc\'f5\'c9\'d9\'c6\'d5\'cd\'a8\'ca\'e4\'b3\'f6\'a3\'ac\'bd\'f6\'b4\'f2\'d3\'a1\'b4\'ed\'ce\'f3\'d0\'c5\'cf\'a2\'a1\'a3\par
---verbose, -v \'d4\'f6\'bc\'d3\'d0\'c5\'cf\'a2\'b5\'c4\'cf\'ea\'cf\'b8\'b3\'cc\'b6\'c8\par
---no-abbrev, -A \'b1\'ed\'b8\'f1\'d6\'d0\'b2\'bb\'b3\'f6\'cf\'d6\'cb\'f5\'d0\'b4\'ce\'c4\'b1\'be\'a1\'a3\par
---table-style, -s \'b1\'ed\'b8\'f1\'d1\'f9\'ca\'bd (\'d5\'fb\'ca\'fd)\'a1\'a3\par
---rug-compatible, -r \'bf\'aa\'c6\'f4\'d3\'eb rug \'b5\'c4\'bc\'e6\'c8\'dd\'a1\'a3\par
---non-interactive, -n \'b2\'bb\'d1\'af\'ce\'ca\'c8\'ce\'ba\'ce\'ce\'ca\'cc\'e2\'a3\'ac\'d7\'d4\'b6\'af\'ca\'b9\'d3\'c3\'c4\'ac\'c8\'cf\'b5\'c4\'bb\'d8\'b8\'b4\'a1\'a3\par
---xmlout, -x \'c7\'d0\'bb\'bb\'b5\'bd XML \'ca\'e4\'b3\'f6\'a1\'a3\par
---reposd-dir, -D <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'b6\'a8\'d2\'e5\'ce\'c4\'bc\'fe\'c4\'bf\'c2\'bc\'a1\'a3\par
---cache-dir, -C <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'d4\'aa\'ca\'fd\'be\'dd\'bb\'ba\'b4\'e6\'ca\'fd\'be\'dd\'bf\'e2\'c4\'bf\'c2\'bc\'a1\'a3\par
---raw-cache-dir <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'d4\'ad\'ca\'bc\'d4\'aa\'ca\'fd\'be\'dd\'bb\'ba\'b4\'e6\'c4\'bf\'c2\'bc\'a1\'a3\par
-\par
-Repository Options:\par
---no-gpg-checks \'ba\'f6\'c2\'d4 GPG \'bc\'ec\'b2\'e9\'ca\'a7\'b0\'dc\'b2\'a2\'bc\'cc\'d0\'f8\'a1\'a3\par
---plus-repo, -p <URI> \'ca\'b9\'d3\'c3\'b6\'ee\'cd\'e2\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
---disable-repositories \'b2\'bb\'b4\'d3\'b0\'b2\'d7\'b0\'d4\'b4\'b6\'c1\'c8\'a1\'d4\'aa\'ca\'fd\'be\'dd\'a1\'a3\par
---no-refresh \'b2\'bb\'cb\'a2\'d0\'c2\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-\par
-\'c4\'bf\'b1\'ea\'d1\'a1\'cf\'ee\'a3\'ba\par
---root, -R <dir> \'d4\'da\'b2\'bb\'cd\'ac\'b5\'c4\'b8\'f9\'c4\'bf\'c2\'bc\'cf\'c2\'b2\'d9\'d7\'f7\'a1\'a3\par
---disable-system-sources\'a1\'a2-D \'b2\'bb\'b6\'c1\'c8\'a1\'cf\'b5\'cd\'b3\'b0\'b2\'d7\'b0\'b5\'c4\'bf\'c9\'bd\'e2\'ce\'f6\'cf\'ee\'a1\'a3\par
-\par
-\'c3\'fc\'c1\'ee\'a3\'ba\par
-help, ? \'b4\'f2\'d3\'a1\'b0\'ef\'d6\'fa\'a1\'a3\par
-shell, sh \'d2\'bb\'b4\'ce\'bd\'d3\'ca\'dc\'b6\'e0\'b8\'f6\'c3\'fc\'c1\'ee.\par
-\par
-\'b0\'b2\'d7\'b0\'d4\'b4\'b2\'d9\'d7\'f7\'a3\'ba\par
-repos, lr \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'b6\'a8\'d2\'e5\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-addrepo, ar \'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'d0\'c2\'b5\'c3\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-removerepo, rr \'c9\'be\'b3\'fd\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-renamerepo, nr \'d6\'d8\'c3\'fc\'c3\'fb\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-modifyrepo, mr \'d0\'de\'b8\'c4\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-refresh, ref \'cb\'a2\'d0\'c2\'cb\'f9\'d3\'d0\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
-clean \'c7\'e5\'b3\'fd\'b1\'be\'b5\'d8\'bb\'ba\'b4\'e6\'a1\'a3\par
-\par
-\'c8\'ed\'bc\'fe\'b9\'dc\'c0\'ed\'a3\'ba\par
-install, in \'b0\'b2\'d7\'b0\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
-remove, rm \'c9\'be\'b3\'fd\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
-verify, ve \'bc\'ec\'d1\'e9\'c8\'ed\'bc\'fe\'b0\'fc\'b5\'c4\'d2\'c0\'c0\'b5\'b9\'d8\'cf\'b5\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'d4\'a1\'a3\par
-update, up \'bd\'ab\'d2\'d1\'be\'ad\'b0\'b2\'d7\'b0\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'b8\'fc\'d0\'c2\'b5\'bd\'d0\'c2\'b5\'c4\'b0\'e6\'b1\'be\'a1\'a3\par
-dist-upgrade, dup \'d6\'b4\'d0\'d0\'d5\'fb\'b8\'f6\'cf\'b5\'cd\'b3\'b5\'c4\'c9\'fd\'bc\'b6\'a1\'a3\par
-source-install, si \'b0\'b2\'d7\'b0\'d4\'b4\'b4\'fa\'c2\'eb\'c8\'ed\'bc\'fe\'b0\'fc\'ba\'cd\'cb\'fc\'c3\'c7\'b5\'c4\'b1\'e0\'d2\'eb\'d2\'c0\'c0\'b5\'a1\'a3\par
-\par
-\'b2\'e9\'d1\'af\'a3\'ba\par
-search, se \'b2\'e9\'d5\'d2\'b7\'fb\'ba\'cf\'d2\'bb\'b8\'f6\'c4\'a3\'ca\'bd\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
-info, if \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'c8\'ed\'bc\'fe\'b0\'fc\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
-patch-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'b2\'b9\'b6\'a1\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
-pattern-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'c4\'a3\'ca\'bd\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
-product-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'b2\'fa\'c6\'b7\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
-patch-check, pchk \'bc\'ec\'b2\'e9\'b2\'b9\'b6\'a1\'a1\'a3\par
-list-updates, lu \'c1\'d0\'b3\'f6\'bf\'c9\'d3\'c3\'b5\'c4\'b8\'fc\'d0\'c2\'a1\'a3\par
-patches, pch \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'b2\'b9\'b6\'a1\'a1\'a3\par
-packages, pa \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
-patterns, pt \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'c4\'a3\'ca\'bd\'a1\'a3\par
-products, pd \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'b2\'fa\'c6\'b7\'a1\'a3\par
-what-provides, wp \'c1\'d0\'b3\'f6\'c4\'dc\'b9\'bb\'cc\'e1\'b9\'a9\'d6\'b8\'b6\'a8\'b9\'a6\'c4\'dc\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
-\par
-\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a3\'ba\par
-addlock, al \'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\par
-removelock, rl \'c8\'a1\'cf\'fb\'d2\'bb\'b8\'f6\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\par
-locks, ll \'c1\'d0\'b3\'f6\'b5\'b1\'c7\'b0\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\f0\par
-}
-%-
-LV=3
-ND=使用M查看文件大小
-DI=251
-NF=000000000000000000000000
-BC=clWindow
-IX=0
-SS=9
-%:
-{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24    ls -lh\par
-}
-%-
-LV=3
-ND=grep
-DI=469
-NF=000000000000000000000000
-BC=clWindow
-IX=0
-SS=91
-%:
-{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 grep -R "test" ./*\par
-\par
-\par
-find . -name "*.cpp" -exec grep "xxx" --color -RnH \{\} \\;\par
-\par
-grep -i\'ba\'f6\'c2\'d4\'b4\'f3\'d0\'a1\'d0\'b4\par
-}
-%-
-LV=3
 ND=tcpdump
 DI=547
 NF=000000000000000000000000
@@ -5664,14 +5664,27 @@ tcpdump -i any sctp -w result.cap -s 0\par
 }
 %-
 LV=3
+ND=touch
+DI=269
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=66
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d0\'de\'b8\'c4\'ce\'c4\'bc\'fe\'b5\'c4\'ca\'b1\'bc\'e4\'ca\'f4\'d0\'d4\par
+    touch -d "17:26" linux-7-249_fdspm.log2015-09-07.log\par
+}
+%-
+LV=3
 ND=zip
 DI=573
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=6834
+SS=592
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Linux\'cf\'c2\'b5\'c4\'d1\'b9\'cb\'f5\'bd\'e2\'d1\'b9\'cb\'f5\'c3\'fc\'c1\'ee\'cf\'ea\'bd\'e2\'bc\'b0\'ca\'b5\'c0\'fd\par
 \par
@@ -6015,6 +6028,117 @@ tar \'c3\'fc\'c1\'ee\'cf\'ea\'bd\'e2\par
 \par
 \par
 {\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/zdz8207/p/3765604.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/zdz8207/p/3765604.html}}}\f0\fs24\par
+}
+%-
+LV=3
+ND=zypper
+DI=46
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=1021
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 zypper \f1\'ca\'c7 opensuse \'c3\'fc\'c1\'ee\'d0\'d0\'cf\'c2\'b9\'dc\'c0\'ed\'c8\'ed\'bc\'fe\'b5\'c4\'b3\'cc\'d0\'f2\'a3\'ac\'b9\'a6\'c4\'dc\'ca\'ae\'b7\'d6\'c7\'bf\'b4\'f3\'a1\'a3\par
+\par
+\b\'d3\'c3\'b7\'a8\'a3\'ba\par
+\b0 zypper [--\'c8\'ab\'be\'d6\'d1\'a1\'cf\'ee] <\'c3\'fc\'c1\'ee> [--\'c3\'fc\'c1\'ee\'d1\'a1\'cf\'ee] [\'b2\'ce\'ca\'fd]\par
+\par
+\b e.g.\b0\par
+zypper ar "iso:///iso=test.iso&url=file::///install/" GMPC\par
+\par
+\b\'b2\'ce\'ca\'fd\'a3\'ba\b0\par
+\'c8\'ab\'be\'d6\'d1\'a1\'cf\'ee\'a3\'ba\par
+--help, -h \'b0\'ef\'d6\'fa\'a1\'a3.\par
+--version, -V \'ca\'e4\'b3\'f6\'b0\'e6\'b1\'be\'ba\'c5\'a1\'a3\par
+--quiet, -q \'bc\'f5\'c9\'d9\'c6\'d5\'cd\'a8\'ca\'e4\'b3\'f6\'a3\'ac\'bd\'f6\'b4\'f2\'d3\'a1\'b4\'ed\'ce\'f3\'d0\'c5\'cf\'a2\'a1\'a3\par
+--verbose, -v \'d4\'f6\'bc\'d3\'d0\'c5\'cf\'a2\'b5\'c4\'cf\'ea\'cf\'b8\'b3\'cc\'b6\'c8\par
+--no-abbrev, -A \'b1\'ed\'b8\'f1\'d6\'d0\'b2\'bb\'b3\'f6\'cf\'d6\'cb\'f5\'d0\'b4\'ce\'c4\'b1\'be\'a1\'a3\par
+--table-style, -s \'b1\'ed\'b8\'f1\'d1\'f9\'ca\'bd (\'d5\'fb\'ca\'fd)\'a1\'a3\par
+--rug-compatible, -r \'bf\'aa\'c6\'f4\'d3\'eb rug \'b5\'c4\'bc\'e6\'c8\'dd\'a1\'a3\par
+--non-interactive, -n \'b2\'bb\'d1\'af\'ce\'ca\'c8\'ce\'ba\'ce\'ce\'ca\'cc\'e2\'a3\'ac\'d7\'d4\'b6\'af\'ca\'b9\'d3\'c3\'c4\'ac\'c8\'cf\'b5\'c4\'bb\'d8\'b8\'b4\'a1\'a3\par
+--xmlout, -x \'c7\'d0\'bb\'bb\'b5\'bd XML \'ca\'e4\'b3\'f6\'a1\'a3\par
+--reposd-dir, -D <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'b6\'a8\'d2\'e5\'ce\'c4\'bc\'fe\'c4\'bf\'c2\'bc\'a1\'a3\par
+--cache-dir, -C <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'d4\'aa\'ca\'fd\'be\'dd\'bb\'ba\'b4\'e6\'ca\'fd\'be\'dd\'bf\'e2\'c4\'bf\'c2\'bc\'a1\'a3\par
+--raw-cache-dir <dir> \'ca\'b9\'d3\'c3\'c6\'e4\'cb\'fb\'b5\'c4\'d4\'ad\'ca\'bc\'d4\'aa\'ca\'fd\'be\'dd\'bb\'ba\'b4\'e6\'c4\'bf\'c2\'bc\'a1\'a3\par
+\par
+Repository Options:\par
+--no-gpg-checks \'ba\'f6\'c2\'d4 GPG \'bc\'ec\'b2\'e9\'ca\'a7\'b0\'dc\'b2\'a2\'bc\'cc\'d0\'f8\'a1\'a3\par
+--plus-repo, -p <URI> \'ca\'b9\'d3\'c3\'b6\'ee\'cd\'e2\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+--disable-repositories \'b2\'bb\'b4\'d3\'b0\'b2\'d7\'b0\'d4\'b4\'b6\'c1\'c8\'a1\'d4\'aa\'ca\'fd\'be\'dd\'a1\'a3\par
+--no-refresh \'b2\'bb\'cb\'a2\'d0\'c2\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+\par
+\'c4\'bf\'b1\'ea\'d1\'a1\'cf\'ee\'a3\'ba\par
+--root, -R <dir> \'d4\'da\'b2\'bb\'cd\'ac\'b5\'c4\'b8\'f9\'c4\'bf\'c2\'bc\'cf\'c2\'b2\'d9\'d7\'f7\'a1\'a3\par
+--disable-system-sources\'a1\'a2-D \'b2\'bb\'b6\'c1\'c8\'a1\'cf\'b5\'cd\'b3\'b0\'b2\'d7\'b0\'b5\'c4\'bf\'c9\'bd\'e2\'ce\'f6\'cf\'ee\'a1\'a3\par
+\par
+\'c3\'fc\'c1\'ee\'a3\'ba\par
+help, ? \'b4\'f2\'d3\'a1\'b0\'ef\'d6\'fa\'a1\'a3\par
+shell, sh \'d2\'bb\'b4\'ce\'bd\'d3\'ca\'dc\'b6\'e0\'b8\'f6\'c3\'fc\'c1\'ee.\par
+\par
+\'b0\'b2\'d7\'b0\'d4\'b4\'b2\'d9\'d7\'f7\'a3\'ba\par
+repos, lr \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'b6\'a8\'d2\'e5\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+addrepo, ar \'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'d0\'c2\'b5\'c3\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+removerepo, rr \'c9\'be\'b3\'fd\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+renamerepo, nr \'d6\'d8\'c3\'fc\'c3\'fb\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+modifyrepo, mr \'d0\'de\'b8\'c4\'d6\'b8\'b6\'a8\'b5\'c4\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+refresh, ref \'cb\'a2\'d0\'c2\'cb\'f9\'d3\'d0\'b0\'b2\'d7\'b0\'d4\'b4\'a1\'a3\par
+clean \'c7\'e5\'b3\'fd\'b1\'be\'b5\'d8\'bb\'ba\'b4\'e6\'a1\'a3\par
+\par
+\'c8\'ed\'bc\'fe\'b9\'dc\'c0\'ed\'a3\'ba\par
+install, in \'b0\'b2\'d7\'b0\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
+remove, rm \'c9\'be\'b3\'fd\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
+verify, ve \'bc\'ec\'d1\'e9\'c8\'ed\'bc\'fe\'b0\'fc\'b5\'c4\'d2\'c0\'c0\'b5\'b9\'d8\'cf\'b5\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'d4\'a1\'a3\par
+update, up \'bd\'ab\'d2\'d1\'be\'ad\'b0\'b2\'d7\'b0\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'b8\'fc\'d0\'c2\'b5\'bd\'d0\'c2\'b5\'c4\'b0\'e6\'b1\'be\'a1\'a3\par
+dist-upgrade, dup \'d6\'b4\'d0\'d0\'d5\'fb\'b8\'f6\'cf\'b5\'cd\'b3\'b5\'c4\'c9\'fd\'bc\'b6\'a1\'a3\par
+source-install, si \'b0\'b2\'d7\'b0\'d4\'b4\'b4\'fa\'c2\'eb\'c8\'ed\'bc\'fe\'b0\'fc\'ba\'cd\'cb\'fc\'c3\'c7\'b5\'c4\'b1\'e0\'d2\'eb\'d2\'c0\'c0\'b5\'a1\'a3\par
+\par
+\'b2\'e9\'d1\'af\'a3\'ba\par
+search, se \'b2\'e9\'d5\'d2\'b7\'fb\'ba\'cf\'d2\'bb\'b8\'f6\'c4\'a3\'ca\'bd\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
+info, if \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'c8\'ed\'bc\'fe\'b0\'fc\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
+patch-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'b2\'b9\'b6\'a1\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
+pattern-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'c4\'a3\'ca\'bd\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
+product-info \'cf\'d4\'ca\'be\'d6\'b8\'b6\'a8\'b2\'fa\'c6\'b7\'b5\'c4\'cd\'ea\'d5\'fb\'d0\'c5\'cf\'a2\'a1\'a3\par
+patch-check, pchk \'bc\'ec\'b2\'e9\'b2\'b9\'b6\'a1\'a1\'a3\par
+list-updates, lu \'c1\'d0\'b3\'f6\'bf\'c9\'d3\'c3\'b5\'c4\'b8\'fc\'d0\'c2\'a1\'a3\par
+patches, pch \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'b2\'b9\'b6\'a1\'a1\'a3\par
+packages, pa \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
+patterns, pt \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'c4\'a3\'ca\'bd\'a1\'a3\par
+products, pd \'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'bf\'c9\'d3\'c3\'b5\'c4\'b2\'fa\'c6\'b7\'a1\'a3\par
+what-provides, wp \'c1\'d0\'b3\'f6\'c4\'dc\'b9\'bb\'cc\'e1\'b9\'a9\'d6\'b8\'b6\'a8\'b9\'a6\'c4\'dc\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'a1\'a3\par
+\par
+\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a3\'ba\par
+addlock, al \'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\par
+removelock, rl \'c8\'a1\'cf\'fb\'d2\'bb\'b8\'f6\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\par
+locks, ll \'c1\'d0\'b3\'f6\'b5\'b1\'c7\'b0\'b5\'c4\'c8\'ed\'bc\'fe\'b0\'fc\'cb\'f8\'b6\'a8\'a1\'a3\f0\par
+}
+%-
+LV=3
+ND=使用M查看文件大小
+DI=251
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=9
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24    ls -lh\par
+}
+%-
+LV=3
+ND=rpm
+DI=594
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=76
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/08/2203153.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/xiaochaohuashengmi/archive/2011/10/08/2203153.html}}}\f0\fs24\par
+\par
+\par
+\par
 }
 %-
 LV=2
@@ -12554,7 +12678,7 @@ How much\par
 LV=1
 ND=Oracle
 DI=524
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12565,7 +12689,7 @@ IX=0
 LV=2
 ND=基础操作
 DI=525
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=23
@@ -12574,6 +12698,67 @@ SS=23
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 su - oracle\par
 ttisql mpc\par
 \par
+}
+%-
+LV=3
+ND=插入
+DI=590
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=515
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Command> desc mpcsai.ARL3GCell;\par
+\par
+Table MPCSAI.ARL3GCELL:\par
+  Columns:\par
+   *MCC                             SMALLINT NOT NULL\par
+   *MNC                             SMALLINT NOT NULL\par
+   *CID                             INTEGER NOT NULL\par
+\b     LATITUDE                        VARCHAR (20) INLINE NOT NULL\b0\par
+\b     LONGITUDE                       VARCHAR (20) INLINE NOT NULL\b0\par
+   *RNCID                           SMALLINT NOT NULL\par
+   *MNCLENGTH                       TINYINT NOT NULL\par
+    UPDATETIME                      INTEGER NOT N\par
+\par
+INSERT INTO mpcsai.ARL3GCell (mcc, mnc, cid, latitude, longitude, rncid, mnclength, updatetime) VALUES (235,45,65795\b ,'48.5697'\b0 ,'69.5493',12,2,1472526068);\par
+\par
+\'d7\'a2\'d2\'e2\'ca\'c7\'b5\'a5\'d2\'fd\'ba\'c5\'a3\'ac\'b2\'bb\'ca\'c7\'cb\'ab\'d2\'fd\'ba\'c5\par
+}
+%-
+LV=3
+ND=查看表结构
+DI=591
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=56
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\b\f0\fs24 Command> desc mpcsai.ARL3GCell;\b0\par
+\par
+Table MPCSAI.ARL3GCELL:\par
+  Columns:\par
+   *MCC                             SMALLINT NOT NULL\par
+   *MNC                             SMALLINT NOT NULL\par
+   *CID                             INTEGER NOT NULL\par
+    LATITUDE                        VARCHAR (20) INLINE NOT NULL\par
+    LONGITUDE                       VARCHAR (20) INLINE NOT NULL\par
+   *RNCID                           SMALLINT NOT NULL\par
+   *MNCLENGTH                       TINYINT NOT NULL\par
+    UPDATETIME                      INTEGER NOT N\par
+}
+%-
+LV=3
+ND=删除
+DI=593
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
 LV=2
@@ -12797,7 +12982,7 @@ IX=0
 LV=1
 ND=旅游计划
 DI=571
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12811,7 +12996,7 @@ DI=572
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=115
+SS=103
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c4\'bf\'b5\'c4\'b5\'d8\'a3\'ba \'c7\'e0\'ba\'a3\par
@@ -12832,7 +13017,7 @@ SS=115
 LV=1
 ND=个人想法
 DI=584
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12848,12 +13033,12 @@ BC=clWindow
 IX=0
 SS=96
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fswiss\fprq2\fcharset0 Arial;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fswiss\fprq2\fcharset0 Arial;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs22\'ce\'d2\'d0\'b4\'c1\'cb\'d2\'bb\'d0\'a9\lang2057\f1 test code\lang2052\f0\'a3\'ac\lang2057\f1  \lang2052\f0\'c8\'bb\'ba\'f3\'b6\'d4\'d5\'e2\'d0\'a9\lang2057\f1 test code \lang2052\f0\'ce\'d2\'d3\'d0\'d2\'bb\'b8\'f6\'cf\'eb\'b7\'a8\'a1\'a3\lang2057\f2\par
 \f1 1\lang2052\f0\'a1\'a2\'c9\'e8\'bc\'c6\'d2\'bb\'b8\'f6\lang2057\f1  GUI\lang2052\f0\'a3\'ac\lang2057\f1 GUI \lang2052\f0\'c9\'cf\'c4\'dc\'bf\'b4\'b5\'bd\'c8\'e7\'cf\'c2\'d0\'c5\'cf\'a2\'a3\'ba\lang2057\f2\par
 \tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'c3\'fb\'b3\'c6\lang2057\f2\par
 \tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'b5\'c4\'cf\'ea\'cf\'b8\lang2057\f1 code\f2\par
 \tab\tab\lang2052\f0\'ba\'af\'ca\'fd\'b5\'c4\'cf\'ea\'cf\'b8\'d7\'f7\'d3\'c3\'ba\'cd\'bd\'e2\'ca\'cd\lang2057\f2\par
-\pard\lang2052\f3\fs24\par
+\lang2052\f3\fs24\par
 }
 %%
