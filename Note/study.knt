@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=164
+CX=161
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=551
+SN=37
 TW=270
 EN=New node
 TB=clWindow
@@ -1017,7 +1017,7 @@ IX=0
 LV=1
 ND=C/C++
 DI=14
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1028,12 +1028,237 @@ IX=0
 LV=2
 ND=C
 DI=81
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\par
+}
+%-
+LV=3
+ND=◊¢ Õ
+DI=600
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=171
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b7\'bd\'b7\'a81\'a3\'ba\par
+//statment\par
+\par
+\'b7\'bd\'b7\'a82\'a3\'ba\par
+/*\par
+statment\par
+statment\par
+statment\par
+...\par
+*/\par
+\par
+\'b7\'bd\'b7\'a83\'a3\'ba\par
+#if 0\par
+statments\par
+#endif\par
+\par
+\'c8\'e7\'b9\'fb\'ca\'c7\'b4\'f3\'b6\'ce\'b5\'c4\'b4\'fa\'c2\'eb\'d7\'a2\'ca\'cd\'a3\'ac\'c4\'c7\'c3\'b4\'ca\'b9\'d3\'c3\'b7\'bd\'b7\'a83\'ca\'c7\'d7\'ee\'b0\'b2\'c8\'ab\'b5\'c4\'bf\'c9\'d2\'d4\'bf\'bf\'b5\'c4\'a1\'a3\'d2\'f2\'ce\'aa\par
+\'b7\'bd\'b7\'a82\'b2\'bb\'c4\'dc\'c7\'b6\'cc\'d7\'a1\'a3\par
+\'c8\'e7\'cf\'c2\'a3\'ba\par
+\'d5\'e2\'d6\'d6\'d0\'b4\'b7\'a8\'ca\'c7\'b4\'ed\'ce\'f3\'b5\'c4\'a3\'ac\'b5\'b1\'d6\'ae\'c7\'b0\'be\'cd\'d3\'d0\'d5\'e2\'d6\'d6\'d7\'a2\'ca\'cd\'b5\'c4\'ca\'b1\'ba\'f2\'a3\'ac\'c4\'e3\'d5\'e2\'ca\'b1\'ba\'f2\'d4\'d9\'bc\'d3\'a3\'ac\'be\'cd\par
+\'d3\'d0\'bf\'c9\'c4\'dc\'d3\'d0\'ce\'ca\'cc\'e2\'a1\'a3\par
+/*\par
+/*\par
+*/\par
+*/ \par
+}
+%-
+LV=3
+ND= ‰»Î∫Õ ‰≥ˆ
+DI=601
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND= ‰»Î
+DI=602
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=printf
+DI=604
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=sprintf
+DI=605
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=gets
+DI=606
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=161
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cd\'b7\'ce\'c4\'bc\'fe\'a3\'bastdio.h\par
+\par
+\'b9\'a6\'c4\'dc\'a3\'ba \'b6\'c1\'c8\'a1\'d7\'d6\'b7\'fb\'b4\'ae\par
+\par
+\'d4\'ad\'d0\'cd\'a3\'ba  char *gets(char *str);\par
+\par
+\'b9\'a6\'c4\'dc\'a3\'ba\par
+    \'b4\'d3stdio\'c1\'f7\'d6\'d0\'b6\'c1\'c8\'a1\'d7\'d6\'b7\'fb\'b4\'ae\'a3\'ac\'d6\'b1\'d6\'c1\'bd\'d3\'ca\'dc\'b5\'bd\'bb\'bb\'d0\'d0\'b7\'fb\'bb\'f2EOF\'ca\'b1\'cd\'a3\'d6\'b9\'a3\'ac\'b2\'a2\'bd\'ab\'b6\'c1\'c8\'a1\'b5\'c4\'bd\'e1\'b9\'fb\'b4\'e6\'b7\'c5\'d4\'dabuffer\'d6\'b8\'d5\'eb\'cb\'f9\'d6\'b8\'cf\'f2\'b5\'c4\'d7\'d6\'b7\'fb\'ca\'fd\'d7\'e9\'d6\'d0\'a1\'a3\'bb\'bb\'d0\'d0\'b7\'fb\'b2\'bb\'d7\'f7\'ce\'aa\'b6\'c1\'c8\'a1\'b4\'ae\'b5\'c4\'c4\'da\'c8\'dd\'a3\'ac\'b6\'c1\'c8\'a1\'b5\'c4\'bb\'bb\'d0\'d0\'b7\'fb\'b1\'bb\'d7\'aa\'bb\'bb\'ce\'aa\lquote\\0\rquote\'bf\'d5\'d7\'d6\'b7\'fb\'a3\'ac\'b2\'a2\'d3\'c9\'b4\'cb\'c0\'b4\'bd\'e1\'ca\'f8\'d7\'d6\'b7\'fb\'b4\'ae\'a1\'a3\par
+\par
+\'b7\'b5\'bb\'d8\'d6\'b5\'a3\'ba\par
+    \'b6\'c1\'c8\'eb\'b3\'c9\'b9\'a6\'a3\'ac\'b7\'b5\'bb\'d8\'d3\'eb\'b2\'ce\'ca\'fdbuffer\'cf\'e0\'cd\'ac\'b5\'c4\'d6\'b8\'d5\'eb\'a3\'bb\'b6\'c1\'c8\'eb\'b9\'fd\'b3\'cc\'d6\'d0\'d3\'f6\'b5\'bdEOF(End-of-File)\'bb\'f2\'b7\'a2\'c9\'fa\'b4\'ed\'ce\'f3\'a3\'ac\'b7\'b5\'bb\'d8NULL\'d6\'b8\'d5\'eb\'a1\'a3\'cb\'f9\'d2\'d4\'d4\'da\'d3\'f6\'b5\'bd\'b7\'b5\'bb\'d8\'d6\'b5\'ce\'aaNULL\'b5\'c4\'c7\'e9\'bf\'f6\'a3\'ac\'d2\'aa\'d3\'c3ferror\'bb\'f2feof\'ba\'af\'ca\'fd\'bc\'ec\'b2\'e9\'ca\'c7\'b7\'a2\'c9\'fa\'b4\'ed\'ce\'f3\'bb\'b9\'ca\'c7\'d3\'f6\'b5\'bdEOF\'a1\'a3\par
+\par
+\'d7\'a2\'d2\'e2\'a3\'ba\par
+    \'b1\'be\'ba\'af\'ca\'fd\'bf\'c9\'d2\'d4\'ce\'de\'cf\'de\'b6\'c1\'c8\'a1\'a3\'ac\'b2\'bb\'bb\'e1\'c5\'d0\'b6\'cf\'c9\'cf\'cf\'de\'a3\'ac\'cb\'f9\'d2\'d4\'b3\'cc\'d0\'f2\'d4\'b1\'d3\'a6\'b8\'c3\'c8\'b7\'b1\'a3buffer\'b5\'c4\'bf\'d5\'bc\'e4\'d7\'e3\'b9\'bb\'b4\'f3\'a3\'ac\'d2\'d4\'b1\'e3\'d4\'da\'d6\'b4\'d0\'d0\'b6\'c1\'b2\'d9\'d7\'f7\'ca\'b1\'b2\'bb\'b7\'a2\'c9\'fa\'d2\'e7\'b3\'f6\'a1\'a3\'c8\'e7\'b9\'fb\'d2\'e7\'b3\'f6\'a3\'ac\'b6\'e0\'b3\'f6\'c0\'b4\'b5\'c4\'d7\'d6\'b7\'fb\'bd\'ab\'b1\'bb\'d0\'b4\'c8\'eb\'b5\'bd\'b6\'d1\'d5\'bb\'d6\'d0\'a3\'ac\'d5\'e2\'be\'cd\'b8\'b2\'b8\'c7\'c1\'cb\'b6\'d1\'d5\'bb\'d4\'ad\'cf\'c8\'b5\'c4\'c4\'da\'c8\'dd\'a3\'ac\'c6\'c6\'bb\'b5\'d2\'bb\'b8\'f6\'bb\'f2\'b6\'e0\'b8\'f6\'b2\'bb\'cf\'e0\'b9\'d8\'b1\'e4\'c1\'bf\'b5\'c4\'d6\'b5\'a1\'a3\par
+    \'d5\'e2\'b8\'f6\'ca\'c2\'ca\'b5\'b5\'bc\'d6\'c2gets\'ba\'af\'ca\'fd\'d6\'bb\'ca\'ca\'d3\'c3\'d3\'da\'cd\'e6\'be\'df\'b3\'cc\'d0\'f2,\'ce\'aa\'c1\'cb\'b1\'dc\'c3\'e2\'d5\'e2\'d6\'d6\'c7\'e9\'bf\'f6\'a3\'ac\'ce\'d2\'c3\'c7\'bf\'c9\'d2\'d4\'d3\'c3fgets(stdin) (fgets\'ca\'b5\'bc\'ca\'c9\'cf\'bf\'c9\'d2\'d4\'b6\'c1\'c8\'a1\'b1\'ea\'d7\'bc\'ca\'e4\'c8\'eb(\'bc\'b4\'b4\'f3\'b6\'e0\'ca\'fd\'c7\'e9\'bf\'f6\'cf\'c2\'b5\'c4\'bc\'fc\'c5\'cc\'ca\'e4\'c8\'eb),\'be\'df\'cc\'e5\'b2\'ce\'d4\'c4fgets\'b4\'ca\'cc\'f5)\'c0\'b4\'cc\'e6\'bb\'bbgets()\'a1\'a3\'d4\'daV7\'b5\'c4\'ca\'d6\'b2\'e1\'a3\'a81979\'c4\'ea\'a3\'a9\'d6\'d0\'cb\'b5\'c3\'f7\'a3\'ba\'ce\'aa\'c1\'cb\'cf\'f2\'ba\'f3\'bc\'e6\'c8\'dd\'a3\'acgets\'c9\'be\'b3\'fd\'bb\'bb\'d0\'d0\'b7\'fb\'a3\'acgets\'b2\'a2\'b2\'bb\'bd\'ab\'bb\'bb\'d0\'d0\'b7\'fb\'b4\'e6\'c8\'eb\'bb\'ba\'b3\'e5\'c7\'f8\'a1\'a3\par
+    \'d3\'c9\'d3\'da\'bf\'c9\'d2\'d4\'ce\'de\'cf\'de\'b6\'c1\'c8\'a1\'a3\'ac\'cb\'f9\'d2\'d4\'d4\'da2011\'c4\'ea12\'d4\'c2\'a3\'acANSI \'b2\'c9\'c4\'c9\'c1\'cb ISO/IEC 9899:2011 \'b1\'ea\'d7\'bc\'a3\'ac\'b1\'ea\'d7\'bc\'d6\'d0\'c9\'be\'b3\'fd\'c1\'cb gets()\'ba\'af\'ca\'fd\'a3\'ac\'ca\'b9\'d3\'c3\'d2\'bb\'b8\'f6\'d0\'c2\'b5\'c4\'b8\'fc\'b0\'b2\'c8\'ab\'b5\'c4\'ba\'af\'ca\'fdgets_s()\'cc\'e6\'b4\'fa\'a3\'a8\'be\'df\'cc\'e5\'d3\'c3\'b7\'a8\'bf\'b4\'cf\'c2\'c3\'e6\'ca\'be\'c0\'fd\'a3\'a9\'a1\'a3\par
+ \par
+\par
+\'c0\'fd\'d7\'d3\'a3\'ba\par
+#include <stdio.h>    //\'d5\'e2\'b8\'f6\'cd\'b7\'ce\'c4\'bc\'fe\'b0\'fc\'ba\'acgets()\'ba\'af\'ca\'fd,\'d5\'e2\'b8\'f6\'ba\'af\'ca\'fd\'d4\'daISO/IEC 9899 2011(C11)\'b1\'ea\'d7\'bc\'d6\'d0\'b1\'bb\'d2\'c6\'b3\'fd\par
+int main(void)\par
+\{\par
+    char str1[5];  //\'b2\'bb\'d2\'aachar*p\'a3\'ac\'c8\'bb\'ba\'f3gets(p)\'a3\'ac\'d5\'e2\'ca\'c7\'b4\'ed\'ce\'f3\'b5\'c4\'a3\'ac\'d2\'f2\'ce\'aap\'c3\'bb\'d3\'d0\'d6\'b8\'cf\'f2\'d3\'d0\'d0\'a7\'b5\'c4\'c4\'da\'b4\'e6\'a3\'ac\'cb\'fc\'bf\'c9\'c4\'dc\'d6\'b8\'cf\'f2\'c8\'ce\'ba\'ce\'b7\'c7\'b7\'a8\'b5\'d8\'d6\'b7                   //     \'b5\'d8\'b7\'bd\'b5\'c4\'ce\'b4\'d6\'aa\'b4\'f3\'d0\'a1\'b5\'c4\'c4\'da\'b4\'e6\'bf\'e9\'a3\'ac\'d5\'e2\'d1\'f9\'d2\'d4\'c0\'b4\'a3\'ac\'be\'cd\'bf\'c9\'c4\'dc\'d0\'de\'b8\'c4\'c1\'cb\'b2\'bb\'ca\'f4\'d3\'da\'b1\'be\'b3\'cc\'d0\'f2\'b5\'c4\'c4\'da\'b4\'e6\'b5\'c4\'c4\'da\'c8\'dd\par
+    gets(str1);\par
+    printf("%s\\n", str1);\par
+    return 0;\par
+\}\par
+ \par
+#include <stdio.h>//gets_s()\'d3\'c3\'b7\'a8\par
+#define CH 20\par
+int main(void)\par
+\{\par
+    char ch[CH];\par
+    printf("\'c7\'eb\'ca\'e4\'c8\'eb\'c4\'e3\'b5\'c4\'c3\'fb\'d7\'d6\'a3\'ba\\n");\par
+    gets_s(ch,CH);             //\'d5\'e2\'c0\'ef\'b2\'bb\'c4\'dc\'d3\'c3gets_s(ch);\par
+    printf("\'d5\'e2\'ca\'c7\'c4\'e3\'b5\'c4\'c3\'fb\'d7\'d6\'a3\'ba%s\\n", ch);\par
+    return 0;\par
+\}\par
+\par
+\par
+{\field{\*\fldinst{HYPERLINK "http://baike.baidu.com/link?url=qB1_0WKFykXQqM7kykentr58wv4pMIgC9RIZrs6KN6cztzr2PWz-UaXNWh-mfieKBTD9veJCtfwfaADhR8HYBq"}}{\fldrslt{\ul\cf1 http://baike.baidu.com/link?url=qB1_0WKFykXQqM7kykentr58wv4pMIgC9RIZrs6KN6cztzr2PWz-UaXNWh-mfieKBTD9veJCtfwfaADhR8HYBq}}}\f0\fs24\par
+}
+%-
+LV=5
+ND=fgets
+DI=607
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=40
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://baike.baidu.com/view/656654.htm"}}{\fldrslt{\ul\cf1 http://baike.baidu.com/view/656654.htm}}}\f0\fs24\par
+\par
+\par
+}
+%-
+LV=5
+ND=snprintf
+DI=609
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=gets_s
+DI=610
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=getchar
+DI=612
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND= ‰≥ˆ
+DI=603
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=scanf
+DI=608
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=puts
+DI=611
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=5
+ND=putchar
+DI=613
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
 LV=2
@@ -2678,7 +2903,7 @@ SS=52
 LV=1
 ND=Git
 DI=91
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12644,7 +12869,7 @@ SS=639
 LV=1
 ND=◊¢≤·¬Î
 DI=126
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
