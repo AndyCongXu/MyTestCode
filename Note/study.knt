@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=146
+CX=164
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=76
+SN=551
 TW=270
 EN=New node
 TB=clWindow
@@ -1017,7 +1017,7 @@ IX=0
 LV=1
 ND=C/C++
 DI=14
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1039,7 +1039,7 @@ IX=0
 LV=2
 ND=C++
 DI=82
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -1404,7 +1404,7 @@ IX=0
 LV=2
 ND=Common
 DI=258
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=82
@@ -2135,7 +2135,7 @@ SS=444
 LV=2
 ND=标准输出重定向到文件
 DI=435
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=550
@@ -2219,7 +2219,7 @@ int main(int argc, char **argv)\par
 LV=2
 ND=C++11
 DI=561
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2249,7 +2249,7 @@ auto it = vecString.begin();\par
 LV=2
 ND=基本知识
 DI=586
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2678,7 +2678,7 @@ SS=52
 LV=1
 ND=Git
 DI=91
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2689,7 +2689,7 @@ IX=0
 LV=2
 ND=FAQ
 DI=292
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -2766,7 +2766,7 @@ DI=92
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=650
+SS=577
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil Tahoma;}{\f2\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git branch \i branchName\i0\tab\tab\tab ------>\'b4\'b4\'bd\'a8branch\tab\i\par
@@ -2832,7 +2832,7 @@ ok\par
 LV=2
 ND=基础
 DI=442
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3048,7 +3048,7 @@ Git \'d4\'da\'b9\'dc\'c0\'ed\'cf\'ee\'c4\'bf\'ca\'b1\'a3\'ac\'ce\'c4\'bc\'fe\'c1
 LV=2
 ND=基本知识
 DI=447
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3059,7 +3059,7 @@ IX=0
 LV=3
 ND=标签
 DI=486
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=57
@@ -3215,7 +3215,7 @@ DI=497
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=88
+SS=42
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d4\'da\'ba\'dc\'be\'c3\'d6\'ae\'c7\'b0\'cc\'e1\'bd\'bb\'b8\'c4\'b6\'af\'a3\'ac\'b5\'ab\'ca\'c7\'c3\'bb\'d3\'d0\'b4\'f2\'c9\'cftag\'a3\'ac\'ba\'f3\'c3\'e6\'bf\'c9\'d2\'d4\'d3\'c3\'cf\'c2\'c3\'e6\'d5\'e2\'b8\'f6\'c3\'fc\'c1\'ee\'c0\'b4\'b2\'b9\'c9\'cftag\par
@@ -3412,7 +3412,7 @@ git remote rm [remote_name]\par
 LV=3
 ND=对文件的操作
 DI=454
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 SS=20
@@ -3800,7 +3800,7 @@ DI=472
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=3615
+SS=3830
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset128 UMingCN;}{\f2\fmodern Lucida Console;}}
 {\colortbl ;\red191\green191\blue0;\red0\green191\blue191;\red0\green191\blue0;\red191\green0\blue0;\red191\green0\blue191;}
@@ -4258,7 +4258,7 @@ $ git config --global alias.visual "!gitk"\par
 LV=3
 ND=分支
 DI=502
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5108,7 +5108,7 @@ SS=36
 LV=2
 ND=常用命令
 DI=58
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12644,7 +12644,7 @@ SS=639
 LV=1
 ND=注册码
 DI=126
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12674,7 +12674,7 @@ BC=clWindow
 IX=0
 SS=38
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tian@sina.com\par
 YQWS\par
 \par
@@ -12739,7 +12739,7 @@ How much\par
 LV=1
 ND=Oracle
 DI=524
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -12750,7 +12750,7 @@ IX=0
 LV=2
 ND=基础操作
 DI=525
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=23
@@ -13043,7 +13043,7 @@ IX=0
 LV=1
 ND=旅游计划
 DI=571
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
