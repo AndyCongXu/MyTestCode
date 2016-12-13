@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=189
+CX=815
 CY=0
 BG=clWindow
 CH=0
@@ -22,8 +22,8 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=186
-TW=375
+SN=344
+TW=304
 EN=New node
 TB=clWindow
 TH=0
@@ -2989,7 +2989,7 @@ SS=269
 LV=1
 ND=Git
 DI=91
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5028,7 +5028,7 @@ DI=467
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=189
+SS=187
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24     Git \'b9\'dc\'c0\'ed\'b9\'a4\'be\'df\'b9\'dc\'c0\'ed\'b0\'e6\'b1\'be\'d3\'d0\'d7\'d4\'bc\'ba\'b5\'c4\'d2\'bb\'cc\'d7\'b4\'a6\'c0\'ed\'b7\'bd\'ca\'bd\'a3\'ac\'cb\'f9\'d2\'d4\'b2\'bb\'d2\'aa\'ba\'cd\par
@@ -5388,7 +5388,7 @@ SS=28
 LV=1
 ND=Linux
 DI=44
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9716,7 +9716,7 @@ SS=96
 LV=1
 ND=TPC/IP协议
 DI=15
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -9727,12 +9727,119 @@ IX=0
 LV=2
 ND=卷1
 DI=72
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\par
+}
+%-
+LV=3
+ND=2016年12月13日 22:16:04
+DI=637
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+SS=306
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 TCP/IP \'d1\'a7\'cf\'b0\par
+    \'d2\'bb\'b0\'e3\'b7\'d6\'ce\'aa4\'b2\'e3\'a1\'a3\'b4\'d3\'b8\'df\'b5\'bd\'b5\'d7\'b7\'d6\'b1\'f0\'ce\'aa\'a3\'ba\par
+        \'d3\'a6\'d3\'c3\'b2\'e3 ------> FTP\'a1\'a2Telent\'a1\'a2SCP\'b5\'c8\'b3\'a3\'d3\'c3\'b5\'c4\'b9\'a4\'be\'df\par
+        \'b4\'ab\'ca\'e4\'b2\'e3 ------> TCP/UDP \'d0\'ad\'d2\'e9\par
+        \'cd\'f8\'c2\'e7\'b2\'e3 ------> IP\'a1\'a2ICMP \'ba\'cd IGMP \'d0\'ad\'d2\'e9\par
+        \'c1\'b4\'c2\'b7\'b2\'e3 ------> \'c9\'e8\'b1\'b8\'c7\'fd\'b6\'af\'b3\'cc\'d0\'f2\'bc\'b0\'bd\'d3\'bf\'da\'bf\'a8\'a1\'a3\par
+        Note\'a3\'ba \'cf\'ea\'cf\'b8\'b5\'c4\'bd\'e2\'ca\'cd\'c7\'eb\'b2\'ce\'bf\'bc\'d7\'d3\'d5\'c2\'bd\'da\'a1\'a3\par
+\par
+    \'d2\'bb\'cc\'a8\'b5\'a5\'b6\'c0\'b5\'c4\'bc\'c6\'cb\'e3\'bb\'fa\'ca\'c7\'c3\'bb\'d3\'d0\'d2\'e2\'d2\'e5\'b5\'c4\'a1\'a3\'d3\'da\'ca\'c7\'c8\'cb\'c3\'c7\'bf\'aa\'ca\'bc\'b9\'b9\'d4\'ec\'d7\'e9\'cd\'f8\'a1\'a3\'b5\'ab\'ca\'c7\'d3\'c9\'d3\'da\'c3\'bf\'b8\'f6\'d0\'a1\'d7\'e9\'cd\'f8\'bf\'c9\'c4\'dc\'ca\'b9\'d3\'c3\'b2\'bb\'cd\'ac\'b5\'c4\'cd\'f8\'c2\'e7\'b9\'e6\'b7\'b6\'a1\'a3\'b1\'c8\'c8\'e7\'d7\'e9\'cd\'f8A\'ca\'b9\'d3\'c3\'b5\'c4\'ca\'c7\'d2\'d4\'cc\'ab\'cd\'f8\'a3\'ac\'d7\'e9\'cd\'f8B\'ca\'b9\'d3\'c3\'b5\'c4\'ca\'c7\'c1\'ee\'c5\'c6\'bb\'b7\'cd\'f8\'a1\'a3\'d2\'aa\'b0\'d1\'d5\'e2\'c1\'bd\'b8\'f6\'d7\'e9\'cd\'f8\'d7\'e9\'ba\'cf\'b3\'c9\'d2\'bb\'b8\'f6\'b4\'f3\'cd\'f8\'c2\'e7\'a3\'ac\'c4\'c7\'c3\'b4\'d0\'e8\'d2\'aa\'ca\'b9\'d3\'c3\'c2\'b7\'d3\'c9\'c6\'f7\'c0\'b4\'c1\'ac\'bd\'d3\'a1\'a3 \par
+}
+%-
+LV=4
+ND=1. 应用层
+DI=638
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=13
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d3\'a6\'d3\'c3\'b2\'e3\'b8\'ba\'d4\'f0\'b4\'a6\'c0\'ed\'cc\'d8\'b6\'a8\'b5\'c4\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'cf\'b8\'bd\'da\'a1\'a3\'c8\'e7\'a3\'actelnet\'a3\'ac FTP \'b5\'c8\'a1\'a3\par
+}
+%-
+LV=4
+ND=2. 传输层
+DI=639
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=485
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d4\'cb\'ca\'e4\'b2\'e3\'a3\'ba\'d6\'f7\'d2\'aa\'ce\'aa\'c1\'bd\'cc\'a8\'d6\'f7\'bb\'fa\'c9\'cf\'b5\'c4\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'cc\'e1\'b9\'a9\'b6\'cb\'b5\'bd\'b6\'cb\'b5\'c4\'cd\'a8\'d0\'c5\'a1\'a3 \'d4\'daTCP/IP\'d0\'ad\'d2\'e9\'d7\'e5\'d6\'d0\'a3\'ac\'d3\'d0\'c1\'bd\'b8\'f6\'bb\'a5\'b2\'bb\'cf\'e0\'cd\'ac\'b5\'c4\'b4\'ab\'ca\'e4\'d0\'ad\'d2\'e9\'a3\'ba\par
+            TCP\'a3\'a8\'b4\'ab\'ca\'e4\'bf\'d8\'d6\'c6\'d0\'ad\'d2\'e9\'a3\'a9\par
+                TCP\'ce\'aa\'c1\'bd\'cc\'a8\'d6\'f7\'bb\'fa\'cc\'e1\'b9\'a9\'b8\'df\'bf\'c9\'bf\'bf\'d0\'d4\'b5\'c4\'ca\'fd\'be\'dd\'cd\'a8\'d0\'c5\'a1\'a3\'cb\'fc\'cb\'f9\'d7\'f6\'b5\'c4\'b9\'a4\'d7\'f7\'b0\'fc\'c0\'a8\'b0\'d1\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'b5\'c4\'ca\'fd\'be\'dd\'b7\'d6\'b3\'c9\'ba\'cf\'ca\'ca\'b5\'c4\'d0\'a1\'bf\'e9\'a3\'ac\'c8\'bb\'ba\'f3\'d7\'aa\'bd\'bb\'cd\'f8\'c2\'e7\'b2\'e3\'a1\'a3\'ce\'aa\'c1\'cb\'b1\'a3\'d6\'a4\'b2\'bb\'b7\'a2\'c9\'fa\'b6\'aa\'b0\'fc\'a3\'ac\'be\'cd\'b8\'f8\'c3\'bf\'d2\'bb\'b8\'f6\'b0\'fc\'d2\'bb\'b8\'f6\'d0\'f2\'ba\'c5\'a3\'ac\'cd\'ac\'ca\'b1\'d0\'f2\'ba\'c5\'d2\'b2\'b1\'a3\'d6\'a4\'c1\'cb\'b4\'ab\'cb\'cd\'b5\'bd\'bd\'d3\'ca\'d5\'b6\'cb\'ca\'b5\'cc\'e5\'b5\'c4\'b0\'fc\'b5\'c4\'b0\'b4\'d0\'f2\'bd\'d3\'ca\'d5\'a1\'a3\'c8\'bb\'ba\'f3\'bd\'d3\'ca\'d5\'b6\'cb\'ca\'b5\'cc\'e5\'b6\'d4\'d2\'d1\'b3\'c9\'b9\'a6\'ca\'d5\'b5\'bd\'b5\'c4\'b0\'fc\'b7\'a2\'bb\'d8\'d2\'bb\'b8\'f6\'cf\'e0\'d3\'a6\'b5\'c4\'c8\'b7\'c8\'cf\'a3\'a8ACK\'a3\'a9\'a3\'bb\'c8\'e7\'b9\'fb\'b7\'a2\'cb\'cd\'b6\'cb\'ca\'b5\'cc\'e5\'d4\'da\'ba\'cf\'c0\'ed\'b5\'c4\'cd\'f9\'b7\'b5\'ca\'b1\'d1\'d3\'a3\'a8RTT\'a3\'a9\'c4\'da\'ce\'b4\'ca\'d5\'b5\'bd\'c8\'b7\'c8\'cf\'a3\'ac\'c4\'c7\'c3\'b4\'b6\'d4\'d3\'a6\'b5\'c4\'ca\'fd\'be\'dd\'b0\'fc\'be\'cd\'b1\'bb\'bc\'d9\'c9\'e8\'ce\'aa\'d2\'d1\'b6\'aa\'ca\'a7\'bd\'ab\'bb\'e1\'b1\'bb\'bd\'f8\'d0\'d0\'d6\'d8\'b4\'ab\'a1\'a3TCP\'d3\'c3\'d2\'bb\'b8\'f6\'d0\'a3\'d1\'e9\'ba\'cd\'ba\'af\'ca\'fd\'c0\'b4\'bc\'ec\'d1\'e9\'ca\'fd\'be\'dd\'ca\'c7\'b7\'f1\'d3\'d0\'b4\'ed\'ce\'f3\'a3\'bb\'d4\'da\'b7\'a2\'cb\'cd\'ba\'cd\'bd\'d3\'ca\'d5\'ca\'b1\'b6\'bc\'d2\'aa\'bc\'c6\'cb\'e3\'d0\'a3\'d1\'e9\'ba\'cd\'a1\'a3\par
+            UDP\'a3\'a8\'d3\'c3\'bb\'a7\'ca\'fd\'be\'dd\'d0\'ad\'d2\'e9\'a3\'a9 \par
+                UDP \'cc\'e1\'b9\'a9\'d2\'bb\'d6\'d6\'b7\'c7\'b3\'a3\'bc\'f2\'b5\'a5\'b5\'c4\'b7\'fe\'ce\'f1\'a1\'a3\'cb\'fc\'d6\'bb\'ca\'c7\'b0\'d1\'b7\'d6\'d7\'e9\'ca\'fd\'be\'dd\'b4\'d3\'d2\'bb\'cc\'a8\'d6\'f7\'bb\'fa\'b7\'a2\'cb\'cd\'b8\'f8\'c1\'ed\'d2\'bb\'cc\'a8\'d6\'f7\'bb\'fa\'a3\'ac\'b5\'ab\'b2\'a2\'b2\'bb\'b1\'a3\'d6\'a4\'b8\'c3\'ca\'fd\'be\'dd\'b1\'a8\'c4\'dc\'b5\'bd\'b4\'ef\'c1\'ed\'d2\'bb\'b6\'cb\'a1\'a3\'c8\'ce\'ba\'ce\'b1\'d8\'d0\'e8\'b5\'c4\'bf\'c9\'bf\'bf\'d0\'d4\'b1\'d8\'d0\'eb\'d3\'c9\'d3\'a6\'d3\'c3\'b2\'e3\'c0\'b4\'cc\'e1\'b9\'a9\'a1\'a3\par
+\par
+\'d7\'dc\'bd\'e1\'c0\'b4\'cb\'b5\'a3\'ac\'d7\'ee\'b4\'f3\'ba\'cd\'d7\'ee\'c3\'f7\'cf\'d4\'b5\'c4\'b2\'ee\'b1\'f0\'d4\'da\'d3\'daTCP\'ca\'c7\'bf\'c9\'bf\'bf\'b5\'c4\'a3\'acUDP\'ca\'c7\'b2\'bb\'bf\'c9\'bf\'bf\'b5\'c4\'a1\'a3\'cb\'f9\'d2\'d4TCP\'bb\'e1\'d3\'d0\'c8\'fd\'b4\'ce\'ce\'d5\'ca\'d6\'b2\'c5\'c4\'dc\'bd\'a8\'c1\'a2\'d2\'bb\'b8\'f6\'c1\'b4\'bd\'d3\'a1\'a3\'b6\'f8UDP\'d4\'f2\'c3\'bb\'d3\'d0\'a1\'a3\par
+}
+%-
+LV=4
+ND=3. 网络层
+DI=640
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=148
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24  \'cd\'f8\'c2\'e7\'b2\'e3\'a3\'ba\'b4\'a6\'c0\'ed\'b7\'d6\'d7\'e9\'d4\'da\'cd\'f8\'c2\'e7\'d6\'d0\'b5\'c4\'bb\'ee\'b6\'af\'a1\'a3\'c8\'e7\'a3\'ba\'b7\'d6\'d7\'e9\'b5\'c4\'d1\'a1\'c2\'b7\'a1\'a3\'d4\'daTCP/IP\'d0\'ad\'d2\'e9\'d7\'e5\'d6\'d0\'a3\'ac\'cd\'f8\'c2\'e7\'b2\'e3\'d2\'bb\'b0\'e3\'b0\'fc\'ba\'ac\'cf\'c2\'c3\'e6\'bc\'b8\'b8\'f6\'d0\'ad\'d2\'e9\'a3\'ba\par
+            IP\'d0\'ad\'d2\'e9\'a3\'a8\'b9\'fa\'bc\'ca\'d0\'ad\'d2\'e9\'a3\'a9\par
+            ICMP \'d0\'ad\'d2\'e9\'a3\'a8Internet\'bb\'a5\'c1\'aa\'cd\'f8\'bf\'d8\'d6\'c6\'b1\'a8\'ce\'c4\'d0\'ad\'d2\'e9\'a3\'a9\par
+            IGMP \'d0\'ad\'d2\'e9\'a3\'a8Internet\'d7\'e9\'b9\'dc\'c0\'ed\'d0\'ad\'d2\'e9\'a3\'a9\par
+}
+%-
+LV=4
+ND=4. 链路层
+DI=641
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=815
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24         \'c1\'b4\'c2\'b7\'b2\'e3\'a3\'ba\'d2\'b2\'bf\'c9\'d2\'d4\'b3\'c6\'d7\'f7\'ca\'fd\'be\'dd\'c1\'b4\'c2\'b7\'b2\'e3\'bb\'f2\'cd\'f8\'c2\'e7\'bd\'d3\'bf\'da\'b2\'e3\'a1\'a3\'cd\'a8\'b3\'a3\'b0\'fc\'c0\'a8\'b2\'d9\'d7\'f7\'cf\'b5\'cd\'b3\'d6\'d0\'b5\'c4\'c9\'e8\'b1\'b8\'c7\'fd\'b6\'af\'ba\'cd\'bc\'c6\'cb\'e3\'bb\'fa\'b6\'d4\'d3\'a6\'b5\'c4\'cd\'f8\'c2\'e7\'bd\'d3\'bf\'da\'bf\'a8\'a1\'a3\'cb\'fc\'c3\'c7\'d2\'bb\'c6\'f0\'b4\'a6\'c0\'ed\'d3\'eb\'b5\'e7\'c0\'c2\'a3\'a8\'bb\'f2\'c6\'e4\'cb\'fb\'c8\'ce\'ba\'ce\'b4\'ab\'ca\'e4\'c3\'bd\'bd\'e9\'a3\'a9\'b5\'c4\'ce\'ef\'c0\'ed\'bd\'d3\'bf\'da\'cf\'b8\'bd\'da\'a1\'a3\par
+\par
+    ARP\'a3\'a8\'b5\'d8\'d6\'b7\'bd\'e2\'ce\'f6\'d0\'ad\'d2\'e9\'a3\'a9\par
+    RARP\'a3\'a8\'c4\'e6\'b5\'d8\'d6\'b7\'bd\'e2\'ce\'f6\'d0\'ad\'d2\'e9\'a3\'a9\par
+    \'d5\'e2\'c1\'bd\'d6\'d6\'d0\'ad\'d2\'e9\'ca\'c7\'c4\'b3\'d0\'a9\'cd\'f8\'c2\'e7\'bd\'d3\'bf\'da\'a3\'a8\'c8\'e7\'d2\'d4\'cc\'ab\'cd\'f8\'ba\'cd\'c1\'ee\'c5\'c6\'bb\'b7\'cd\'f8\'a3\'a9\'ca\'b9\'d3\'c3\'b5\'c4\'cc\'d8\'ca\'e2\'d0\'ad\'d2\'e9\'a3\'ac\'d3\'c3\'c0\'b4\'d7\'aa\'bb\'bbIP\'b2\'e3\'ba\'cd\'cd\'f8\'c2\'e7\'bd\'d3\'bf\'da\'b2\'e3\'ca\'b9\'d3\'c3\'b5\'c4\'b5\'d8\'d6\'b7\'a1\'a3\par
+\par
+\par
+    \'bb\'a5\'c1\'aa\'cd\'f8\'c9\'cf\'b5\'c4\'c3\'bf\'b8\'f6\'bd\'d3\'bf\'da\'b1\'d8\'d0\'eb\'d3\'d0\'d2\'bb\'b8\'f6\'ce\'a8\'d2\'bb\'b5\'c4Internet\'b5\'d8\'d6\'b7\'a3\'a8IP\'b5\'d8\'d6\'b7\'a3\'a9\'a1\'a3\par
+    \'c8\'e7\'b9\'fb\'d2\'bb\'cc\'a8\'bb\'fa\'c6\'f7\'d3\'b5\'d3\'d0\'b6\'e0\'b8\'f6\'cd\'f8\'bf\'da\'a3\'ac\'c4\'c7\'c3\'b4\'be\'cd\'bb\'e1\'d3\'d0\'b6\'e0\'b8\'f6IP\'b5\'d8\'d6\'b7\'a1\'a3\par
+\par
+    IP\'b5\'d8\'d6\'b7\'be\'df\'d3\'d05\'c0\'e0\'b2\'bb\'cd\'ac\'b5\'c4\'bd\'e1\'b9\'b9\'a3\'ac\'b7\'d6\'b1\'f0\'ce\'aa\'a3\'ba\par
+        A\'c0\'e0 ------> 0 7\'ce\'bb\'cd\'f8\'c2\'e7\'ba\'c5 24\'ce\'bb\'d6\'f7\'bb\'fa\'ba\'c5\par
+            \'d3\'c9\'d3\'da\'d3\'d07\'ce\'aa\'cd\'f8\'c2\'e7\'ba\'c5\'ba\'cd24\'ce\'bb\'d6\'f7\'bb\'fa\'ba\'c5\'a3\'ac\'cb\'f9\'d2\'d4A\'c0\'e0\'cd\'f8\'c2\'e7\'b5\'c4\'c8\'a1\'d6\'b5\'b7\'b6\'ce\'a7\'ca\'c7\'b4\'d3 0.0.0.0 ~ 127.255.255.255\par
+            127 = 2 \'b5\'c4 7 \'b4\'ce\'b7\'bd - 1 (\'bc\'f51 \'ca\'c7\'d2\'f2\'ce\'aa\'bc\'c6\'cb\'e3\'bb\'fa\'ca\'c70\'bf\'aa\'ca\'bc\'bc\'c6\'ca\'fd\'b5\'c4)\par
+            24 = 8 * 3\par
+            255 = 2 \'b5\'c4 8\'b4\'ce\'b7\'bd - 1\par
+\par
+        B\'c0\'e0 ------> 10 14\'ce\'bb\'cd\'f8\'c2\'e7\'ba\'c5 16\'d6\'f7\'bb\'fa\'ba\'c5\par
+           \'c8\'a1\'d6\'b5\'b7\'b6\'ce\'a7\'ca\'c7 128.0.0.0 ~ 191.255.255.255\par
+           \'d5\'e2\'b8\'f6\'b5\'d8\'b7\'bd\'cd\'c6\'c0\'ed\'be\'cd\'b2\'bb\'d6\'aa\'b5\'c0\'d4\'f5\'c3\'b4\'cd\'c6\'b3\'f6\'c0\'b4\'b5\'c4\'c1\'cb\'a1\'a3\'b2\'bb\'b9\'fd\'ce\'aa\'c1\'cb\'b7\'bd\'b1\'e3\'bc\'c7\'d2\'e4\'bf\'c9\'d2\'d4\'bf\'b4\'b5\'bd\'a3\'ac191 - 128 = 63\'a3\'ac \'d5\'fd\'ba\'c3\'ca\'c7 128 / 2 - 1.  \'cb\'f9\'d2\'d4\'d4\'da\'bc\'c7\'d2\'e4\'b5\'c4\'ca\'b1\'ba\'f2\'bf\'c9\'d2\'d4\'d3\'c3\'d5\'e2\'d6\'d6\'b7\'bd\'b7\'a8\'cb\'b3\'cd\'c6\'a1\'a3\'cf\'c2\'c3\'e6\'b5\'c4\'c8\'a1\'d6\'b5\'d2\'b2\'ca\'c7\'b7\'fb\'ba\'cf\'d5\'e2\'b8\'f6\'b9\'e6\'c2\'c9\'b5\'c4\'a1\'a3\par
+\par
+        C\'c0\'e0 ------> 110 21\'ce\'bb\'cd\'f8\'c2\'e7\'ba\'c5 8\'ce\'bb\'d6\'f7\'bb\'fa\'ba\'c5\par
+            \'b0\'b4\'d5\'d5\'c9\'cf\'c3\'e6\'cb\'b5\'b5\'c4\'b9\'e6\'c2\'c9\'a3\'ac\'c4\'c7\'c3\'b4\'d3\'a6\'b8\'c3\'ca\'c7 64 / 2 - 1 = 31\'a3\'ac \'cb\'f9\'d2\'d4\'c8\'a1\'d6\'b5\'b7\'b6\'ce\'a7\'ca\'c7\'a3\'ba192.0.0.0 ~ 223.255.255.255\par
+\par
+        D\'c0\'e0 ------> 1110 28\'ce\'bb\'b6\'e0\'b2\'a5\'d7\'e9\'ba\'c5\par
+            \'c0\'e0\'cd\'c6 32 / 2 - 1 = 15\par
+            224.0.0.0 ~ 239.255.255.255\par
+\par
+        E\'c0\'e0 ------> 11110 27\'ce\'bb\'c1\'f4\'b4\'fd\'ba\'f3\'d3\'c3\par
+            16 / 2 - 1 = 7\par
+            240.0.0.0 ~ 247.255.255.255\par
 }
 %-
 LV=2
