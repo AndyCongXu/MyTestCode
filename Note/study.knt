@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=189
+CX=62
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=186
+SN=257
 TW=375
 EN=New node
 TB=clWindow
@@ -1134,7 +1134,7 @@ DI=606
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=161
+SS=706
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -1343,7 +1343,7 @@ DI=302
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=335
+SS=362
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'ca\'cc\'e2\'cf\'d6\'cf\'f3\'a3\'ba\'c1\'bd\'b8\'f6Module,\'d2\'bb\'b8\'f6Module\'b5\'f7\'d3\'c3\'c1\'ed\'d2\'bb\'b8\'f6Module\'b5\'c4\'b4\'bf\'d0\'e9\'bb\'f9\'c0\'e0\'d6\'d0\'b5\'c4\'d2\'bb\'b8\'f6\'d0\'c2\'bd\'d3\'bf\'da\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b1\'e0\'d2\'eb\'ca\'b1\'b1\'a8\'d5\'d2\'b2\'bb\'b5\'bd\'b4\'ed\'ce\'f3\'a1\'a3\par
@@ -1372,7 +1372,7 @@ DI=569
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1138
+SS=767
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #!/usr/bin/env sh\par
@@ -1439,7 +1439,7 @@ DI=570
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=735
+SS=1235
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
@@ -1701,7 +1701,7 @@ DI=257
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=2537
+SS=6561
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d2\'d4\'cf\'c2\'d6\'f7\'d2\'aa\'c0\'b4\'d7\'d42.6.32\'b5\'c4\'c4\'da\'ba\'cb\'b4\'fa\'c2\'eb\'d6\'d0\'b5\'c4/usr/include/asm-generic/errno.h\'bc\'b0errno-base.h\'a3\'ac\'ca\'e4\'b3\'f6\'b4\'ed\'ce\'f3\'d4\'ad\'d2\'f2\'b6\'a8\'d2\'e5\'b9\'e9\'c4\'c9\'d5\'fb\'c0\'ed\'c8\'e7\'cf\'c2\'a3\'ba\par
@@ -2224,7 +2224,7 @@ DI=374
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=6104
+SS=1814
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b2\'bb\'b0\'fc\'ba\'ac\'cd\'e2\'b2\'bf\'b5\'c4\'ce\'c4\'bc\'fe\par
@@ -2989,7 +2989,7 @@ SS=269
 LV=1
 ND=Git
 DI=91
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3000,7 +3000,7 @@ IX=0
 LV=2
 ND=FAQ
 DI=292
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3074,7 +3074,7 @@ IX=0
 LV=2
 ND=基本知识
 DI=447
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -3185,6 +3185,7 @@ DI=492
 NF=000000000000000000000000
 BC=clWindow
 IX=0
+SS=44
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git tag -a [tag_name] -m 'short_info'\par
@@ -3286,7 +3287,7 @@ DI=497
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=42
+SS=255
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d4\'da\'ba\'dc\'be\'c3\'d6\'ae\'c7\'b0\'cc\'e1\'bd\'bb\'b8\'c4\'b6\'af\'a3\'ac\'b5\'ab\'ca\'c7\'c3\'bb\'d3\'d0\'b4\'f2\'c9\'cftag\'a3\'ac\'ba\'f3\'c3\'e6\'bf\'c9\'d2\'d4\'d3\'c3\'cf\'c2\'c3\'e6\'d5\'e2\'b8\'f6\'c3\'fc\'c1\'ee\'c0\'b4\'b2\'b9\'c9\'cftag\par
@@ -3297,6 +3298,10 @@ SS=42
 \par
 \par
 \par
+Create Tag:\par
+Check current branch & commit-id are correct.\par
+$ git tag -a tagname -m "message\'a1\'ad" commit-id\par
+$ git push origin tagname\par
 }
 %-
 LV=4
@@ -3808,7 +3813,7 @@ DI=564
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=317
+SS=23464
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f2\froman\fprq2\fcharset0 Times New Roman;}}
 {\colortbl ;\red0\green255\blue0;\red255\green0\blue0;\red0\green176\blue80;\red0\green0\blue255;}
@@ -4924,7 +4929,7 @@ SS=269
 LV=2
 ND=基础
 DI=442
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -4935,7 +4940,7 @@ IX=0
 LV=3
 ND=Git 版本管理 和 其他版本管理工具的不同
 DI=443
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=169
@@ -4951,7 +4956,7 @@ SS=169
 LV=4
 ND=版本控制系统的演化
 DI=463
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5044,7 +5049,7 @@ Git \'ba\'cd \'c6\'e4\'cb\'fb\'b0\'e6\'b1\'be\'b9\'dc\'c0\'ed\'b9\'a4\'be\'df\'b
 LV=3
 ND=环境部署
 DI=93
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -5562,7 +5567,7 @@ DI=441
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=387
+SS=321
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 1) \'cd\'b3\'bc\'c6\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'bc\'d0\'cf\'c2\'ce\'c4\'bc\'fe\'b5\'c4\'b8\'f6\'ca\'fd\par
@@ -5734,7 +5739,7 @@ DI=352
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=217
+SS=163
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d7\'ee\'b3\'a3\'d3\'c3\'b5\'c4\'b2\'e9\'bf\'b4shell\'b5\'c4\'c3\'fc\'c1\'ee\'a3\'ac\'b5\'ab\'b2\'bb\'c4\'dc\'ca\'b5\'ca\'b1\'b7\'b4\'d3\'b3\'b5\'b1\'c7\'b0shell\par
@@ -5907,7 +5912,7 @@ SS=36
 LV=2
 ND=常用命令
 DI=58
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
 %:
@@ -6047,11 +6052,16 @@ DI=321
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=22
+SS=37
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b2\'e9\'bf\'b4\'b5\'b1\'c7\'b0\'c4\'bf\'c2\'bc\'cf\'c2\'cb\'f9\'d3\'d0\'b5\'c4\'ce\'c4\'bc\'fe\'b5\'c4\'d7\'dc\'b4\'f3\'d0\'a1\par
 du -h\par
+\par
+\'b2\'e9\'bf\'b4\'d6\'b8\'b6\'a8\'c4\'bf\'c2\'bc\'cf\'c2\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'a8\'bc\'d0\'a3\'a9\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ba\par
+du -sh /*|sort -nr\par
+\par
+du -sh /opt/*|sort -nr \par
 }
 %-
 LV=3
@@ -6073,7 +6083,7 @@ DI=247
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=74
+SS=19
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'bb\'f9\'b4\'a1\'d3\'c3\'b7\'a8\'a3\'ba\par
@@ -6111,7 +6121,7 @@ DI=469
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1132
+SS=1861
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -6315,7 +6325,7 @@ DI=592
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=455
+SS=564
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -6332,6 +6342,11 @@ mkisofs\'bf\'c9\'bd\'ab\'d6\'b8\'b6\'a8\'b5\'c4\'c4\'bf\'c2\'bc\'d3\'eb\'ce\'c4\
 \par
 \par
 {\field{\*\fldinst{HYPERLINK "http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa"}}{\fldrslt{\ul\cf1 http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa}}}\f0\fs24\par
+\par
+\par
+e.g.\par
+mkdir BL_GMPC15_R1B_ICP1602\par
+mkisofs -J -P "Ericsson AB" -r -V "BL_GMPC15_ICP1602" -o BL_GMPC15_R1B_ICP1602.iso BL_GMPC15_R1B_ICP1602\par
 }
 %-
 LV=3
@@ -6470,7 +6485,7 @@ DI=594
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=715
+SS=878
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -7178,9 +7193,14 @@ DI=125
 NF=000000000000000000000000
 BC=clWindow
 IX=0
+SS=62
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\par
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}{\f1\fnil Tahoma;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\'d6\'b8\'b6\'a8\'c4\'a9\'ce\'b2\'d0\'d0\'ca\'fd\par
+    tail -n 100 a.txt\par
+    \par
+\'d6\'b8\'b6\'a8\'bf\'aa\'ca\'bc\'d0\'d0\'ca\'fd\par
+    head -n 100 a.txt\f1\par
 }
 %-
 LV=3
@@ -7201,7 +7221,7 @@ DI=547
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=76
+SS=114
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tcpdump -i any '((tcp or udp) and (port 5060)) or sctp' -w result.cap -s 0\par
@@ -7710,6 +7730,67 @@ SS=14
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 lsb_release -a\par
 }
 %-
+LV=3
+ND=ulimit
+DI=637
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=1699
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 ulimit -a\'c3\'fc\'c1\'ee\'c1\'d0\'b3\'f6\'b5\'c4\'cf\'b5\'cd\'b3\'b6\'d4shell \'c6\'f4\'b6\'af\'bd\'f8\'b3\'cc\'cb\'f9\'d5\'bc\'d3\'c3\'b5\'c4\'d7\'ca\'d4\'b4\'cf\'de\'d6\'c6\'a3\'ac\'c1\'d0\'b3\'f6\'bd\'e1\'b9\'fb\'c8\'e7\'cf\'c2\'a3\'ba\par
+\par
+core file size          (blocks, -c) 0\par
+data seg size           (kbytes, -d) unlimited\par
+scheduling priority             (-e) 0\par
+file size               (blocks, -f) unlimited\par
+pending signals                 (-i) 28323\par
+max locked memory       (kbytes, -l) 64\par
+max memory size         (kbytes, -m) unlimited\par
+open files                      (-n) 1024\par
+pipe size            (512 bytes, -p) 8\par
+POSIX message queues     (bytes, -q) 819200\par
+real-time priority              (-r) 0\par
+\b stack size              (kbytes, -s) 8192\b0\par
+cpu time               (seconds, -t) unlimited\par
+max user processes              (-u) 28323\par
+virtual memory          (kbytes, -v) unlimited\par
+file locks                      (-x) unlimited\par
+\par
+\par
+\par
+\par
+2.ulimit\'c3\'fc\'c1\'ee\'bc\'f2\'bd\'e9\par
+\par
+\'c4\'e3\'ca\'c7\'b7\'f1\'d4\'f8\'d3\'f6\'b5\'bd\'b9\'fd\'d4\'da\'b3\'cc\'d0\'f2\'c0\'ef\'c3\'e6\'b4\'b4\'bd\'a8\'cf\'df\'b3\'cc\'cc\'e1\'ca\'be\'c4\'e3\'d7\'ca\'d4\'b4\'b2\'bb\'b9\'bb\'a3\'ac\'c4\'e3\'ca\'c7\'b7\'f1\'d4\'f8\'d3\'f6\'b5\'bd\'b9\'fd\'d4\'dagcc\'d6\'d0\'bc\'d3\'c8\'eb-g\'d1\'a1\'cf\'ee\'a3\'ac\'b3\'cc\'d0\'f2\'b1\'c0\'c0\'a3\'ca\'b1\'c8\'b4\'c3\'bb\'d3\'d0\'c8\'ce\'ba\'cecore\'ce\'c4\'bc\'fe\'b2\'fa\'c9\'fa\'a1\'a3\'c8\'e7\'b9\'fb\'be\'cd\'a3\'ac\'c4\'c7\'c4\'e3\'be\'cd\'d2\'aa\'d7\'a2\'d2\'e2\'b5\'bdulimit\'c3\'fc\'c1\'ee\'c1\'cb\'a1\'a3\par
+\par
+\'b1\'be\'b4\'ce\'b4\'ed\'ce\'f3\'d2\'b2\'ca\'c7\'d3\'c9\'d3\'da\'cf\'b5\'cd\'b3\'b6\'d4\'bd\'f8\'b3\'cc\'d7\'ca\'d4\'b4\'b5\'c4\'cf\'de\'d6\'c6\'b5\'bc\'d6\'c2\'c1\'cb\'d2\'d4\'c9\'cf\'b5\'c4\'c6\'e6\'b9\'d6\'b5\'c4\'b4\'ed\'ce\'f3\'bd\'e1\'b9\'fb\'a1\'a3memset\'d5\'bb\'bf\'d5\'bc\'e4\'b3\'f6\'cf\'d6\'b6\'ce\'b4\'ed\'ce\'f3\'ca\'c7\'d3\'c9\'d3\'da\'cf\'b5\'cd\'b3\'b7\'d6\'c3\'bf\'b8\'f6\'bd\'f8\'b3\'cc\'b7\'d6\'c5\'e4\'b5\'c4\'bf\'d5\'bc\'e4\'b2\'bb\'d7\'e3\'b5\'bc\'d6\'c2\'b5\'c4\'a1\'a3\par
+\par
+ulimit \'cd\'a8\'b9\'fd\'d2\'bb\'d0\'a9\'b2\'ce\'ca\'fd\'d1\'a1\'cf\'ee\'c0\'b4\'b9\'dc\'c0\'ed\'b2\'bb\'cd\'ac\'d6\'d6\'c0\'e0\'b5\'c4\'cf\'b5\'cd\'b3\'d7\'ca\'d4\'b4\'a1\'a3\'d5\'e2\'c0\'ef\'a3\'ac\'ce\'d2\'c3\'c7\'bd\'ab\'bd\'b2\'bd\'e2\'d5\'e2\'d0\'a9\'b2\'ce\'ca\'fd\'b5\'c4\'ca\'b9\'d3\'c3\'a1\'a3\par
+ulimit \'c3\'fc\'c1\'ee\'b5\'c4\'b8\'f1\'ca\'bd\'ce\'aa\'a3\'baulimit [ options ] [limit]\par
+\'be\'df\'cc\'e5\'b5\'c4 options \'ba\'ac\'d2\'e5\'d2\'d4\'bc\'b0\'bc\'f2\'b5\'a5\'ca\'be\'c0\'fd\'bf\'c9\'d2\'d4\'b2\'ce\'bf\'bc\'d2\'d4\'cf\'c2\'b1\'ed\'b8\'f1\'a1\'a3\par
+\'c3\'fc\'c1\'ee\'d1\'a1\'cf\'ee \tab\'ba\'ac\'d2\'e5 \tab\'c0\'fd\'d7\'d3\par
+-a \tab\'b2\'e9\'bf\'b4\'c8\'ab\'b2\'bf\'d7\'ca\'d4\'b4\'b5\'c4\'ca\'b9\'d3\'c3\'c7\'e9\'bf\'f6 \tab ulimit -a \'b2\'e9\'bf\'b4\'c8\'ab\'b2\'bf\'d7\'ca\'d4\'b4\'b5\'c4\'ca\'b9\'d3\'c3\'c7\'e9\'bf\'f6\par
+-H \tab\'c9\'e8\'d6\'c3\'d3\'b2\'d7\'ca\'d4\'b4\'c3\'e8\'ca\'f6\'cf\'de\'d6\'c6\'a3\'ac\'d2\'bb\'b5\'a9\'c9\'e8\'d6\'c3\'a3\'ac\'b2\'bb\'c4\'dc\'b8\'fc\'b8\'c4 \tab ulimit \endash  Hs 64\'a3\'bb\'cf\'de\'d6\'c6\'d3\'b2\'d7\'ca\'d4\'b4\'a3\'ac\'cf\'df\'b3\'cc\'d5\'bb\'b4\'f3\'d0\'a1\'ce\'aa 64K\par
+-S \tab\'c9\'e8\'d6\'c3\'c8\'ed\'d7\'ca\'d4\'b4\'cf\'de\'d6\'c6\'a3\'ac\'d2\'bb\'b5\'a9\'c9\'e8\'d6\'c3\'a3\'ac\'bf\'c9\'d2\'d4\'d4\'f6\'bc\'d3\'a3\'ac\'b5\'ab\'ca\'c7\'b2\'bb\'c4\'dc\'b3\'ac\'b9\'fd\'c8\'ed\'d7\'ca\'d4\'b4\'b5\'c4\'cf\'de\'d6\'c6 \tab ulimit \endash  Sn 32\'a3\'bb\'cf\'de\'d6\'c6\'c8\'ed\'d7\'ca\'d4\'b4\'a3\'ac32 \'b8\'f6\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\'a1\'a3\par
+-c \tab core\'ce\'c4\'bc\'fe\'d7\'ee\'b4\'f3\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4blocks\'ce\'aa\'b5\'a5\'ce\'bb \tab\'d2\'bb\'b0\'e3\'b3\'a3\'d3\'c3ulimit -c unlimited\'a3\'ac\'c9\'e8\'d6\'c3\'ce\'aa\'b2\'bb\'cf\'de\'b4\'f3\'d0\'a1\par
+-d \tab\'c9\'e8\'d6\'c3\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'ca\'fd\'be\'dd\'b6\'ce\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4kbytes\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -d unlimited\'a3\'bb\'b6\'d4\'bd\'f8\'b3\'cc\'b5\'c4\'ca\'fd\'be\'dd\'b6\'ce\'b4\'f3\'d0\'a1\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
+-f \tab\'c9\'e8\'d6\'c3\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'bf\'c9\'d2\'d4\'b4\'b4\'bd\'a8\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4blocks\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  f 2048\'a3\'bb\'cf\'de\'d6\'c6\'bd\'f8\'b3\'cc\'bf\'c9\'d2\'d4\'b4\'b4\'bd\'a8\'b5\'c4\'d7\'ee\'b4\'f3\'ce\'c4\'bc\'fe\'b4\'f3\'d0\'a1\'ce\'aa 2048 blocks\par
+-l \tab\'d7\'ee\'b4\'f3\'bf\'c9\'bc\'d3\'cb\'f8\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -l 32\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'bc\'d3\'cb\'f8\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'ce\'aa 32 Kbytes\par
+-m \tab\'d7\'ee\'b4\'f3\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  m unlimited\'a3\'bb\'b6\'d4\'d7\'ee\'b4\'f3\'c4\'da\'b4\'e6\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
+-n \tab\'bf\'c9\'d2\'d4\'b4\'f2\'bf\'aa\'d7\'ee\'b4\'f3\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\'b5\'c4\'ca\'fd\'c1\'bf \tab ulimit \endash n128\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3 128 \'b8\'f6\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\par
+-p \tab\'b9\'dc\'b5\'c0\'bb\'ba\'b3\'e5\'c7\'f8\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  p 512\'a3\'bb\'cf\'de\'d6\'c6\'b9\'dc\'b5\'c0\'bb\'ba\'b3\'e5\'c7\'f8\'b5\'c4\'b4\'f3\'d0\'a1\'ce\'aa 512 Kbytes\par
+-s \tab\'cf\'df\'b3\'cc\'d5\'bb\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  s 512\'a3\'bb\'cf\'de\'d6\'c6\'cf\'df\'b3\'cc\'d5\'bb\'b5\'c4\'b4\'f3\'d0\'a1\'ce\'aa 512 Kbyte\par
+-t \tab\'d7\'ee\'b4\'f3\'b5\'c4 CPU \'d5\'bc\'d3\'c3\'ca\'b1\'bc\'e4\'a3\'ac\'d2\'d4\'c3\'eb\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -t unlimited\'a3\'bb\'b6\'d4\'d7\'ee\'b4\'f3\'b5\'c4 CPU \'d5\'bc\'d3\'c3\'ca\'b1\'bc\'e4\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
+-u \tab\'d3\'c3\'bb\'a7\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'bd\'f8\'b3\'cc\'ca\'fd \tab ulimit \endash  u 64\'a3\'bb\'cf\'de\'d6\'c6\'d3\'c3\'bb\'a7\'d7\'ee\'b6\'e0\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3 64 \'b8\'f6\'bd\'f8\'b3\'cc\par
+-v \tab\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'d0\'e9\'c4\'e2\'c4\'da\'b4\'e6\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -v 200000\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'d0\'e9\'c4\'e2\'c4\'da\'b4\'e6\'ce\'aa 200000 Kbytes\par
+\par
+\par
+\par
+\par
+}
+%-
 LV=2
 ND=linux 查看 *.a *.so 符号表
 DI=628
@@ -8058,7 +8139,7 @@ u %75\par
 LV=2
 ND=NTP
 DI=635
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 SS=34
@@ -9151,7 +9232,7 @@ DI=433
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=71
+SS=159
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d3\'ef\'b7\'a8\'a3\'ba\par
@@ -9162,6 +9243,23 @@ do\par
     ...\par
     ...\par
     ...\par
+done\par
+\par
+for  i in `ls`;\par
+\par
+ do\par
+\par
+    echo $i;\par
+\par
+ done\par
+ \par
+ \par
+ for((i=1;i<10;i++));\par
+\par
+do\par
+\par
+echo $i;\par
+\par
 done\par
 \par
 \par
@@ -10203,7 +10301,7 @@ DI=382
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=730
+SS=4
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset134 Tahoma;}{\f2\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
