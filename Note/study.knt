@@ -12,7 +12,7 @@ II=1
 DC=23-03-2015 19:13:41
 TI=0
 TS=4
-CX=62
+CX=43
 CY=0
 BG=clWindow
 CH=0
@@ -22,7 +22,7 @@ FS=12
 LN=2052
 ST=
 FL=101100000000100000100000
-SN=257
+SN=278
 TW=375
 EN=New node
 TB=clWindow
@@ -1134,7 +1134,7 @@ DI=606
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=706
+SS=161
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -1343,7 +1343,7 @@ DI=302
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=362
+SS=335
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'ce\'ca\'cc\'e2\'cf\'d6\'cf\'f3\'a3\'ba\'c1\'bd\'b8\'f6Module,\'d2\'bb\'b8\'f6Module\'b5\'f7\'d3\'c3\'c1\'ed\'d2\'bb\'b8\'f6Module\'b5\'c4\'b4\'bf\'d0\'e9\'bb\'f9\'c0\'e0\'d6\'d0\'b5\'c4\'d2\'bb\'b8\'f6\'d0\'c2\'bd\'d3\'bf\'da\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b1\'e0\'d2\'eb\'ca\'b1\'b1\'a8\'d5\'d2\'b2\'bb\'b5\'bd\'b4\'ed\'ce\'f3\'a1\'a3\par
@@ -1372,7 +1372,7 @@ DI=569
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=767
+SS=1138
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 #!/usr/bin/env sh\par
@@ -1439,7 +1439,7 @@ DI=570
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1235
+SS=735
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
@@ -1701,7 +1701,7 @@ DI=257
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=6561
+SS=2537
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d2\'d4\'cf\'c2\'d6\'f7\'d2\'aa\'c0\'b4\'d7\'d42.6.32\'b5\'c4\'c4\'da\'ba\'cb\'b4\'fa\'c2\'eb\'d6\'d0\'b5\'c4/usr/include/asm-generic/errno.h\'bc\'b0errno-base.h\'a3\'ac\'ca\'e4\'b3\'f6\'b4\'ed\'ce\'f3\'d4\'ad\'d2\'f2\'b6\'a8\'d2\'e5\'b9\'e9\'c4\'c9\'d5\'fb\'c0\'ed\'c8\'e7\'cf\'c2\'a3\'ba\par
@@ -2153,7 +2153,7 @@ DI=619
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1378
+SS=612
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -2224,7 +2224,7 @@ DI=374
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1814
+SS=6104
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b2\'bb\'b0\'fc\'ba\'ac\'cd\'e2\'b2\'bf\'b5\'c4\'ce\'c4\'bc\'fe\par
@@ -2830,7 +2830,7 @@ NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
 }
 %-
@@ -2914,6 +2914,20 @@ SS=37
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Q\'a3\'ba\'c8\'e7\'ba\'ce\'bf\'ec\'cb\'d9\'b5\'c4\'b2\'e5\'c8\'eb\'b4\'f3\'c1\'bf\'ca\'fd\'be\'dd\'b5\'bd\'d6\'b8\'b6\'a8\'b5\'c4\'ce\'bb\'d6\'c3\'a3\'bf\par
 A\'a3\'ba\'cf\'c8copy\'ba\'c3\'ca\'fd\'be\'dd\'a3\'ac\'c8\'bb\'ba\'f3\'d4\'da\'b5\'f7\'d3\'c3\'b2\'e5\'c8\'eb\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc\'ba\'f3\'bc\'b4\'bf\'c9\'a1\'a3\par
+}
+%-
+LV=2
+ND=获取表格名
+DI=640
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=91
+%:
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 =CELL("filename")\par
+=MID(A1,FIND("]",A1)+1,256)\par
+=MID(CELL("filename"),FIND("]",CELL("filename"))+1,256)\par
 }
 %-
 LV=1
@@ -3185,7 +3199,6 @@ DI=492
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=44
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 git tag -a [tag_name] -m 'short_info'\par
@@ -3287,7 +3300,7 @@ DI=497
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=255
+SS=42
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d4\'da\'ba\'dc\'be\'c3\'d6\'ae\'c7\'b0\'cc\'e1\'bd\'bb\'b8\'c4\'b6\'af\'a3\'ac\'b5\'ab\'ca\'c7\'c3\'bb\'d3\'d0\'b4\'f2\'c9\'cftag\'a3\'ac\'ba\'f3\'c3\'e6\'bf\'c9\'d2\'d4\'d3\'c3\'cf\'c2\'c3\'e6\'d5\'e2\'b8\'f6\'c3\'fc\'c1\'ee\'c0\'b4\'b2\'b9\'c9\'cftag\par
@@ -3298,10 +3311,6 @@ SS=255
 \par
 \par
 \par
-Create Tag:\par
-Check current branch & commit-id are correct.\par
-$ git tag -a tagname -m "message\'a1\'ad" commit-id\par
-$ git push origin tagname\par
 }
 %-
 LV=4
@@ -3813,7 +3822,7 @@ DI=564
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=23464
+SS=317
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fprq2\fcharset134 \'cb\'ce\'cc\'e5;}{\f2\froman\fprq2\fcharset0 Times New Roman;}}
 {\colortbl ;\red0\green255\blue0;\red255\green0\blue0;\red0\green176\blue80;\red0\green0\blue255;}
@@ -5567,7 +5576,7 @@ DI=441
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=321
+SS=387
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 1) \'cd\'b3\'bc\'c6\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'bc\'d0\'cf\'c2\'ce\'c4\'bc\'fe\'b5\'c4\'b8\'f6\'ca\'fd\par
@@ -5739,7 +5748,7 @@ DI=352
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=163
+SS=217
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d7\'ee\'b3\'a3\'d3\'c3\'b5\'c4\'b2\'e9\'bf\'b4shell\'b5\'c4\'c3\'fc\'c1\'ee\'a3\'ac\'b5\'ab\'b2\'bb\'c4\'dc\'ca\'b5\'ca\'b1\'b7\'b4\'d3\'b3\'b5\'b1\'c7\'b0shell\par
@@ -5774,14 +5783,22 @@ ps -aux | grep \i portnu\i0\par
 LV=2
 ND=查看内存使用情况
 DI=360
-NF=000000000000000000000000
+NF=000000100000000000000000
 BC=clWindow
 IX=0
-SS=63
+SS=26
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html"}}{\fldrslt{\ul\cf1 http://www.cnblogs.com/xd502djj/archive/2011/03/01/1968041.html}}}\f0\fs24\par
+\par
+\'b6\'af\'cc\'ac\'b5\'c4\'b2\'e9\'bf\'b4\'c4\'da\'b4\'e6\'a3\'ba\par
+vmstat  2 -S MB\par
+{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/bingqingsuimeng/article/details/51858646"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/bingqingsuimeng/article/details/51858646}}}\f0\fs24\par
+\par
+linux\'cf\'c2\'c4\'da\'b4\'e6\'b5\'c4\'cd\'b3\'bc\'c6\'ba\'cd\'c4\'da\'b4\'e6\'d0\'b9\'c2\'b6\'c0\'e0\'ce\'ca\'cc\'e2\'b5\'c4\'b6\'a8\'ce\'bb \par
+{\field{\*\fldinst{HYPERLINK "http://blog.chinaunix.net/uid-9543173-id-3571436.html"}}{\fldrslt{\ul\cf1 http://blog.chinaunix.net/uid-9543173-id-3571436.html}}}\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/macrossdzh/article/details/5993867"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/macrossdzh/article/details/5993867}}}\f0\fs24\par
 }
 %-
 LV=3
@@ -5792,7 +5809,7 @@ BC=clWindow
 IX=0
 SS=97
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cf\'c2\'c3\'e6\'ca\'c7\'b6\'d4\'d5\'e2\'d0\'a9\'ca\'fd\'d6\'b5\'b5\'c4\'bd\'e2\'ca\'cd\'a3\'ba\par
 total:\'d7\'dc\'bc\'c6\'ce\'ef\'c0\'ed\'c4\'da\'b4\'e6\'b5\'c4\'b4\'f3\'d0\'a1\'a1\'a3\par
 used:\'d2\'d1\'ca\'b9\'d3\'c3\'b6\'e0\'b4\'f3\'a1\'a3\par
@@ -5809,7 +5826,7 @@ BC=clWindow
 IX=0
 SS=36
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d5\'e2\'b8\'f6\'c3\'fc\'c1\'ee\'ca\'c7\'d3\'c3\'c0\'b4\'b2\'e9\'bf\'b4\'d6\'b8\'b6\'a8\'bd\'f8\'b3\'cc\'b5\'c4\'c4\'da\'b4\'e6\'c7\'e9\'bf\'f6\'b5\'c4\'a1\'a3\par
 \par
 #pmap -d pid\par
@@ -5825,7 +5842,7 @@ BC=clWindow
 IX=0
 SS=189
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'c8\'e7\'cf\'c2\'c0\'fd\'cb\'f9\'ca\'be\'a3\'ba\par
 \'a1\'a1\'a1\'a1$ ps -e -o 'pid,comm,args,pcpu,rsz,vsz,stime,user,uid'  \'c6\'e4\'d6\'d0rsz\'ca\'c7\'ca\'c7\'ca\'b5\'bc\'ca\'c4\'da\'b4\'e6\par
 \'a1\'a1\'a1\'a1$ ps -e -o 'pid,comm,args,pcpu,rsz,vsz,stime,user,uid' | grep oracle |  sort -nrk\par
@@ -5839,9 +5856,9 @@ DI=361
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=333
+SS=330
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'cf\'e0\'b5\'b1\'d3\'dawindow\'cf\'c2\'b5\'c4\'d7\'ca\'d4\'b4\'b9\'dc\'c0\'ed\'c6\'f7\par
 #top\par
 \par
@@ -5869,7 +5886,7 @@ BC=clWindow
 IX=0
 SS=17
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 cat /proc/meminfo\par
 }
 %-
@@ -5881,7 +5898,7 @@ BC=clWindow
 IX=0
 SS=200
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 ll -h /proc/kcore\par
 \par
 \'b1\'b8\'d7\'a2\'a3\'ba\par
@@ -5912,7 +5929,7 @@ SS=36
 LV=2
 ND=常用命令
 DI=58
-NF=000000100000000000000000
+NF=000000000000000000000000
 BC=clWindow
 IX=0
 %:
@@ -6052,16 +6069,11 @@ DI=321
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=37
+SS=22
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'b2\'e9\'bf\'b4\'b5\'b1\'c7\'b0\'c4\'bf\'c2\'bc\'cf\'c2\'cb\'f9\'d3\'d0\'b5\'c4\'ce\'c4\'bc\'fe\'b5\'c4\'d7\'dc\'b4\'f3\'d0\'a1\par
 du -h\par
-\par
-\'b2\'e9\'bf\'b4\'d6\'b8\'b6\'a8\'c4\'bf\'c2\'bc\'cf\'c2\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'a3\'a8\'bc\'d0\'a3\'a9\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ba\par
-du -sh /*|sort -nr\par
-\par
-du -sh /opt/*|sort -nr \par
 }
 %-
 LV=3
@@ -6083,7 +6095,7 @@ DI=247
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=19
+SS=74
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'bb\'f9\'b4\'a1\'d3\'c3\'b7\'a8\'a3\'ba\par
@@ -6121,7 +6133,7 @@ DI=469
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=1861
+SS=1132
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -6325,7 +6337,7 @@ DI=592
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=564
+SS=455
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -6342,11 +6354,6 @@ mkisofs\'bf\'c9\'bd\'ab\'d6\'b8\'b6\'a8\'b5\'c4\'c4\'bf\'c2\'bc\'d3\'eb\'ce\'c4\
 \par
 \par
 {\field{\*\fldinst{HYPERLINK "http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa"}}{\fldrslt{\ul\cf1 http://baike.baidu.com/link?url=6TfF6fjzgQlHbY_YxqAFENtIsJm7oTOvmi5vMh9PNowz5hyGBnsAY9kwrheGQXBwejKEr6Dd26HjPHLumhPgsa}}}\f0\fs24\par
-\par
-\par
-e.g.\par
-mkdir BL_GMPC15_R1B_ICP1602\par
-mkisofs -J -P "Ericsson AB" -r -V "BL_GMPC15_ICP1602" -o BL_GMPC15_R1B_ICP1602.iso BL_GMPC15_R1B_ICP1602\par
 }
 %-
 LV=3
@@ -6485,7 +6492,7 @@ DI=594
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=878
+SS=715
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\colortbl ;\red0\green0\blue255;}
@@ -7193,14 +7200,9 @@ DI=125
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=62
 %:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 Tahoma;}{\f1\fnil Tahoma;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\'d6\'b8\'b6\'a8\'c4\'a9\'ce\'b2\'d0\'d0\'ca\'fd\par
-    tail -n 100 a.txt\par
-    \par
-\'d6\'b8\'b6\'a8\'bf\'aa\'ca\'bc\'d0\'d0\'ca\'fd\par
-    head -n 100 a.txt\f1\par
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil Tahoma;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs16\par
 }
 %-
 LV=3
@@ -7221,7 +7223,7 @@ DI=547
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=114
+SS=76
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tcpdump -i any '((tcp or udp) and (port 5060)) or sctp' -w result.cap -s 0\par
@@ -7730,67 +7732,6 @@ SS=14
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 lsb_release -a\par
 }
 %-
-LV=3
-ND=ulimit
-DI=637
-NF=000000000000000000000000
-BC=clWindow
-IX=0
-SS=1699
-%:
-{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
-{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 ulimit -a\'c3\'fc\'c1\'ee\'c1\'d0\'b3\'f6\'b5\'c4\'cf\'b5\'cd\'b3\'b6\'d4shell \'c6\'f4\'b6\'af\'bd\'f8\'b3\'cc\'cb\'f9\'d5\'bc\'d3\'c3\'b5\'c4\'d7\'ca\'d4\'b4\'cf\'de\'d6\'c6\'a3\'ac\'c1\'d0\'b3\'f6\'bd\'e1\'b9\'fb\'c8\'e7\'cf\'c2\'a3\'ba\par
-\par
-core file size          (blocks, -c) 0\par
-data seg size           (kbytes, -d) unlimited\par
-scheduling priority             (-e) 0\par
-file size               (blocks, -f) unlimited\par
-pending signals                 (-i) 28323\par
-max locked memory       (kbytes, -l) 64\par
-max memory size         (kbytes, -m) unlimited\par
-open files                      (-n) 1024\par
-pipe size            (512 bytes, -p) 8\par
-POSIX message queues     (bytes, -q) 819200\par
-real-time priority              (-r) 0\par
-\b stack size              (kbytes, -s) 8192\b0\par
-cpu time               (seconds, -t) unlimited\par
-max user processes              (-u) 28323\par
-virtual memory          (kbytes, -v) unlimited\par
-file locks                      (-x) unlimited\par
-\par
-\par
-\par
-\par
-2.ulimit\'c3\'fc\'c1\'ee\'bc\'f2\'bd\'e9\par
-\par
-\'c4\'e3\'ca\'c7\'b7\'f1\'d4\'f8\'d3\'f6\'b5\'bd\'b9\'fd\'d4\'da\'b3\'cc\'d0\'f2\'c0\'ef\'c3\'e6\'b4\'b4\'bd\'a8\'cf\'df\'b3\'cc\'cc\'e1\'ca\'be\'c4\'e3\'d7\'ca\'d4\'b4\'b2\'bb\'b9\'bb\'a3\'ac\'c4\'e3\'ca\'c7\'b7\'f1\'d4\'f8\'d3\'f6\'b5\'bd\'b9\'fd\'d4\'dagcc\'d6\'d0\'bc\'d3\'c8\'eb-g\'d1\'a1\'cf\'ee\'a3\'ac\'b3\'cc\'d0\'f2\'b1\'c0\'c0\'a3\'ca\'b1\'c8\'b4\'c3\'bb\'d3\'d0\'c8\'ce\'ba\'cecore\'ce\'c4\'bc\'fe\'b2\'fa\'c9\'fa\'a1\'a3\'c8\'e7\'b9\'fb\'be\'cd\'a3\'ac\'c4\'c7\'c4\'e3\'be\'cd\'d2\'aa\'d7\'a2\'d2\'e2\'b5\'bdulimit\'c3\'fc\'c1\'ee\'c1\'cb\'a1\'a3\par
-\par
-\'b1\'be\'b4\'ce\'b4\'ed\'ce\'f3\'d2\'b2\'ca\'c7\'d3\'c9\'d3\'da\'cf\'b5\'cd\'b3\'b6\'d4\'bd\'f8\'b3\'cc\'d7\'ca\'d4\'b4\'b5\'c4\'cf\'de\'d6\'c6\'b5\'bc\'d6\'c2\'c1\'cb\'d2\'d4\'c9\'cf\'b5\'c4\'c6\'e6\'b9\'d6\'b5\'c4\'b4\'ed\'ce\'f3\'bd\'e1\'b9\'fb\'a1\'a3memset\'d5\'bb\'bf\'d5\'bc\'e4\'b3\'f6\'cf\'d6\'b6\'ce\'b4\'ed\'ce\'f3\'ca\'c7\'d3\'c9\'d3\'da\'cf\'b5\'cd\'b3\'b7\'d6\'c3\'bf\'b8\'f6\'bd\'f8\'b3\'cc\'b7\'d6\'c5\'e4\'b5\'c4\'bf\'d5\'bc\'e4\'b2\'bb\'d7\'e3\'b5\'bc\'d6\'c2\'b5\'c4\'a1\'a3\par
-\par
-ulimit \'cd\'a8\'b9\'fd\'d2\'bb\'d0\'a9\'b2\'ce\'ca\'fd\'d1\'a1\'cf\'ee\'c0\'b4\'b9\'dc\'c0\'ed\'b2\'bb\'cd\'ac\'d6\'d6\'c0\'e0\'b5\'c4\'cf\'b5\'cd\'b3\'d7\'ca\'d4\'b4\'a1\'a3\'d5\'e2\'c0\'ef\'a3\'ac\'ce\'d2\'c3\'c7\'bd\'ab\'bd\'b2\'bd\'e2\'d5\'e2\'d0\'a9\'b2\'ce\'ca\'fd\'b5\'c4\'ca\'b9\'d3\'c3\'a1\'a3\par
-ulimit \'c3\'fc\'c1\'ee\'b5\'c4\'b8\'f1\'ca\'bd\'ce\'aa\'a3\'baulimit [ options ] [limit]\par
-\'be\'df\'cc\'e5\'b5\'c4 options \'ba\'ac\'d2\'e5\'d2\'d4\'bc\'b0\'bc\'f2\'b5\'a5\'ca\'be\'c0\'fd\'bf\'c9\'d2\'d4\'b2\'ce\'bf\'bc\'d2\'d4\'cf\'c2\'b1\'ed\'b8\'f1\'a1\'a3\par
-\'c3\'fc\'c1\'ee\'d1\'a1\'cf\'ee \tab\'ba\'ac\'d2\'e5 \tab\'c0\'fd\'d7\'d3\par
--a \tab\'b2\'e9\'bf\'b4\'c8\'ab\'b2\'bf\'d7\'ca\'d4\'b4\'b5\'c4\'ca\'b9\'d3\'c3\'c7\'e9\'bf\'f6 \tab ulimit -a \'b2\'e9\'bf\'b4\'c8\'ab\'b2\'bf\'d7\'ca\'d4\'b4\'b5\'c4\'ca\'b9\'d3\'c3\'c7\'e9\'bf\'f6\par
--H \tab\'c9\'e8\'d6\'c3\'d3\'b2\'d7\'ca\'d4\'b4\'c3\'e8\'ca\'f6\'cf\'de\'d6\'c6\'a3\'ac\'d2\'bb\'b5\'a9\'c9\'e8\'d6\'c3\'a3\'ac\'b2\'bb\'c4\'dc\'b8\'fc\'b8\'c4 \tab ulimit \endash  Hs 64\'a3\'bb\'cf\'de\'d6\'c6\'d3\'b2\'d7\'ca\'d4\'b4\'a3\'ac\'cf\'df\'b3\'cc\'d5\'bb\'b4\'f3\'d0\'a1\'ce\'aa 64K\par
--S \tab\'c9\'e8\'d6\'c3\'c8\'ed\'d7\'ca\'d4\'b4\'cf\'de\'d6\'c6\'a3\'ac\'d2\'bb\'b5\'a9\'c9\'e8\'d6\'c3\'a3\'ac\'bf\'c9\'d2\'d4\'d4\'f6\'bc\'d3\'a3\'ac\'b5\'ab\'ca\'c7\'b2\'bb\'c4\'dc\'b3\'ac\'b9\'fd\'c8\'ed\'d7\'ca\'d4\'b4\'b5\'c4\'cf\'de\'d6\'c6 \tab ulimit \endash  Sn 32\'a3\'bb\'cf\'de\'d6\'c6\'c8\'ed\'d7\'ca\'d4\'b4\'a3\'ac32 \'b8\'f6\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\'a1\'a3\par
--c \tab core\'ce\'c4\'bc\'fe\'d7\'ee\'b4\'f3\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4blocks\'ce\'aa\'b5\'a5\'ce\'bb \tab\'d2\'bb\'b0\'e3\'b3\'a3\'d3\'c3ulimit -c unlimited\'a3\'ac\'c9\'e8\'d6\'c3\'ce\'aa\'b2\'bb\'cf\'de\'b4\'f3\'d0\'a1\par
--d \tab\'c9\'e8\'d6\'c3\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'ca\'fd\'be\'dd\'b6\'ce\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4kbytes\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -d unlimited\'a3\'bb\'b6\'d4\'bd\'f8\'b3\'cc\'b5\'c4\'ca\'fd\'be\'dd\'b6\'ce\'b4\'f3\'d0\'a1\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
--f \tab\'c9\'e8\'d6\'c3\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'bf\'c9\'d2\'d4\'b4\'b4\'bd\'a8\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4blocks\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  f 2048\'a3\'bb\'cf\'de\'d6\'c6\'bd\'f8\'b3\'cc\'bf\'c9\'d2\'d4\'b4\'b4\'bd\'a8\'b5\'c4\'d7\'ee\'b4\'f3\'ce\'c4\'bc\'fe\'b4\'f3\'d0\'a1\'ce\'aa 2048 blocks\par
--l \tab\'d7\'ee\'b4\'f3\'bf\'c9\'bc\'d3\'cb\'f8\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -l 32\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'bc\'d3\'cb\'f8\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'ce\'aa 32 Kbytes\par
--m \tab\'d7\'ee\'b4\'f3\'c4\'da\'b4\'e6\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  m unlimited\'a3\'bb\'b6\'d4\'d7\'ee\'b4\'f3\'c4\'da\'b4\'e6\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
--n \tab\'bf\'c9\'d2\'d4\'b4\'f2\'bf\'aa\'d7\'ee\'b4\'f3\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\'b5\'c4\'ca\'fd\'c1\'bf \tab ulimit \endash n128\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3 128 \'b8\'f6\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'b7\'fb\par
--p \tab\'b9\'dc\'b5\'c0\'bb\'ba\'b3\'e5\'c7\'f8\'b5\'c4\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  p 512\'a3\'bb\'cf\'de\'d6\'c6\'b9\'dc\'b5\'c0\'bb\'ba\'b3\'e5\'c7\'f8\'b5\'c4\'b4\'f3\'d0\'a1\'ce\'aa 512 Kbytes\par
--s \tab\'cf\'df\'b3\'cc\'d5\'bb\'b4\'f3\'d0\'a1\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit \endash  s 512\'a3\'bb\'cf\'de\'d6\'c6\'cf\'df\'b3\'cc\'d5\'bb\'b5\'c4\'b4\'f3\'d0\'a1\'ce\'aa 512 Kbyte\par
--t \tab\'d7\'ee\'b4\'f3\'b5\'c4 CPU \'d5\'bc\'d3\'c3\'ca\'b1\'bc\'e4\'a3\'ac\'d2\'d4\'c3\'eb\'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -t unlimited\'a3\'bb\'b6\'d4\'d7\'ee\'b4\'f3\'b5\'c4 CPU \'d5\'bc\'d3\'c3\'ca\'b1\'bc\'e4\'b2\'bb\'bd\'f8\'d0\'d0\'cf\'de\'d6\'c6\par
--u \tab\'d3\'c3\'bb\'a7\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'bd\'f8\'b3\'cc\'ca\'fd \tab ulimit \endash  u 64\'a3\'bb\'cf\'de\'d6\'c6\'d3\'c3\'bb\'a7\'d7\'ee\'b6\'e0\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3 64 \'b8\'f6\'bd\'f8\'b3\'cc\par
--v \tab\'bd\'f8\'b3\'cc\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'d0\'e9\'c4\'e2\'c4\'da\'b4\'e6\'a3\'ac\'d2\'d4 Kbytes \'ce\'aa\'b5\'a5\'ce\'bb \tab ulimit -v 200000\'a3\'bb\'cf\'de\'d6\'c6\'d7\'ee\'b4\'f3\'bf\'c9\'d3\'c3\'b5\'c4\'d0\'e9\'c4\'e2\'c4\'da\'b4\'e6\'ce\'aa 200000 Kbytes\par
-\par
-\par
-\par
-\par
-}
-%-
 LV=2
 ND=linux 查看 *.a *.so 符号表
 DI=628
@@ -7817,7 +7758,7 @@ DI=630
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=98
+SS=1418
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fswiss\fcharset161{\*\fname Arial;}Arial Greek;}{\f2\fswiss\fcharset0 Arial;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 backspace %08\par
@@ -8157,6 +8098,220 @@ IX=0
 %:
 {\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=2
+ND=内存泄漏分析
+DI=637
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+SS=53
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/gatieme/article/details/51959654"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/gatieme/article/details/51959654}}}\f0\fs24\par
+}
+%-
+LV=3
+ND=gdb
+DI=638
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=73
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://wenku.baidu.com/link?url=Xls1lhtjUlH33-PPfpTVVDSIbbewrIp1t0MgMkUMGU88L40rzjrd0olmxfu6SiuLCWW87a3bJK-2OiGJMBkAKz9XsQgZnOg2q6HqB3KFlOW"}}{\fldrslt{\ul\cf1 http://wenku.baidu.com/link?url=Xls1lhtjUlH33-PPfpTVVDSIbbewrIp1t0MgMkUMGU88L40rzjrd0olmxfu6SiuLCWW87a3bJK-2OiGJMBkAKz9XsQgZnOg2q6HqB3KFlOW}}}\f0\fs24\par
+}
+%-
+LV=3
+ND=valgrind
+DI=639
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\par
+}
+%-
+LV=4
+ND=用法
+DI=641
+NF=000000100000000000000000
+BC=clWindow
+IX=0
+SS=1243
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24{\field{\*\fldinst{HYPERLINK "http://www.linuxidc.com/Linux/2012-06/63754.htm"}}{\fldrslt{\ul\cf1 http://www.linuxidc.com/Linux/2012-06/63754.htm}}}\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "http://elinux.org/Valgrind"}}{\fldrslt{\ul\cf1 http://elinux.org/Valgrind}}}\f0\fs24  \'a3\'a8wiki\'a3\'a9\par
+{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/sduliulun/article/details/7732906"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/sduliulun/article/details/7732906}}}\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/gatieme/article/details/51959654"}}{\fldrslt{\ul\cf1 http://blog.csdn.net/gatieme/article/details/51959654}}}\f0\fs24\'a3\'a8\'b1\'c8\'bd\'cf\'c8\'ab\'c3\'e6\'b5\'c4\'bd\'e9\'c9\'dc\'a3\'a9\par
+{\field{\*\fldinst{HYPERLINK "http://www.linuxidc.com/Linux/2012-06/63754.htm"}}{\fldrslt{\ul\cf1 http://www.linuxidc.com/Linux/2012-06/63754.htm}}}\f0\fs24  \'a3\'a8\'b7\'c7\'b3\'a3\'cf\'ea\'cf\'b8\'b5\'c4\'bd\'e9\'c9\'dc\'c1\'cb\'c3\'bf\'b8\'f6\'b9\'a4\'be\'df\'b5\'c4\'ca\'b9\'d3\'c3\'a3\'a9\par
+\par
+\'d7\'ee\'b3\'a3\'d3\'c3\'b5\'c4\'c3\'fc\'c1\'ee\'a3\'ba\par
+valgrind --tool=memcheck --leak-check=full ./test\par
+\par
+\'c3\'fc\'c1\'ee\'b8\'f1\'ca\'bd\'a3\'ba\par
+vargrind --tool=[optional] programName\par
+    Note\'a3\'ba \'b1\'e0\'d2\'eb\'b5\'c4\'ca\'b1\'ba\'f2\'d0\'e8\'d2\'aa\'bc\'d3\'c8\'eb -g \'d1\'a1\'cf\'ee\'b7\'f1\'d4\'f2\'cf\'d4\'ca\'be\'b2\'bb\'c1\'cb\'b6\'d4\'d3\'a6\'b5\'c4\'d0\'d0\'ba\'c5\'a3\'ac g++ -g -o leak leak.c \par
+           \'b8\'fc\'b6\'e0\'b5\'c4\'bf\'c9\'d2\'d4\'b2\'ce\'bf\'bc valgrind -h\par
+           \par
+           optional \'b4\'fa\'c2\'eb\'b9\'a4\'be\'df\'b5\'c4\'c3\'fb\'b3\'c6\'a3\'ac\'c8\'e7\'cf\'c2\'a3\'ba\par
+               memcheck ------> \'d5\'e2\'ca\'c7valgrind\'d3\'a6\'d3\'c3\'d7\'ee\'b9\'e3\'b7\'ba\'b5\'c4\'b9\'a4\'be\'df\'a3\'ac\'d2\'bb\'b8\'f6\'d6\'d8\'c1\'bf\'bc\'b6\'b5\'c4\'c4\'da\'b4\'e6\'bc\'ec\'b2\'e9\'c6\'f7\'a3\'ac\'c4\'dc\'b9\'bb\'b7\'a2\'cf\'d6\'bf\'aa\'b7\'a2\'d6\'d0\'be\'f8\'b4\'f3\'b6\'e0\'ca\'fd\'c4\'da\'b4\'e6\'b4\'ed\'ce\'f3\'ca\'b9\'d3\'c3\'c7\'e9\'bf\'f6\'a3\'ac\'b1\'c8\'c8\'e7\'a3\'ba\'ca\'b9\'d3\'c3\'ce\'b4\'b3\'f5\'ca\'bc\'bb\'af\'b5\'c4\'c4\'da\'b4\'e6\'a3\'ac\'ca\'b9\'d3\'c3\'d2\'d1\'be\'ad\'ca\'cd\'b7\'c5\'c1\'cb\'b5\'c4\'c4\'da\'b4\'e6\'a3\'ac\'c4\'da\'b4\'e6\'b7\'c3\'ce\'ca\'d4\'bd\'bd\'e7\'b5\'c8\'a1\'a3\par
+               callgrind ------> \'cb\'fc\'d6\'f7\'d2\'aa\'d3\'c3\'c0\'b4\'bc\'ec\'b2\'e9\'b3\'cc\'d0\'f2\'d6\'d0\'ba\'af\'ca\'fd\'b5\'f7\'d3\'c3\'b9\'fd\'b3\'cc\'d6\'d0\'b3\'f6\'cf\'d6\'b5\'c4\'ce\'ca\'cc\'e2\'a1\'a3\par
+               cachegrind ------> \'cb\'fc\'d6\'f7\'d2\'aa\'d3\'c3\'c0\'b4\'bc\'ec\'b2\'e9\'b3\'cc\'d0\'f2\'d6\'d0\'bb\'ba\'b4\'e6\'ca\'b9\'d3\'c3\'b3\'f6\'cf\'d6\'b5\'c4\'ce\'ca\'cc\'e2\'a1\'a3\par
+               helgrind ------> \'cb\'fc\'d6\'f7\'d2\'aa\'d3\'c3\'c0\'b4\'bc\'ec\'b2\'e9\'b6\'e0\'cf\'df\'b3\'cc\'b3\'cc\'d0\'f2\'d6\'d0\'b3\'f6\'cf\'d6\'b5\'c4\'be\'ba\'d5\'f9\'ce\'ca\'cc\'e2\'a1\'a3\par
+               massif ------> \'cb\'fc\'d6\'f7\'d2\'aa\'d3\'c3\'c0\'b4\'bc\'ec\'b2\'e9\'b3\'cc\'d0\'f2\'d6\'d0\'b6\'d1\'d5\'bb\'ca\'b9\'d3\'c3\'d6\'d0\'b3\'f6\'cf\'d6\'b5\'c4\'ce\'ca\'cc\'e2\'a1\'a3\par
+               extension ------> \'bf\'c9\'d2\'d4\'c0\'fb\'d3\'c3core\'cc\'e1\'b9\'a9\'b5\'c4\'b9\'a6\'c4\'dc\'a3\'ac\'d7\'d4\'bc\'ba\'b1\'e0\'d0\'b4\'cc\'d8\'b6\'a8\'b5\'c4\'c4\'da\'b4\'e6\'b5\'f7\'ca\'d4\'b9\'a4\'be\'df\par
+               \par
+               \par
+\'cf\'ea\'cf\'b8 Valgrind \'b5\'c4\'ca\'b9\'d3\'c3\par
+\par
+\b\'d3\'c3\'b7\'a8: valgrind [options] prog-and-args [options]: \'b3\'a3\'d3\'c3\'d1\'a1\'cf\'ee\'a3\'ac\'ca\'ca\'d3\'c3\'d3\'da\'cb\'f9\'d3\'d0Valgrind\'b9\'a4\'be\'df\b0\par
+\par
+    -tool=<name> \'d7\'ee\'b3\'a3\'d3\'c3\'b5\'c4\'d1\'a1\'cf\'ee\'a1\'a3\'d4\'cb\'d0\'d0 valgrind\'d6\'d0\'c3\'fb\'ce\'aatoolname\'b5\'c4\'b9\'a4\'be\'df\'a1\'a3\'c4\'ac\'c8\'cfmemcheck\'a1\'a3\par
+    h \endash help \'cf\'d4\'ca\'be\'b0\'ef\'d6\'fa\'d0\'c5\'cf\'a2\'a1\'a3\par
+    -version \'cf\'d4\'ca\'bevalgrind\'c4\'da\'ba\'cb\'b5\'c4\'b0\'e6\'b1\'be\'a3\'ac\'c3\'bf\'b8\'f6\'b9\'a4\'be\'df\'b6\'bc\'d3\'d0\'b8\'f7\'d7\'d4\'b5\'c4\'b0\'e6\'b1\'be\'a1\'a3\par
+    q \endash quiet \'b0\'b2\'be\'b2\'b5\'d8\'d4\'cb\'d0\'d0\'a3\'ac\'d6\'bb\'b4\'f2\'d3\'a1\'b4\'ed\'ce\'f3\'d0\'c5\'cf\'a2\'a1\'a3\par
+    v \endash verbose \'b8\'fc\'cf\'ea\'cf\'b8\'b5\'c4\'d0\'c5\'cf\'a2, \'d4\'f6\'bc\'d3\'b4\'ed\'ce\'f3\'ca\'fd\'cd\'b3\'bc\'c6\'a1\'a3\par
+    -trace-children=no|yes \'b8\'fa\'d7\'d9\'d7\'d3\'cf\'df\'b3\'cc? [no]\par
+    -track-fds=no|yes \'b8\'fa\'d7\'d9\'b4\'f2\'bf\'aa\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'e8\'ca\'f6\'a3\'bf[no]\par
+    -time-stamp=no|yes \'d4\'f6\'bc\'d3\'ca\'b1\'bc\'e4\'b4\'c1\'b5\'bdLOG\'d0\'c5\'cf\'a2? [no]\par
+    -log-fd=<number> \'ca\'e4\'b3\'f6LOG\'b5\'bd\'c3\'e8\'ca\'f6\'b7\'fb\'ce\'c4\'bc\'fe [2=stderr]\par
+    -log-file=<file> \'bd\'ab\'ca\'e4\'b3\'f6\'b5\'c4\'d0\'c5\'cf\'a2\'d0\'b4\'c8\'eb\'b5\'bdfilename.PID\'b5\'c4\'ce\'c4\'bc\'fe\'c0\'ef\'a3\'acPID\'ca\'c7\'d4\'cb\'d0\'d0\'b3\'cc\'d0\'f2\'b5\'c4\'bd\'f8\'d0\'d0ID\par
+    -log-file-exactly=<file> \'ca\'e4\'b3\'f6LOG\'d0\'c5\'cf\'a2\'b5\'bd file\par
+    -log-file-qualifier=<VAR> \'c8\'a1\'b5\'c3\'bb\'b7\'be\'b3\'b1\'e4\'c1\'bf\'b5\'c4\'d6\'b5\'c0\'b4\'d7\'f6\'ce\'aa\'ca\'e4\'b3\'f6\'d0\'c5\'cf\'a2\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'a1\'a3 [none]\par
+    -log-socket=ipaddr:port \'ca\'e4\'b3\'f6LOG\'b5\'bdsocket \'a3\'acipaddr:port\par
+\par
+LOG\'d0\'c5\'cf\'a2\'ca\'e4\'b3\'f6\par
+\par
+    -xml=yes \'bd\'ab\'d0\'c5\'cf\'a2\'d2\'d4xml\'b8\'f1\'ca\'bd\'ca\'e4\'b3\'f6\'a3\'ac\'d6\'bb\'d3\'d0memcheck\'bf\'c9\'d3\'c3\par
+    -num-callers=<number> show <number> callers in stack traces [12]\par
+    -error-limit=no|yes \'c8\'e7\'b9\'fb\'cc\'ab\'b6\'e0\'b4\'ed\'ce\'f3\'a3\'ac\'d4\'f2\'cd\'a3\'d6\'b9\'cf\'d4\'ca\'be\'d0\'c2\'b4\'ed\'ce\'f3? [yes]\par
+    -error-exitcode=<number> \'c8\'e7\'b9\'fb\'b7\'a2\'cf\'d6\'b4\'ed\'ce\'f3\'d4\'f2\'b7\'b5\'bb\'d8\'b4\'ed\'ce\'f3\'b4\'fa\'c2\'eb [0=disable]\par
+    -db-attach=no|yes \'b5\'b1\'b3\'f6\'cf\'d6\'b4\'ed\'ce\'f3\'a3\'acvalgrind\'bb\'e1\'d7\'d4\'b6\'af\'c6\'f4\'b6\'af\'b5\'f7\'ca\'d4\'c6\'f7gdb\'a1\'a3[no]\par
+    -db-command=<command> \'c6\'f4\'b6\'af\'b5\'f7\'ca\'d4\'c6\'f7\'b5\'c4\'c3\'fc\'c1\'ee\'d0\'d0\'d1\'a1\'cf\'ee[gdb -nw %f %p]\par
+\par
+\'ca\'ca\'d3\'c3\'d3\'daMemcheck\'b9\'a4\'be\'df\'b5\'c4\'cf\'e0\'b9\'d8\'d1\'a1\'cf\'ee\'a3\'ba\par
+\par
+    -leak-check=no|summary|full \'d2\'aa\'c7\'f3\'b6\'d4leak\'b8\'f8\'b3\'f6\'cf\'ea\'cf\'b8\'d0\'c5\'cf\'a2? [summary]\par
+    -leak-resolution=low|med|high how much bt merging in leak check [low]\par
+    -show-reachable=no|yes show reachable blocks in leak check? [no]\par
+    \par
+    \par
+\par
+}
+%-
+LV=5
+ND=未释放的内存
+DI=644
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=1275
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 xchonxu/testCode> g++ -g -o testValgrind testValgrind.cc\par
+xchonxu/testCode> ~/bin/bin/valgrind --tool=memcheck --leak-check=full ./testValgrind\par
+==3598== Memcheck, a memory error detector\par
+==3598== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\par
+==3598== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info\par
+==3598== Command: ./testValgrind\par
+==3598== \par
+==3598== \par
+==3598== HEAP SUMMARY:\par
+==3598==     in use at exit: 4 bytes in 1 blocks\par
+==3598==   total heap usage:\b  1 allocs, 0 frees, \b0 4 bytes allocated\par
+==3598== \par
+\b ==3598== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1\b0\par
+==3598==    at 0x4C292DF: operator new(unsigned long) (vg_replace_malloc.c:332)\par
+==3598==    by 0x4007AF: main (testValgrind.cc:7)\par
+==3598== \par
+==3598== LEAK SUMMARY:\par
+==3598==    definitely lost: 4 bytes in 1 blocks\par
+==3598==    indirectly lost: 0 bytes in 0 blocks\par
+==3598==      possibly lost: 0 bytes in 0 blocks\par
+==3598==    still reachable: 0 bytes in 0 blocks\par
+==3598==         suppressed: 0 bytes in 0 blocks\par
+==3598== \par
+==3598== For counts of detected and suppressed errors, rerun with: -v\par
+\b ==3598== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 2 from 2)\b0\par
+xchonxu/testCode> cat testValgrind.cc \par
+#include <iostream>\par
+\par
+using namespace std;\par
+\par
+int main()\par
+\{\par
+    int *a = new int(2);\b\par
+\b0     memset(a, 0, 2);\b\par
+\b0\par
+\b     //delete a;\b0\par
+\par
+    return 0;\par
+\}\par
+xchonxu/testCode> \par
+}
+%-
+LV=5
+ND=总结
+DI=645
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=297
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Memcheck\'bd\'ab\'c4\'da\'b4\'e6\'d0\'b9\'c2\'b6\'b7\'d6\'ce\'aa\'c1\'bd\'d6\'d6\'a3\'ac\'d2\'bb\'d6\'d6\'ca\'c7\'bf\'c9\'c4\'dc\'b5\'c4\'c4\'da\'b4\'e6\'d0\'b9\'c2\'b6\'a3\'a8Possibly lost\'a3\'a9\'a3\'ac\'c1\'ed\'cd\'e2\'d2\'bb\'d6\'d6\'ca\'c7\'c8\'b7\'b6\'a8\'b5\'c4\'c4\'da\'b4\'e6\'d0\'b9\'c2\'b6\'a3\'a8Definitely lost\'a3\'a9\'a1\'a3Possibly lost \'ca\'c7\'d6\'b8\'c8\'d4\'c8\'bb\'b4\'e6\'d4\'da\'c4\'b3\'b8\'f6\'d6\'b8\'d5\'eb\'c4\'dc\'b9\'bb\'b7\'c3\'ce\'ca\'c4\'b3\'bf\'e9\'c4\'da\'b4\'e6\'a3\'ac\'b5\'ab\'b8\'c3\'d6\'b8\'d5\'eb\'d6\'b8\'cf\'f2\'b5\'c4\'d2\'d1\'be\'ad\'b2\'bb\'ca\'c7\'b8\'c3\'c4\'da\'b4\'e6\'ca\'d7\'b5\'d8\'d6\'b7\'a1\'a3Definitely lost \'ca\'c7\'d6\'b8\'d2\'d1\'be\'ad\'b2\'bb\'c4\'dc\'b9\'bb\'b7\'c3\'ce\'ca\'d5\'e2\'bf\'e9\'c4\'da\'b4\'e6\'a1\'a3\'b6\'f8Definitely lost\'d3\'d6\'b7\'d6\'ce\'aa\'c1\'bd\'d6\'d6\'a3\'ba\'d6\'b1\'bd\'d3\'b5\'c4\'a3\'a8direct\'a3\'a9\'ba\'cd\'bc\'e4\'bd\'d3\'b5\'c4\'a3\'a8indirect\'a3\'a9\'a1\'a3\'d6\'b1\'bd\'d3\'ba\'cd\'bc\'e4\'bd\'d3\'b5\'c4\'c7\'f8\'b1\'f0\'be\'cd\'ca\'c7\'a3\'ac\'d6\'b1\'bd\'d3\'ca\'c7\'c3\'bb\'d3\'d0\'c8\'ce\'ba\'ce\'d6\'b8\'d5\'eb\'d6\'b8\'cf\'f2\'b8\'c3\'c4\'da\'b4\'e6\'a3\'ac\'bc\'e4\'bd\'d3\'ca\'c7\'d6\'b8\'d6\'b8\'cf\'f2\'b8\'c3\'c4\'da\'b4\'e6\'b5\'c4\'d6\'b8\'d5\'eb\'b6\'bc\'ce\'bb\'d3\'da\'c4\'da\'b4\'e6\'d0\'b9\'c2\'b6\'b4\'a6\'a1\'a3\'d4\'da\'c9\'cf\'ca\'f6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac\'b8\'f9\'bd\'da\'b5\'e3\'ca\'c7directly lost\'a3\'ac\'b6\'f8\'c6\'e4\'cb\'fb\'bd\'da\'b5\'e3\'ca\'c7indirectly lost\par
+}
+%-
+LV=4
+ND=原理
+DI=642
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=43
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 Valgrind\'cf\'ea\'bd\'e2.png\par
+Linux\'b3\'cc\'d0\'f2\'c4\'da\'b4\'e6\'bf\'d5\'bc\'e4\'b2\'bc\'be\'d6.png\par
+\'c4\'da\'b4\'e6\'bc\'ec\'b2\'e9\'d4\'ad\'c0\'ed.png\par
+}
+%-
+LV=4
+ND=安装过程
+DI=643
+NF=000000000000000000000000
+BC=clWindow
+IX=0
+SS=161
+%:
+{\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24 tools/valgrind-3.12.0> pwd\par
+/proj/MPS_DEV_REPO/xchonxu/tools\par
+> tar -jxf valgrind-3.12.0.tar.bz2\par
+> cd /proj/MPS_DEV_REPO/xchonxu/tools/valgrind-3.12.0\par
+> vim README\par
+> ls\par
+> ./autogen.sh\par
+> ./configure --prefix=/home/xchonxu/bin\par
+> make\par
+> make install\par
+\par
+> cd ~\par
+> ls\par
+> cd bin/\par
+> ls\par
+> cd bin/\par
+> ls\par
+> ./valgrind ls -l\par
+> ./valgrind --leak-check=full ls -l\par
 }
 %-
 LV=1
@@ -9232,7 +9387,7 @@ DI=433
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=159
+SS=71
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}}
 {\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs24\'d3\'ef\'b7\'a8\'a3\'ba\par
@@ -9243,23 +9398,6 @@ do\par
     ...\par
     ...\par
     ...\par
-done\par
-\par
-for  i in `ls`;\par
-\par
- do\par
-\par
-    echo $i;\par
-\par
- done\par
- \par
- \par
- for((i=1;i<10;i++));\par
-\par
-do\par
-\par
-echo $i;\par
-\par
 done\par
 \par
 \par
@@ -10301,7 +10439,7 @@ DI=382
 NF=000000000000000000000000
 BC=clWindow
 IX=0
-SS=4
+SS=730
 %:
 {\rtf1\ansi\ansicpg936\deff0{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\fnil\fcharset134 Tahoma;}{\f2\fnil Tahoma;}}
 {\colortbl ;\red0\green0\blue255;}
